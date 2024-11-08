@@ -1,0 +1,92 @@
+.mairie {
+  background-image: url('../../Images/Mairie de.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px;
+  width: 90%;
+  max-width: 400px;
+  height: 35px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; /* Espace entre la barre de recherche et les boutons */
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.search-icon {
+  color: #333;
+  margin-left: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttons-left, .buttons-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espace entre le texte et l'icône */
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  background-color: white;
+  color: #1B3D71;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  width: 35VW; /* Largeur fixe pour aligner les boutons */
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #1B3D71;
+  color:white;
+}
+
+.arrow-icon {
+  margin-left: 8px; /* Espace entre le texte du bouton et l'icône */
+}
+/* Style pour le bouton de demande d'audience */
+.audience-button {
+  margin-top: 20px; /* Espace au-dessus du bouton d'audience */
+  padding: 10px 20px;
+  background-color: #1B3D71; /* Vert pour le bouton d'audience */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+.audience-button:hover {
+  background-color: #218838;
+}
