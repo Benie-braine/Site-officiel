@@ -6,11 +6,12 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward'; // Import de l'
 const Header = () => {
     return (
         <div className='mairie'>
+            <div className='mere-search'>
             <div className="search-container">
                 <input type="text" placeholder="Rechercher..." className="search-input" />
                 <SearchIcon className="search-icon" />
             </div>     
-
+            </div>
             <div className="button-container">
                 <div className="buttons-left">
                     <button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button>
