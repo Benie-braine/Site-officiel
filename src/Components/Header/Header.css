@@ -16,7 +16,7 @@
   background-color: white;
   border-radius: 4px;
   padding: 4px;
-  width: 90%;
+  width: 100%;
   max-width: 400px;
   height: 35px;
   border: 1px solid #ccc;
@@ -74,7 +74,6 @@
 }
 /* Style pour le bouton de demande d'audience */
 .audience-button {
-  margin-top: 20px; /* Espace au-dessus du bouton d'audience */
   padding: 10px 20px;
   background-color: #1B3D71; /* Vert pour le bouton d'audience */
   color: white;
@@ -89,4 +88,104 @@
 
 .audience-button:hover {
   background-color: #218838;
+}
+/* Styles spécifiques pour la version mobile */
+@media (max-width: 768px) {
+  .button {
+    font-size: 10px; /* Réduction de la taille du texte dans les boutons */
+    width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+  }
+
+  .search-container {
+    width: 50%; /* La barre de recherche occupe tout l'espace disponible */
+    margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
+  }
+  .search-input{
+    width: 100%;
+  }
+  .arrow-icon {
+    margin-left: 4px; /* Moins d'espace entre le texte et l'icône sur mobile */
+  }
+  .mere-search{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .button-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons-right
+    {
+    margin: 0; /* Supprimer les marges inutiles */
+    width: 50%;
+  }
+  .buttons-left 
+  {
+  margin: 0; /* Supprimer les marges inutiles */
+  margin-left: 38px;
+  width: 50%;
+}
+  
+  .mairie {
+    justify-content: flex-start; /* Commence plus haut sur l'écran */
+    padding-top: 20px; /* Ajoute un peu d'espace en haut */
+  }
+
+  .audience-button {
+    font-size: 10px; /* Réduire la taille du texte pour le bouton d'audience */
+    padding: 8px 16px; /* Ajuster la taille du bouton */
+  }
+}
+@media (max-width: 420px) {
+  
+  .button {
+    font-size: 10px; /* Réduction de la taille du texte dans les boutons */
+    width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+  }
+
+  .search-container {
+    width: 50%; /* La barre de recherche occupe tout l'espace disponible */
+    margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
+  }
+  .search-input{
+    width: 100%;
+  }
+  .arrow-icon {
+    margin-left: 4px; /* Moins d'espace entre le texte et l'icône sur mobile */
+  }
+  .mere-search{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .button-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons-right
+    {
+    margin: 0; /* Supprimer les marges inutiles */
+    width: 50%;
+  }
+  .buttons-left 
+  {
+  margin: 0; /* Supprimer les marges inutiles */
+  margin-left: 38px;
+  width: 50%;
+}
+  
+  .mairie {
+    justify-content: flex-start; /* Commence plus haut sur l'écran */
+    padding-top: 20px; /* Ajoute un peu d'espace en haut */
+  }
+
+  .audience-button {
+    font-size: 10px; /* Réduire la taille du texte pour le bouton d'audience */
+    padding: 8px 16px; /* Ajuster la taille du bouton */
+  }
 }

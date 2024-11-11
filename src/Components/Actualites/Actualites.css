@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top:4%;
+
+
+}
+.barres{
+    display: block;  
+    width: 10%;
+}
+.trait1{
+    width: 50%;
+    height: 5px;
+    margin-left: 12px;
+    background-color: #1B3D71;
+    margin-bottom: 5px;
+}
+.trait2{
+    width: 70%;
+    height: 5px;
+    background-color: #1B3D71;
+}
+.titre{
+    color: #1B3D71;
+    margin-right: 3%;
+}
+.ligne3{
+    width: 67%;
+    margin-top: 14px;
+    height: 5px;
+    background-color: #1B3D71;
+}
+
+
+/* Carousel container */
+.carousel-container {
+    width: 80%; /* Centre le carousel et limite la largeur à 80% */
+    margin: 0 auto; /* Centre le carousel */
+    margin-top:2%;
+    padding-bottom: 50px; /* Espace sous le carousel */
+    max-height: 300px; /* Limite la hauteur totale du carousel */
+    overflow: hidden; /* Cache les parties de l'image qui dépassent */
+}
+
+/* Adjust the image size */
+.carousel img {
+    width: 100%; /* S'assure que l'image prend toute la largeur du carousel */
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    object-fit: cover; /* Remplit le conteneur tout en conservant les proportions */
+    object-position: top; /* Positionne l'image pour que le haut soit visible */
+}
+div .carousel.slide{
+    min-width:20%; 
+    min-height: 20%;
+}
+
+
+
+
