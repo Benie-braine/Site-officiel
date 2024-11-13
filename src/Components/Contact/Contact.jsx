@@ -1,9 +1,10 @@
 import React from 'react';
 import './Contact.css';
 import AgendaImage from '../../Images/Agenda.png';
-import caniveauImage from '../../Images/caniveau.jpg'
-import pontImage from '../../Images/pont.jpg'
-
+import numeroImage from '../../Images/numero.jpeg';
+import CDQImage from '../../Images/CDQ.jpg';
+import galerieImage from '../../Images/galerie.jpeg';
+import MARIAGEImage from '../../Images/MARIAGE.jpg'
 const Contact = () => {
     return (
         <div className="contact-container">
@@ -27,20 +28,20 @@ const Contact = () => {
                 </div>
                 <div className="card">
                     
-                    <img src={caniveauImage} alt="caniveau" />
+                    <img src={numeroImage} alt="numero" />
                     <h2>Numeros utiles </h2>
                     
                 </div>
                 <div className="card">
-                    <img src={pontImage} alt="pont" />
-                    <h2>Gallerie</h2>
+                    <img src={galerieImage} alt="galerie" />
+                    <h2>Galerie</h2>
                 </div>
                 <div className="card">
-                    <img src={pontImage} alt="pont" />
+                    <img src={MARIAGEImage} alt="MARIAGE" />
                     <h2>Mariage</h2>
                 </div>
                 <div className="card">
-                    <img src={pontImage} alt="pont" />
+                    <img src={CDQImage} alt="CDQ" />
                     <h2>CDQ</h2>
                 </div>
             </div>
