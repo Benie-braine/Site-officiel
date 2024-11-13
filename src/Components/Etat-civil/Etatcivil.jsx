@@ -1,16 +1,19 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
-import './EtatCivil.css';
+import './Header.css';
 
-function EtatCivil() {
+const Etatcivil = () => {
   return (
-    <div>
-      <Navbar />
-      <div className="background-image">
-        {/* Vous pouvez ajouter du contenu ici, si besoin */}
-      </div>
+    <div className="etat-civil-container">
+      <section className="signature">
+        <div className="blanc">
+          <h1>Service État Civil</h1>
+         
+        </div>
+      </section>
+
+    
     </div>
   );
-}
+};
 
-export default EtatCivil;
+export default Etatcivil;
