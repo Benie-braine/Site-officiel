@@ -40,14 +40,14 @@
     margin: 0 auto; /* Centre le carousel */
     margin-top:2%;
     padding-bottom: 50px; /* Espace sous le carousel */
-    max-height: 300px; /* Limite la hauteur totale du carousel */
+    max-height: 500px; /* Limite la hauteur totale du carousel */
     overflow: hidden; /* Cache les parties de l'image qui dépassent */
 }
 
 /* Adjust the image size */
 .carousel img {
     width: 100%; /* S'assure que l'image prend toute la largeur du carousel */
-    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    height: 500px; /* Ajustez la hauteur selon vos besoins */
     object-fit: cover; /* Remplit le conteneur tout en conservant les proportions */
     object-position: top; /* Positionne l'image pour que le haut soit visible */
 }
