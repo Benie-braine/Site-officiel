@@ -13,8 +13,9 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Accueil />} />
-         
+        <Route path="/" element={<Accueil />} />
+
+
         </Routes>
       </Router> 
     </div>

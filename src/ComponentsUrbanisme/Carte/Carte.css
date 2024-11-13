@@ -1,0 +1,64 @@
+.carte-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour les écrans larges */
+    gap: 20px;
+    padding: 30px;
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.carte-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carte-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.carte-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+h5{
+    margin-top: 5%;
+    margin-left: 18%;
+    font-size: 25px;
+}
+
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+    .carte-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les écrans de taille moyenne */
+    }
+}
+
+@media (max-width: 480px) {
+    .carte-container {
+        grid-template-columns: 1fr; /* 1 colonne pour les petits écrans */
+    }
+
+    .carte-item {
+        padding: 15px; /* Ajuste l'espace pour les petits écrans */
+    }
+
+    .carte-item h3 {
+        font-size: 1rem; /* Réduit la taille du texte sur mobile */
+    }
+    h5{
+        font-size: 18px;
+        margin-left: 14%;
+    }
+}

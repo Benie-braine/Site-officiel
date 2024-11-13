@@ -1,0 +1,173 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top:4%;
+
+
+}
+.barres{
+    display: block;  
+    width: 10%;
+}
+.trait1{
+    width: 30%;
+    height: 5px;
+    margin-left: 12px;
+    background-color: #1B3D71;
+    margin-bottom: 5px;
+}
+.trait2{
+    width: 50%;
+    height: 5px;
+    background-color: #1B3D71;
+}
+.titre{
+    color: #1B3D71;
+}
+.ligne3{
+    width: 60%;
+    margin-top: 14px;
+    height: 5px;
+    background-color: #1B3D71;
+}
+
+.texte{
+    width: 50%;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    box-shadow:2px 5px 2px;
+    margin-top: 3%;
+    overflow: hidden;
+    border-radius:8px;
+
+}
+.texte p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+        margin-top:4%;
+    
+    
+    }
+    .barres{
+        display: block;  
+        width: 20%;
+    }
+    .trait1{
+        width: 50%;
+        height: 5px;
+        margin-left: 12px;
+        background-color: #1B3D71;
+        margin-bottom: 5px;
+    }
+    .trait2{
+        width: 70%;
+        height: 5px;
+        background-color: #1B3D71;
+    }
+    .titre{
+        color: #1B3D71;
+        margin-right: 3%;
+    }
+    
+    .ligne3{
+        width: 38%;
+        margin-top: 14px;
+        height: 5px;
+        background-color: #1B3D71;
+    }
+    
+    .texte{
+        width: 80%;
+        background-color:white;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        box-shadow:2px 5px 2px;
+        margin-top: 3%;
+        border-radius:8px;
+    
+    }
+    .texte p{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        color: gray;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        margin-top:4%;
+    
+    
+    }
+    .barres{
+        display: block;  
+        width: 10%;
+    }
+    .trait1{
+        width: 50%;
+        height: 5px;
+        margin-left: 12px;
+        background-color: #1B3D71;
+        margin-bottom: 5px;
+    }
+    .trait2{
+        width: 70%;
+        height: 5px;
+        background-color: #1B3D71;
+    }
+    .titre{
+        color: #1B3D71;
+        margin-right: 3%;
+    }
+    
+    .ligne3{
+        width: 38%;
+        margin-top: 14px;
+        height: 5px;
+        background-color: #1B3D71;
+    }
+    
+    .texte{
+        width: 80%;
+        background-color:white;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        box-shadow:2px 5px 2px;
+        margin-top: 3%;
+        border-radius:8px;
+    
+    }
+    .texte p{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        color: gray;
+
+    }
+}

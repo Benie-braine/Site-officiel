@@ -1,0 +1,86 @@
+.mairies {
+    background-image: url('../../Images/canivau.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .urbanisme{
+    background-color: white;
+    height: 140px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    opacity:0.8;
+    overflow:hidden;
+  }
+  .urbanisme h1{
+    color: #1B3D71;
+    font-weight: bold;
+    font-size:3rem;
+    margin-top: 10px;
+    overflow:hidden;
+
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Espace entre le texte et l'icône */
+    height: 40px;
+    background-color: #1B3D71;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    width: 31vw; /* Largeur fixe pour aligner les boutons */
+    font-weight: bold;
+    margin-left:11.5%;
+    margin-top: 4%;
+  }
+  /* Styles spécifiques pour la version mobile */
+@media (max-width: 768px) {
+  .button {
+    font-size: 10px; /* Réduction de la taille du texte dans les boutons */
+    justify-content:space-around;
+    align-items:center;
+    
+  }
+
+  .urbanisme{
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    text-align: center;
+    border-radius: 8px;
+    opacity:0.8;
+    overflow:hidden;
+  }
+  .urbanisme h1{
+    color: #1B3D71;
+    font-weight: bold;
+    font-size:2rem;
+    margin-top: 10px;
+    overflow:hidden;
+
+  }
+  
+}
+@media (max-width: 420px) {
+  
+  .button {
+    font-size: 10px; /* Réduction de la taille du texte dans les boutons */
+    width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+    justify-content: space-around;
+  }
+  
+ 
+
+}
