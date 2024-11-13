@@ -27,7 +27,7 @@ const Actualites = () => {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3>Titre Image 1</h3>
+                            <h3>Nettoyage du canal </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
 

@@ -15,7 +15,7 @@ const Contact = () => {
             <div className='trait4'></div>
             </div>
             <div className='titre'>
-                <h1>Consultez</h1>
+                <h1>Consultez aussi</h1>
             </div>
             <div className='ligne5'>
             </div>
