@@ -27,7 +27,11 @@ const Actualites = () => {
                             alt="First slide"
                         />
                         <Carousel.Caption>
+<<<<<<< HEAD
                             <h3>Nettoyage du canal </h3>
+=======
+                            <h3>VISITE DE TERRAIN:CONSTRUCTION DE L'ÉCOLE 𝐇𝐞𝐧𝐫𝐢 𝐂𝐥é𝐦𝐞𝐧𝐭 </h3>
+>>>>>>> 4cf4c9ef49555e55fc6598469fc32efadb7a849c
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -38,7 +42,7 @@ const Actualites = () => {
                             alt="Second slide"
                         />
                         <Carousel.Caption>
-                            <h3>Titre Image 2</h3>
+                            <h3>VISITE DE TERRAIN : SECURITE ELECTRIQUE AU 2E ARRONDISSEMENT</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -49,7 +53,7 @@ const Actualites = () => {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h3>Nettoyage des caniveaux au quartier chic</h3>
+                            <h3>NETTOYAGE DES CANIVEAUX AU QUARTIER CHIC </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
