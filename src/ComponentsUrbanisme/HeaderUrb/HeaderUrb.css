@@ -19,7 +19,6 @@
     text-align:center;
     width: 40%;
     background-color:white;
-    height: 30%;
     border-radius: 8px;
     opacity: 0.8;
     overflow: hidden;
@@ -68,7 +67,7 @@
     text-align:center;
     width: 80%;
     background-color:white;
-    height: 14%;
+    height: 25%;
     border-radius: 8px;
     opacity: 0.8;
   }
@@ -92,7 +91,7 @@
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    width: 60VW; /* Largeur fixe pour aligner les boutons */
+    width: 70VW; /* Largeur fixe pour aligner les boutons */
     font-weight: bold;
   }
   
@@ -116,7 +115,7 @@
     text-align:center;
     width: 70%;
     background-color:white;
-    height: 14%;
+    height: max-content;
     border-radius: 8px;
     opacity: 0.8;
   }
@@ -140,7 +139,7 @@
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    width: 51vw; /* Largeur fixe pour aligner les boutons */
+    width: 60vw; /* Largeur fixe pour aligner les boutons */
     font-weight: bold;
   }
   
