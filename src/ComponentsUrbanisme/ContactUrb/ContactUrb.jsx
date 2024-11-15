@@ -1,12 +1,12 @@
 import React from 'react';
-import './Contact.css';
+import './ContactUrb.css';
 import AgendaImage from '../../Images/Agenda.png';
 import numeroImage from '../../Images/numero.jpeg';
 import CDQImage from '../../Images/CDQ.jpg';
 import galerieImage from '../../Images/galerie.jpeg';
 import MARIAGEImage from '../../Images/MARIAGE.jpg';
 
-const Contact = () => {
+const ContactUrb = () => {
     return (
         <div className="contact-container">
             
@@ -50,4 +50,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default ContactUrb;
