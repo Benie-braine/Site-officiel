@@ -6,15 +6,14 @@ const Actualites = () => {
     return (
         <div className='mere'>
         <div className='container'>
-            
-            <div className='barres'>
+        <div className='barres'>
             <div className='trait1'></div>
             <div className='trait2'></div>
             </div>
-            <div className='titre'>
-                <h1>Actualités</h1>
+            <div className='titres'>
+                <h1>ACTUALITES</h1>
             </div>
-            <div className='ligne3'>
+            <div className='lignes5'>
             </div>
             </div>
             

@@ -4,13 +4,16 @@
     padding: 20px 0;
     text-align: center;
     justify-content:center;
+   
 }
 
-h1 {
+.motmaire {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    margin-top: 30px;
     color:#1B3D71;
     font-weight:bold;
+    text-align:center;
 }
 
 .maire-card {

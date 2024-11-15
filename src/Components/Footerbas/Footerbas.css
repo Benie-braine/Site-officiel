@@ -13,3 +13,18 @@
     text-align: center; /* Aligne le texte au centre */
     color:white;
 }
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+    
+    .word{
+     font-size: 10px;
+    }
+ }
+ 
+ @media (max-width: 480px) {
+    
+     .word{
+         font-size: 10px;
+        }
+     
+ }
