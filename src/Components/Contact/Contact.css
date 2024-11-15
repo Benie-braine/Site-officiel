@@ -1,37 +1,32 @@
 .container{
-    margin-top:3%;
     justify-content: start;
 
 }
 .barre{
     width: 100%;
 }
-.trait3{
+.trait3s{
     width: 5%;
     height: 5px;
     margin-left: 12px;
     background-color: #1B3D71;
     margin-bottom: 5px;
 }
-.trait4{
+.trait4s{
     width: 7%;
     height: 5px;
     background-color: #1B3D71;
 }
-.titre{
-    color: #1B3D71;
-    margin-right: 3%;
-    justify-content: start;
-    text-align: start;
-    margin-bottom: 3%;
-}
 
+ h1{
+    color: #1B3D71;
+    text-align:start;
+}
 
 .contact-container {
     text-align: center;
     align-items:center;
     justify-content: center;
-    margin-bottom:20px;
     width: 100%;
 }
 
@@ -41,7 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     width:100%;
     margin: auto;
 }
@@ -84,9 +78,7 @@
         width: 90%;
         display:flex;
     }
-    .barre{
-        margin-left: 7%;
-    }
+    
     .container{
         margin-bottom: 3%;
     }
@@ -103,16 +95,10 @@
         margin-top: 10px;
         color: white;
     }
-    .titre h1{
+     h1{
         color: #1B3D71;
         font-size:25px;
     }
-    .titre{
-        color: #1B3D71;
-        margin-right: 3%; 
-    }
+   
 
-   .ligne5{
-    width: 28%;
-   }
 }

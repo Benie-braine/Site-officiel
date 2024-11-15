@@ -5,7 +5,7 @@ import MaireImage from '../../Images/Maire2arr.jpg'; // Assurez-vous que l'image
 const MotMaire = () => {
     return (
         <div className="mot-maire-container">
-            <h1> Le Mot du Maire </h1>
+            <h1 className='motmaire'> Le Mot du Maire </h1>
             <div className="maire-card">
                 <div className="maire-text">
                     <h2>Boubacar NGOUWA GUINGO MAYAKI</h2> {/* Ajout du nom du maire */}
