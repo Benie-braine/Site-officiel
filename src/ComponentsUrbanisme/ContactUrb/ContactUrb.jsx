@@ -1,21 +1,23 @@
 import React from 'react';
-import './Contact.css';
+import './ContactUrb.css';
 import AgendaImage from '../../Images/Agenda.png';
 import numeroImage from '../../Images/numero.jpeg';
 import CDQImage from '../../Images/CDQ.jpg';
 import galerieImage from '../../Images/galerie.jpeg';
 import MARIAGEImage from '../../Images/MARIAGE.jpg';
 
-const Contact = () => {
+const ContactUrb = () => {
     return (
         <div className="contact-container">
             
             <div className='container'>
             
             <div className='barre'>
-            <div className='trait3s'></div>
-            <div className='trait4s'></div>
+            <div className='trait3'></div>
+            <div className='trait4'></div>
+            <div className='titre'>
                 <h1>CONSULTEZ AUSSI</h1>
+                </div>
             </div>
             
             
@@ -48,4 +50,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default ContactUrb;

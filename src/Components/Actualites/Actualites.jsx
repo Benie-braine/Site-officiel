@@ -6,15 +6,14 @@ const Actualites = () => {
     return (
         <div className='mere'>
         <div className='container'>
-            
-            <div className='barres'>
+        <div className='barres'>
             <div className='trait1'></div>
             <div className='trait2'></div>
             </div>
-            <div className='titre'>
-                <h1>Actualités</h1>
+            <div className='titres'>
+                <h1>ACTUALITES</h1>
             </div>
-            <div className='ligne3'>
+            <div className='lignes5'>
             </div>
             </div>
             
@@ -27,7 +26,10 @@ const Actualites = () => {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3>VISITE DE TERRAIN:CONSTRUCTION DE L'ÉCOLE 𝐇𝐞𝐧𝐫𝐢 𝐂𝐥é𝐦𝐞𝐧𝐭 </h3>
+
+
+                            <h3>VISITE DE TERRAIN:CONSTRUCTION DE L'ÉCOLE 𝐇ENRI 𝐂LEMENT </h3>
+
                         </Carousel.Caption>
                     </Carousel.Item>
 

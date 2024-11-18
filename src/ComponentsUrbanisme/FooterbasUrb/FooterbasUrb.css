@@ -16,15 +16,15 @@
 /* Media queries pour la réactivité */
 @media (max-width: 768px) {
     
+   .word{
+    font-size: 10px;
+   }
+}
+
+@media (max-width: 480px) {
+   
     .word{
-     font-size: 10px;
-    }
- }
- 
- @media (max-width: 480px) {
+        font-size: 10px;
+       }
     
-     .word{
-         font-size: 10px;
-        }
-     
- }
+}
