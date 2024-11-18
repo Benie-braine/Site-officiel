@@ -1,0 +1,36 @@
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes */
+    gap: 30px 15px; /* 30px pour l'espace vertical, 15px pour l'espace horizontal */  
+    padding: 20px;  
+    justify-content: space-around; /* Centre les cartes horizontalement */
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 60%; /* Largeur pour que les cartes soient centrées */
+    margin: auto; /* Centre chaque carte dans sa grille */
+  }
+  
+  .card img {
+    width: 70%; /* Largeur de l'image par rapport à la carte */
+    height: 150px; /* Hauteur fixe pour une apparence uniforme */
+    object-fit: cover; /* Assure un recadrage uniforme des images */
+    display: block; /* Évite les marges automatiques autour de l'image */
+    margin: auto; /* Centre l'image horizontalement */
+    margin-top: 10px; /* Séparation de 10px entre l'image et le texte */
+  }
+  
+  .card h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #1a73e8; /* Couleur de texte bleu */
+    padding: 10px;
+    margin: 0;
+  }
+  

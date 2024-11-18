@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Accueil from './Pages/Accueil';
-import Etatcivil from './Components/Etat-civil/Etatcivil';
+// import Accueil from './Pages/Accueil';
+// import Etatcivil from './Pages/Etatcivil';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import Légalisation from './Pages/Légalisation';
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Accueil />} />
-          <Route path="/" element={<Etatcivil />} />
+          {/* <Route path="/" element={<Accueil />} /> */}
+          {/* <Route path="/" element={<Etatcivil />} /> */}
+           <Route path="/" element={<Légalisation />} />
         </Routes>
       </Router> 
     </div>
