@@ -1,6 +1,6 @@
 import React from 'react';
 // import './Etatcivil.css';
-import Header from '../Etat-civil/Header';
+import Header from '../Etat-civil/Headerciv';
 import Navbar from '../Components/Navbar/Navbar';
 import Actualitécivil from '../Etat-civil/Actualitécivil';
 import Contact from '../Components/Contact/Contact';

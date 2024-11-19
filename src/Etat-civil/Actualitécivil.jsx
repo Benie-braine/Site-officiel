@@ -14,7 +14,7 @@ const Actualitécivil = () => {
             <div className='sous-titre'>
                 <h1>A propos</h1>
             </div>
-            <div className='ligne3'>
+            <div className='tiret'>
             </div>
             </div>
                     {/* Rectangle blanc avec du texte placé juste sous A PROPOS */}
