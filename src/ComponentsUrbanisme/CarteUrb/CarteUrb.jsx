@@ -42,6 +42,11 @@ const CarteUrb = () => {
                 <h3>6.Relations avec les citoyens et 
                 les entreprises</h3>
             </div>
+            <div className="carte-item">
+                <img src={hj} alt="Carte 6" className="carte-image" />
+                <h3>6.Relations avec les citoyens et 
+                les entreprises</h3>
+            </div>
         </div>
         </div>
     );

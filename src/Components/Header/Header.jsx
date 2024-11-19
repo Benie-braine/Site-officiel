@@ -23,7 +23,7 @@ const Header = () => {
                     <button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button>
                     <button className="button">CDQ <ArrowForwardIcon className="arrow-icon" /></button>
                     <button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button>
-                    <button className="button">GALLERIE<ArrowForwardIcon className="arrow-icon" /></button>
+                    <button className="button">GALERIE<ArrowForwardIcon className="arrow-icon" /></button>
                 </div>
             </div>
              {/* Ajout du bouton de demande d'audience */}
