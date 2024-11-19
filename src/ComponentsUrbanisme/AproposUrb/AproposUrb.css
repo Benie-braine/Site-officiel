@@ -23,13 +23,13 @@
     background-color: #1B3D71;
 }
 .titre{
-    color: #1B3D71;
     margin-right: 3%;
     font-weight: bold;
 }
 .titre h1{
     color: #1B3D71;
     font-weight: bold;
+    margin-top:25px;
 }
 .ligne5{
     width: 67%;

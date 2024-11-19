@@ -10,15 +10,15 @@ const RubriqueUrb = () => {
            <div>
             <button className='travaux'>
            <img src={log} alt="gg_arrow-up-o.png" />
-           <h4>Regles d'urbanisme</h4>
+           <h4>Aménagements</h4>
            </button>
            <button className='travaux'>
            <img src={log} alt="gg_arrow-up-o.png" />
-           <h4>Travaux</h4>
+           <h4>Règles d'urbanisme</h4>
            </button>
            <button className='travaux'>
            <img src={log} alt="gg_arrow-up-o.png" />
-           <h4>Travaux</h4>
+           <h4>Autorisations d'urbanisme</h4>
            </button>
            <button className='travaux'>
            <img src={log} alt="gg_arrow-up-o.png" />
