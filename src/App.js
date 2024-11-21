@@ -17,9 +17,9 @@ function App() {
       <Router>
         <Routes>
           {/* <Route path="/" element={<Accueil />} /> */}
-          {/* <Route path="/" element={<Etatcivil />} /> */}
-          {/* <Route path="/" element={<Urbanisme />} /> */}
-          <Route path="/" element={<Amenagements />} />
+          {/* <Route path="/etatcivil" element={<Etatcivil />} /> */}
+          {/* <Route path="/urbanisme" element={<Urbanisme />} /> */}
+          <Route path="/amenagement" element={<Amenagements />} />
 
         </Routes>
       </Router> 
