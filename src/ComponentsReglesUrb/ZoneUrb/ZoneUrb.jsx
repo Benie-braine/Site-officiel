@@ -50,7 +50,7 @@ const ZoneUrb = () => {
             </div>
             <div className='textecontainer'>
             <p> <strong>Hauteur des batiments: </strong>  
-            Les batiments situé près du bord de mer ne peuvent pas dépassés 10mètres pour préserver l'horizons et la vue
+            Les batiments situé près du bord de mer ne peuvent pas dépassés 10mètres pour préserver l'horizons et la vue.
             </p>
             <p> <strong>Distances Minimales : </strong>  
             Un espaces de 5 mètres minimal doit etre retenue entre une maison et la route principale.

@@ -85,6 +85,7 @@
   display: inline-block;
   font-weight:bold;
   text-decoration:underline;
+  margin-top:10px;
 }
 
 .audience-button:hover {

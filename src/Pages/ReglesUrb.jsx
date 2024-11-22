@@ -2,6 +2,8 @@ import React from 'react';
 import NavbarReglesUrb from '../ComponentsReglesUrb/NavbarReglesUrb/NavbarReglesUrb';
 import TitreRegleUrb from '../ComponentsReglesUrb/TitreRegleUrb/TitreRegleUrb';
 import ZoneUrb from '../ComponentsReglesUrb/ZoneUrb/ZoneUrb';
+import Servitude from '../ComponentsReglesUrb/Servitude/Servitude';
+
 
 function ReglesUrb() {
     return (
@@ -9,6 +11,7 @@ function ReglesUrb() {
        <NavbarReglesUrb/>  
        <TitreRegleUrb/>
        <ZoneUrb/>
+       <Servitude/>
       </div>
       
     );
