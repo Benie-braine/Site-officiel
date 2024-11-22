@@ -4,8 +4,6 @@
     align-items: center;    
     margin-top:4%;
     width:82%;
-
-
 }
 .barres{
     display: block;  
@@ -70,7 +68,7 @@ div .carousel.slide{
     margin-right: 12px;
    }
    .lignes5{
-    width: 44%;
+    width: 46%;
     margin-top: 14px;
     height: 2px;
     background-color: #1B3D71;
@@ -82,7 +80,18 @@ div .carousel.slide{
     max-height: 500px; /* Limite la hauteur totale du carousel */
     overflow: hidden; /* Cache les parties de l'image qui dépassent */
 }
- 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    margin-top:4%;
+    width:91%;
+}
+.barres{
+    display: block;  
+    width: 10%;
+    margin-left:25px;
+}
  }
  
  

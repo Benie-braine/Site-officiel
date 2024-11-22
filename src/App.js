@@ -3,8 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accueil from './Pages/Accueil.jsx';
 // import Etatcivil from './Components/Etat-civil/Etatcivil';
-// import Urbanisme from './Pages/Urbanisme.jsx';
-// import Amenagements from './Pages/Amenagements.jsx';
+import Urbanisme from './Pages/Urbanisme.jsx';
+import Amenagements from './Pages/Amenagements.jsx';
 import ReglesUrb from './Pages/ReglesUrb.jsx'
 
 import '@fontsource/roboto/300.css';
@@ -19,10 +19,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Accueil />} />
-          {/* <Route path="/" element={<Etatcivil />} /> */}
-          {/* <Route path="/" element={<Urbanisme />} /> */}
-          {/* <Route path="/" element={<Amenagements />} /> */}
-          <Route path="/" element={<ReglesUrb />} />
+          {/* <Route path="/etatcivil" element={<Etatcivil />} /> */}
+          <Route path="/urbanisme" element={<Urbanisme />} />
+          <Route path="/amenagements" element={<Amenagements />} />
+          <Route path="/reglesurb" element={<ReglesUrb />} />
 
         </Routes>
       </Router> 

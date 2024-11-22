@@ -38,31 +38,33 @@
     align-items: center;
     width:100%;
     margin: auto;
+    margin-top:40px;
 }
 
 .card {
-    background-color: #1B3D71;
-    border-radius: 1px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 5px;
     text-align: center;
-    width: 11%;
-    margin-left: 10px;
+    width: 12%;
+    margin-right:10px;
+    margin-bottom: 10px;
+    height: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    height:200px;
-    border:none;
 }
 
 .card img {
     width: 100%;
-    height: auto;
-    border-radius: 1px;
+    height: 120px;
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 
 .card h2 {
     font-size: 1.2rem;
     margin-top: 10px;
-    color: white;
+    color: #1B2D71;
 }
 
 /* Animation au survol */
@@ -75,30 +77,42 @@
     .cards-container {
         justify-content: space-around;
         align-items:center;
-        width: 90%;
+        width: 85%;
         display:flex;
+        margin-top: 5px;
     }
     
     .container{
-        margin-bottom: 3%;
+        margin-bottom: 2%;
+        margin-left: 5px;
     }
 
     .card {
-        width: 17%;
-        height:115px;
+        width: 19%;
+        height:90px;
     }
     .card img{
-        height: 60px;
+        width:100%;
+        height: 80px;
     }
     .card h2 {
-        font-size: 0.8rem;
-        margin-top: 10px;
-        color: white;
+        font-size: 6px;
+        margin-top: 2px;
     }
      h1{
         color: #1B3D71;
-        font-size:25px;
+        font-size:18px;
     }
    
+    .trait3s{
+        width:10px;
+    }
+    .trait4s{
+        width: 30px;
+    }
+    .barre{
+        margin-left:20px;
+        width:50%;
+    }
 
 }
