@@ -12,7 +12,7 @@ const Header = () => {
                 <SearchIcon className="search-icon" />
             </div>     
             </div>
-            <div className="button-container">
+            <div className="button-containers">
                 <div className="buttons-left">
                     <button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button>
                     <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button>
