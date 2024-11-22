@@ -20,10 +20,12 @@ const RubriqueUrb = () => {
            <img src={log} alt="gg_arrow-up-o.png" />
            <h4>Autorisations d'urbanisme</h4>
            </button>
+
            <button className='travaux'>
            <img src={log} alt="gg_arrow-up-o.png" />
            <h4>Travaux</h4>
            </button>
+
            </div>
         </div>
     );

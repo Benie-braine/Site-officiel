@@ -8,7 +8,7 @@ const Amenagementstitre= () => {
         <div className='container1'>
             
 
-                <h2>Amenagements</h2>
+                <h2>Aménagements</h2>
      
             </div>
             
