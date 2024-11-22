@@ -7,9 +7,9 @@ const Headerleg = () => {
         <div className='main1'>
         
             
-            <div className="boutton-container">
-                <div className='but'>
-             <button className="boutton">ACCUEIL<ArrowForwardIcon className="arrow-icon" />ETAT-CIVIL<ArrowForwardIcon className="arrow-icon" />LÉGALISATION</button>
+            <div className="boutton-container1">
+                <div className='butt'>
+             <button className="boutton2">ACCUEIL<ArrowForwardIcon className="arrow-icon" />ETAT-CIVIL<ArrowForwardIcon className="arrow-icon" />LÉGALISATION</button>
              <h1>LÉGALISATION</h1> 
             </div>
             </div>

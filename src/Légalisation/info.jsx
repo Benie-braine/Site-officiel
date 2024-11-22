@@ -1,33 +1,32 @@
-import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import image from '../Images/actes de Naissances ..............jpg'; // Adjust the image filename if necessary
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import { image } from '../Images/actes de Naissances ..............jpg';
 
-function GridExample() {
+export default function MediaCard() {
   return (
-    <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src={image} />
-            <Card.Body>
-              <Card.Text>
-                LEGALISATION : ACTE DE NAISSANCE
-                <br />
-                Vous avez un acte de naissance à légaliser ?
-                <br />
-                Suivez ces étapes simples pour une procédure rapide à la Mairie du 2e Arrondissement.
-                <br />
-                En savoir plus...
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
-    
+    <Card sx={{ maxWidth: 1000 }}>
+      <CardMedia
+        sx={{ height: 440 }}
+        image="/src/Images/actes de Naissances ..............jpg"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        LEGALISATION : ACTE DE NAISSANCE 
+        </Typography>
+        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+        Vous avez un acte de naissance à légaliser ? <br />
+          Suivez ces étapes simples pour  une procédure rapide à la Mairie du 2e 
+         Arrondissement 
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Voir plus</Button>
+      </CardActions>
+    </Card>
   );
 }
-
-export default GridExample;

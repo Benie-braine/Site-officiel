@@ -7,7 +7,8 @@ import './Cartes.css';
 function Cartes() {
   return (
     <div className="cards-wrapper">
-      <div className="card">
+    <div className='block1'>
+    <div className="card">
         <img src={passeport} alt="Pièces d’identité" />
         <h2>Pièces d’identité</h2>
       </div>
@@ -19,6 +20,8 @@ function Cartes() {
         <img src={Attestation} alt="Attestation de logement" />
         <h2>Attestation de logement</h2>
       </div>
+    </div>
+      <div className='block2'>
       <div className="card">
         <img src={passeport} alt="Autorisation Maritale" />
         <h2>Autorisation Maritale</h2>
@@ -31,6 +34,8 @@ function Cartes() {
         <img src={Attestation} alt="Certification de célibat" />
         <h2>Certification de célibat</h2>
       </div>
+      </div>
+      <div className='block3'>
       <div className="card">
         <img src={passeport} alt="Attestation d'emploi" />
         <h2>Attestation d'emploi</h2>
@@ -42,6 +47,7 @@ function Cartes() {
       <div className="card">
         <img src={Attestation} alt="Certificat de résidence" />
         <h2>Certificat de résidence</h2>
+      </div>
       </div>
     </div>
   );

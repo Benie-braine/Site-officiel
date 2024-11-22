@@ -7,9 +7,9 @@ const Headerciv = () => {
         <div className='main1'>
         
             
-            <div className="boutton-container">
-                <div className='but'>
-             <button className="boutton">ACCUEIL<ArrowForwardIcon className="arrow-icon" />ETAT-CIVIL</button>
+            <div className="boutton-container3">
+                <div className='butts'>
+             <button className="boutton6">ACCUEIL<ArrowForwardIcon className="arrow-icon" />ETAT-CIVIL</button>
              <h1>SERVICE ETAT-CIVIL</h1> 
             </div>
             </div>
