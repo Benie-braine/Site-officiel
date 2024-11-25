@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div className="contact-container">
             
-            <div className='container'>
+            <div className='container1'>
             
             <div className='barre'>
             <div className='trait3s'></div>
@@ -20,26 +20,26 @@ const Contact = () => {
             
             
             </div>
-            <div className="cards-container">
-                <div className="card">
+            <div className="cards1-container">
+                <div className="card1">
                     <img src={AgendaImage} alt="Agenda" />
                     <h2>Agenda</h2>
                 </div>
-                <div className="card">
+                <div className="card1">
                     
                     <img src={numeroImage} alt="numero" />
                     <h2>Numeros utiles </h2>
                     
                 </div>
-                <div className="card">
+                <div className="card1">
                     <img src={galerieImage} alt="galerie" />
                     <h2>Galerie</h2>
                 </div>
-                <div className="card">
+                <div className="card1">
                     <img src={MARIAGEImage} alt="MARIAGE" />
                     <h2>Mariage</h2>
                 </div>
-                <div className="card">
+                <div className="card1">
                     <img src={CDQImage} alt="CDQ" />
                     <h2>CDQ</h2>
                 </div>
