@@ -68,19 +68,27 @@
 }
 /* Responsive styles */
 @media (max-width: 576px) {
-    .tite{
-        margin-right:10px;
-    }
+    
    .tite h1{
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 15px;
+    margin-left: 5px;
    }
    .barrs{
-    margin-left: 1px;
+    width:10%;
    }
+   .trai1{
+    width: 40%;
+   } 
+   .trai2{
+    width: 100%;
+   } 
+   .defin{
+    font-size: 10px;
+   } 
    .tex{
     width:80%;
-    height: 100px;
+    height: 120px;
     background-color:white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-left: auto;
@@ -89,13 +97,13 @@
     border-radius: 8px;
 }
 .tex p{
-    text-align: center;
+    text-align: start;
    padding-top: 3%;
    color: gray;
-   font-size: 11px;
+   font-size: 10px;
 }
 .lign5{
-    width: 48%;
+    width: 15%;
     margin-top: 14px;
     height: 2px;
     background-color: #1B3D71;
