@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './ComponentsUrbanisme/ScrollToTop/ScrollToTop.jsx';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accueil from './Pages/Accueil.jsx';
-// import Etatcivil from './Components/Etat-civil/Etatcivil';
 import Urbanisme from './Pages/Urbanisme.jsx';
 import Amenagements from './Pages/Amenagements.jsx';
 import ReglesUrb from './Pages/ReglesUrb.jsx'
@@ -17,9 +17,9 @@ function App() {
   return (
     <div className="App">
       <Router>
+      <ScrollToTop /> {/* Ce composant s'assure que chaque navigation commence en haut */}
         <Routes>
           <Route path="/" element={<Accueil />} />
-          {/* <Route path="/etatcivil" element={<Etatcivil />} /> */}
           <Route path="/urbanisme" element={<Urbanisme />} />
           <Route path="/amenagements" element={<Amenagements />} />
           <Route path="/reglesurb" element={<ReglesUrb />} />
