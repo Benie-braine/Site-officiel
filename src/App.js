@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './ComponentsUrbanisme/ScrollToTop/ScrollToTop.jsx';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accueil from './Pages/Accueil.jsx';
-import Etatcivil from './Pages/Etatcivil';
+import Etatcivil from './Pages/Etatcivil'; // Garder cette ligne
 import Urbanisme from './Pages/Urbanisme.jsx';
 import Amenagements from './Pages/Amenagements.jsx';
 import ReglesUrb from './Pages/ReglesUrb.jsx';
-import Légalisation from './Pages/Légalisation';
+import Légalisation from './Pages/Légalisation'; // Garder cette ligne
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -17,10 +18,11 @@ function App() {
   return (
     <div className="App">
       <Router>
+      <ScrollToTop /> {/* Ce composant s'assure que chaque navigation commence en haut */}
         <Routes>
           <Route path="/" element={<Accueil />} />
-          <Route path="/etatcivil" element={<Etatcivil />} />
-          <Route path="/legalisation" element={<Légalisation />} />
+          <Route path="/etatcivil" element={<Etatcivil />} /> {/* Garder cette ligne */}
+          <Route path="/legalisation" element={<Légalisation />} /> {/* Garder cette ligne */}
           <Route path="/urbanisme" element={<Urbanisme />} />
           <Route path="/amenagements" element={<Amenagements />} />
           <Route path="/reglesurb" element={<ReglesUrb />} />

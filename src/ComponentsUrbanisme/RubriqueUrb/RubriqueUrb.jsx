@@ -3,7 +3,7 @@ import './RubriqueUrb.css';
 import log from '../../Images/gg_arrow-up-o.png';
 import { Link } from 'react-router-dom';
 
-const RubriqueUrb = () => {
+const RubriqueUrb = () =>  {
     return (
         <div className="rubrique">
            <h2>Rubriques</h2>
