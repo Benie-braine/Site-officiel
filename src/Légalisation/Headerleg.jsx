@@ -4,7 +4,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward'; // Import de l'
 
 const Headerleg = () => {
     return (
-        <div className='main1'>
+        <div className='main2'>
         
             
             <div className="boutton-container1">
