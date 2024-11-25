@@ -18,7 +18,7 @@
     background-color: #1B3D71;
 }
 
- h1{
+ .container1 h1{
     color: #1B3D71;
     text-align:start;
 }
@@ -99,7 +99,7 @@
         font-size: 6px;
         margin-top: 2px;
     }
-     h1{
+    .container1 h1{
         color: #1B3D71;
         font-size:18px;
     }
