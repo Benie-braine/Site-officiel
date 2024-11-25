@@ -27,7 +27,8 @@
 .carte-item h3 {
     margin: 0;
     font-size: 1.2rem;
-    color: #333;
+    color: #757575;
+    text-shadow:0 2px 3px;
 }
 .fonction{
     display:flex;

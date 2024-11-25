@@ -13,11 +13,9 @@ const ContactUrb = () => {
             <div className='container'>
             
             <div className='barre'>
-            <div className='trait3'></div>
-            <div className='trait4'></div>
-            <div className='titre'>
+            <div className='trait3s'></div>
+            <div className='trait4s'></div>
                 <h1>CONSULTEZ AUSSI</h1>
-                </div>
             </div>
             
             

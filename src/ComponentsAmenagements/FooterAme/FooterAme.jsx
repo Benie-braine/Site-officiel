@@ -1,11 +1,11 @@
 import React from 'react';
-import './Footer.css';
+import './FooterAme.css';
 import logo from '../../Images/logo maire 14.svg'; // Remplacez par le chemin de votre logo
 import log from '../../Images/whatsapp.svg'; // Remplacez par le chemin de votre logo
 import lo from '../../Images/facebook.svg'; // Remplacez par le chemin de votre logo
 
 
-const Footer = () => {
+const FooterAme = () => {
   return ( 
     <footer className="footer">
       <div className="footer-container">
@@ -63,4 +63,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterAme;

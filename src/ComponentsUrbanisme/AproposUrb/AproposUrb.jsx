@@ -5,7 +5,7 @@ const AproposUrb= () => {
     return (
         <div className='mere'>
 
-        <div className='container'>
+        <div className='containerA'>
             
             <div className='barres'>
             <div className='trait1'></div>
