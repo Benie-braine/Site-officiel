@@ -21,16 +21,18 @@ const RubriqueUrb = () =>  {
            <h4>Règles d'urbanisme</h4>
            </button>
            </Link>
+           <Link to='/autorisationsurbanisme'>
            <button className='travaux'>
            <img src={log} alt="gg_arrow-up-o.png" />
            <h4>Autorisations d'urbanisme</h4>
            </button>
-
+           </Link>
+           <Link to='/travauxurbanisme'>
            <button className='travaux'>
            <img src={log} alt="gg_arrow-up-o.png" />
            <h4>Travaux</h4>
            </button>
-
+           </Link>
            </div>
         </div>
     );
