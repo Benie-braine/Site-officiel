@@ -8,6 +8,8 @@ import Urbanisme from './Pages/Urbanisme.jsx';
 import Amenagements from './Pages/Amenagements.jsx';
 import ReglesUrb from './Pages/ReglesUrb.jsx';
 import Légalisation from './Pages/Légalisation'; // Garder cette ligne
+import AutorisationsUrbanisme from './Pages/AutorisationsUrbanisme.jsx';
+import TravauxUrbanisme from './Pages/TravauxUrbanisme.jsx';
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -26,6 +28,9 @@ function App() {
           <Route path="/urbanisme" element={<Urbanisme />} />
           <Route path="/amenagements" element={<Amenagements />} />
           <Route path="/reglesurb" element={<ReglesUrb />} />
+          <Route path="/autorisationsurbanisme" element={<AutorisationsUrbanisme />} />
+          <Route path="/travauxurbanisme" element={<TravauxUrbanisme />} />
+
         </Routes>
       </Router>
     </div>

@@ -1,14 +1,14 @@
 import React from 'react';
-import './Amenagementstitre.css';
+import './AutorisationsUrb.css';
 
-const Amenagementstitre= () => {
+const AutorisationsUrb= () => {
     return (
         <div className='meres1'>
 
         <div className='container111'>
             
 
-                <h2>Aménagements</h2>
+                <h2>Autorisations d'urbanisme</h2>
      
             </div>
             
@@ -22,4 +22,4 @@ const Amenagementstitre= () => {
     );
 };
 
-export default Amenagementstitre;
+export default AutorisationsUrb;

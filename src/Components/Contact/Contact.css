@@ -1,5 +1,8 @@
 .container1{
     justify-content: start;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 
 }
 .barre{
@@ -21,6 +24,7 @@
  .container1 h1{
     color: #1B3D71;
     text-align:start;
+    
 }
 
 .contact-container {
@@ -84,16 +88,20 @@
     
     .container1{
         margin-bottom: 2%;
-        margin-left: 5px;
+        justify-content: start;
+        align-items:start;
+        margin-left:-50px;
+
     }
 
     .card1 {
-        width: 19%;
-        height:90px;
+        width: 18%;
+        height:80px;
+        margin-bottom: 2px;
     }
     .card1 img{
         width:100%;
-        height: 80px;
+        height: 50px;
     }
     .card1 h2 {
         font-size: 6px;
@@ -101,9 +109,13 @@
     }
     .container1 h1{
         color: #1B3D71;
-        font-size:18px;
+        font-size:14px;
     }
-   
+   .barre{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+   }
     .trait3s{
         width:10px;
     }
@@ -111,8 +123,8 @@
         width: 30px;
     }
     .barre{
-        margin-left:20px;
         width:50%;
+
     }
 
 }
