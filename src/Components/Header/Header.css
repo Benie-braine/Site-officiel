@@ -1,0 +1,193 @@
+.mairie {
+  background-image: url('../../Images/Mairie de.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px;
+  width: 100%;
+  max-width: 400px;
+  height: 35px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; /* Espace entre la barre de recherche et les boutons */
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.search-icon {
+  color: #333;
+  margin-left: 8px;
+}
+
+.button-containers {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-left, .buttons-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espace entre le texte et l'icône */
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  background-color: white;
+  color: #1B3D71;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  width: 35VW; /* Largeur fixe pour aligner les boutons */
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #1B3D71;
+  color:white;
+}
+
+.arrow-icon {
+  margin-left: 8px; /* Espace entre le texte du bouton et l'icône */
+}
+/* Style pour le bouton de demande d'audience */
+.audience-button {
+  padding: 10px 20px;
+  background-color: #1B3D71; /* Vert pour le bouton d'audience */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  font-weight:bold;
+  text-decoration:underline;
+  margin-top:10px;
+}
+
+.audience-button:hover {
+  background-color: #218838;
+}
+/* Styles spécifiques pour la version mobile */
+@media (max-width: 768px) {
+  .button {
+    font-size: 10px; /* Réduction de la taille du texte dans les boutons */
+    width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+  }
+
+  .search-container {
+    width: 50%; /* La barre de recherche occupe tout l'espace disponible */
+    margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
+  }
+  .search-input{
+    width: 100%;
+  }
+  .arrow-icon {
+    margin-left: 4px; /* Moins d'espace entre le texte et l'icône sur mobile */
+  }
+  .mere-search{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .button-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons-right
+    {
+    margin: 0; /* Supprimer les marges inutiles */
+    width: 50%;
+  }
+  .buttons-left 
+  {
+  margin: 0; /* Supprimer les marges inutiles */
+  margin-left: 38px;
+  width: 50%;
+}
+  
+  .mairie {
+    justify-content: flex-start; /* Commence plus haut sur l'écran */
+    padding-top: 20px; /* Ajoute un peu d'espace en haut */
+  }
+
+  .audience-button {
+    font-size: 10px; /* Réduire la taille du texte pour le bouton d'audience */
+    padding: 8px 16px; /* Ajuster la taille du bouton */
+  }
+}
+@media (max-width: 420px) {
+  
+  .button {
+    font-size: 10px; /* Réduction de la taille du texte dans les boutons */
+    width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+  }
+
+  .search-container {
+    width: 50%; /* La barre de recherche occupe tout l'espace disponible */
+    margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
+  }
+  .search-input{
+    width: 100%;
+  }
+  .arrow-icon {
+    margin-left: 4px; /* Moins d'espace entre le texte et l'icône sur mobile */
+  }
+  .mere-search{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .button-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons-right
+    {
+    margin: 0; /* Supprimer les marges inutiles */
+    width: 50%;
+  }
+  .buttons-left 
+  {
+  margin: 0; /* Supprimer les marges inutiles */
+  margin-left: 38px;
+  width: 50%;
+}
+  
+  .mairie {
+    justify-content: flex-start; /* Commence plus haut sur l'écran */
+    padding-top: 20px; /* Ajoute un peu d'espace en haut */
+  }
+
+  .audience-button {
+    font-size: 10px; /* Réduire la taille du texte pour le bouton d'audience */
+    padding: 8px 16px; /* Ajuster la taille du bouton */
+  }
+}
