@@ -1,7 +1,6 @@
 import React from 'react';
 import NavbarAutorisationsUrb from '../ComponentsAutorisationsUrb/NavbarAutorisationsUrb/NavbarAutorisationsUrb';
 import AutorisationsUrb from '../ComponentsAutorisationsUrb/AutorisationsUrb/AutorisationsUrb';
-<<<<<<< HEAD
 import TypeAutorisations from '../ComponentsAutorisationsUrb/TypeAutorisations/TypeAutorisations';
 import Procedureasuivre from '../ComponentsAutorisationsUrb/Proceduresasuivre/Procedureasuivre';
 import ReglesRegulation from '../ComponentsAutorisationsUrb/ReglesRegulation/ReglesRegulation';
@@ -10,8 +9,7 @@ import FormulaireTelecharger from '../ComponentsAutorisationsUrb/FormulaireTelec
 import ButtonAutoU from '../ComponentsAutorisationsUrb/ButtonAutoU/ButtonAutoU';
 import FooterAutoU from '../ComponentsAutorisationsUrb/FooterAutoU/FooterAutoU';
 import FooterbasAutoU from '../ComponentsAutorisationsUrb/FooterbasAutoU/FooterbasAutoU';
-=======
->>>>>>> origin/main
+
 
 
 function AutorisationsUrbanisme() {
@@ -19,7 +17,6 @@ function AutorisationsUrbanisme() {
       <div>
        <NavbarAutorisationsUrb/>  
        <AutorisationsUrb/>
-<<<<<<< HEAD
        <TypeAutorisations/>
        <Procedureasuivre/>
        <ReglesRegulation/>
@@ -28,8 +25,7 @@ function AutorisationsUrbanisme() {
        <ButtonAutoU/>
        <FooterAutoU/>
        <FooterbasAutoU/>
-=======
->>>>>>> origin/main
+
       </div>
       
     );

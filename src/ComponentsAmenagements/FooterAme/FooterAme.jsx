@@ -21,10 +21,7 @@ const FooterAme = () => {
             <li><strong>Mercredi</strong> : 7h30 à 15h30</li>
             <li><strong>Jeudi</strong> : 7h30 à 15h30</li>
             <li><strong>Vendredi</strong> : 7h30 à 15h30</li>
-<<<<<<< HEAD
-=======
-            <li><strong>Samedi</strong> : 7h30 à 15h30</li>
->>>>>>> origin/main
+
           </ul>
           <p><strong>Attention</strong> : L’accueil physique dans le hall administratif se fait uniquement sur rendez-vous.</p>
           <button className="footer-button">Voir les horaires</button>
