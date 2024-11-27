@@ -1,12 +1,12 @@
 import React from 'react';
-import './FooterUrb.css';
+import './FooterAutoU.css';
 import logo from '../../Images/logo maire 14.svg'; // Remplacez par le chemin de votre logo
 import log from '../../Images/whatsapp.svg'; // Remplacez par le chemin de votre logo
 import lo from '../../Images/facebook.svg'; // Remplacez par le chemin de votre logo
 
 
-const FooterUrb = () => {
-  return (
+const FooterAutoU = () => {
+  return ( 
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-left">
@@ -62,4 +62,4 @@ const FooterUrb = () => {
   );
 };
 
-export default FooterUrb;
+export default FooterAutoU;

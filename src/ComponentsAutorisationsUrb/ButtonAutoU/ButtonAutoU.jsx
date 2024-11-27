@@ -1,13 +1,10 @@
 import React from 'react';
-import './ButtonUrb.css';
-
+import './ButtonAutoU.css';
 import {Link} from 'react-router-dom'
 
-
-const ButtonUrb = () => {
+const ButtonAutoU = () => {
   return (
     <div className="button-container">
-
       <Link to='/urbanisme'>
       <button className="btn previous-btn">
         <span className="arrow-left">&#8592;</span> Page Précédente
@@ -18,9 +15,8 @@ const ButtonUrb = () => {
         Retour à l'accueil
       </button>
       </Link>
-
     </div>
   );
 };
 
-export default ButtonUrb;
+export default ButtonAutoU;

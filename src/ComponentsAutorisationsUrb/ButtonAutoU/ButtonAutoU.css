@@ -1,6 +1,5 @@
 .button-container {
     display: flex;
-<<<<<<< HEAD
     justify-content: start;
     margin: 20px;
     margin-left: auto;
@@ -27,24 +26,6 @@
     color: white;
     border-radius: 5px;
     margin: 10px;
-=======
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width:30%;
-  }
-  
-  .btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
->>>>>>> origin/main
     transition: background-color 0.3s ease;
   }
   
@@ -78,24 +59,15 @@
   }
   
   .btn {
-<<<<<<< HEAD
     padding: 5px 12px;
     font-size: 14px;
     border: none;
     cursor: pointer;
     background-color: #1B3D71;
-=======
-    padding: 5px 11px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background-color: #4CAF50;
->>>>>>> origin/main
     color: white;
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
-<<<<<<< HEAD
   .btns{
     padding: 5px 6px;
     font-size: 14px;
@@ -109,11 +81,6 @@
   }
   .previous-btn .arrow-left {
     margin-right: 25px; /* Espace entre la flèche et le texte */
-=======
-  
-  .previous-btn .arrow-left {
-    margin-right: 20px; /* Espace entre la flèche et le texte */
->>>>>>> origin/main
   }
   
   .btn:hover {
