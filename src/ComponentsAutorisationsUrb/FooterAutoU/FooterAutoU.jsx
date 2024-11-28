@@ -23,7 +23,6 @@ const FooterAutoU = () => {
             <li><strong>Vendredi</strong> : 7h30 à 15h30</li>
           </ul>
           <p><strong>Attention</strong> : L’accueil physique dans le hall administratif se fait uniquement sur rendez-vous.</p>
-          <button className="footer-button">Voir les horaires</button>
         </div>
 
         <div className="footer-links">
