@@ -69,11 +69,11 @@
 @media (max-width: 576px) {
    
    .titreft h1{
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 15px;
    }
    .barresft{
-    width: 10%;
+    width: 12%;
     margin-left: 5px;
    }
    .trait1ft{
@@ -84,7 +84,7 @@
    }
   
 .ligne5ft{
-    width: 4%;
+    width: 2%;
     margin-top: 14px;
     height: 2px;
     background-color: #1B3D71;

@@ -4,6 +4,7 @@ import logo from '../../Images/logo Mairie.jpg'; // Chemin vers ton logo
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu'; // Icône de menu hamburger
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {Link} from 'react-router-dom';
 
 const theme = createTheme({
   palette: {
@@ -66,8 +67,10 @@ const NavbarUrb = () => {
     <ThemeProvider theme={theme}>
     <AppBar position="static" className="navbar">
       <Toolbar className='navbar-container'>
-        <div className="navbar-logo">
+        <div className="navbar-logo"> 
+          <Link to='/'>
           <img src={logo} alt="Logo Mairie" />
+          </Link>
         </div>
 
         {/* Icône de menu hamburger */}

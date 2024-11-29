@@ -54,22 +54,22 @@
 @media (max-width: 576px) {
    
    .titrerr h1{
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 15px;
    }
    .barresrr{
-    width: 10%;
+    width: 12%;
     margin-left: 5px;
    }
    .trait1rr{
-    width: 40%;
+    width: 48%;
    }
    .trait2rr{
     width: 100%;
    }
   
 .ligne5rr{
-    width: 4%;
+    width: 5%;
     margin-top: 14px;
     height: 2px;
     background-color: #1B3D71;
