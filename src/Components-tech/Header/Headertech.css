@@ -1,0 +1,86 @@
+
+.bg1{
+  image-rendering: crisp-edges; /* Pour les navigateurs modernes */
+  background-image: url('../../Images/canivau.jpg');
+}
+
+.flotant{
+  opacity: 80%;
+  top: 50%;
+  left: 50%;
+  height: 25%;
+  width: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.enfant-bleu{
+  justify-items: auto;
+  background-color: #1B3D71;
+  color: white;
+  font-family: Arial, sans-serif;
+  border-radius: 2px;
+  padding:5px;
+  overflow: hidden;
+}
+
+.service-technique{
+  font-family: 'Anton', sans-serif;
+  color:  #1B3D71;
+  font-weight: 10;
+  max-width: 100%;
+}
+
+.h3-enfant-bleus{
+  justify-items: center;
+  font-weight: lighter;
+}
+  
+  @media (max-width: 580px) {
+    
+.bg1{
+  image-rendering: crisp-edges; /* Pour les navigateurs modernes */
+  background-image: url('../../Images/canivau.jpg');
+}
+
+.flotant{
+  opacity: 80%;
+  top: 50%;
+  left: 50%;
+  height: 25%;
+  width: 70%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.enfant-bleu{
+  justify-items: auto;
+  background-color: #1B3D71;
+  color: white;
+  font-family: Arial, sans-serif;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.service-technique{
+  font-family: 'Anton', sans-serif;
+  color:  #1B3D71;
+  font-weight: 100;
+  max-width: 100%;
+}
+
+.h3-enfant-bleus{
+  justify-items: center;
+  font-weight: lighter;
+}
+  }

@@ -1,0 +1,52 @@
+.paper{
+    box-shadow: 0 4px 8px rgba(4, 4, 4, 4.2); /* Ajoute une ombre */
+    border: solid;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfilAvatar{
+    background-image: url('../../Images/eleve\ 4.jpg');
+}
+
+.profil-boss{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+@media(max-width:580px){
+
+    .paper{
+        box-shadow: 0 4px 8px rgba(4, 4, 4, 4.2); /* Ajoute une ombre */
+        border: solid;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ProfilAvatar{
+        background-image: url('../../Images/eleve\ 4.jpg');
+    }
+    
+    .profil-boss{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .paper1{
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow:hidden;
+    }
+}
