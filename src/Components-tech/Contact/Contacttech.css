@@ -1,4 +1,4 @@
-.container{
+.container-tech{
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -6,34 +6,34 @@
 
 
 }
-.barre{
+.barre-tech{
     display: block;  
     width: 10%;
 }
-.trait3{
+.trait-tech3{
     width: 50%;
     height: 5px;
     margin-left: 12px;
     background-color: #1B3D71;
     margin-bottom: 5px;
 }
-.trait4{
+.trait-tech4{
     width: 70%;
     height: 5px;
     background-color: #1B3D71;
 }
-.titre{
+.titre-tech{
     color: #1B3D71;
     margin-right: 3%;
 }
-.ligne5{
-    width:67%;
+.ligne-tech5{
+    width:55%;
     margin-top: 14px;
     height: 5px;
     background-color: #1B3D71;
 }
 
-.contact-container {
+.contact-container-tech {
     text-align: center;
     align-items:center;
     justify-content: center;

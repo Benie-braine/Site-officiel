@@ -58,14 +58,11 @@
 }
 
 @media (max-width: 768px) {
-  .App {
-    max-width: 95%;
-    margin: 10px;
-  }
+ 
   .base {
     max-width: 100%;
   }
-  .carrousel{
+  .carrousel-tech{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +72,7 @@
     margin-top: 4%;
   }
   
-  .traveaux-carrousel{
+  .traveaux-carrousel-tech{
     margin-bottom: 1%;
     align-items: center;
     justify-content: center;
@@ -99,14 +96,14 @@
     object-fit: cover;
   }
   
-  .carousel-caption {
+  .carousel-caption-tech {
     background: rgba(0, 0, 0, 0.6); /* Légère transparence pour le fond */
     color: #fff;
     padding: 10px;
     border-radius: 5px;
   }
   
-  .carousel-caption h3 {
+  .carousel-caption-tech h3 {
     font-size: 1.5rem;
     font-weight: 100;
     margin-bottom: 5px;

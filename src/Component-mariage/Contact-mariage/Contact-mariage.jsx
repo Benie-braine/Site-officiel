@@ -6,21 +6,21 @@ import pontImage from '../../Images/pont.jpg'
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <div className="contact-container-mariage">
             
-            <div className='container'>
+            <div className='container-mariage'>
             
-            <div className='barre'>
-            <div className='trait3'></div>
-            <div className='trait4'></div>
+            <div className='barre-mariage'>
+            <div className='trait-mariage3'></div>
+            <div className='trait-mariage4'></div>
             </div>
-            <div className='titre'>
+            <div className='titre-mariage'>
                 <h1>Consultez</h1>
             </div>
-            <div className='ligne5'>
+            <div className='ligne-mariage5'>
             </div>
             </div>
-            <div className="cards-container">
+            <div className="cards-container-mariage">
                 <div className="card">
                     <img src={AgendaImage} alt="Agenda" />
                     <h2>Agenda</h2>
