@@ -64,6 +64,12 @@
   width: 35VW; /* Largeur fixe pour aligner les boutons */
   font-weight: bold;
 }
+.buttons-left a{
+  text-decoration: none;
+}
+.buttons-right a{
+  text-decoration: none;
+}
 
 .button:hover {
   background-color: #1B3D71;
@@ -87,7 +93,9 @@
   text-decoration:underline;
   margin-top:10px;
 }
-
+.audience-button p{
+  text-decoration: none;
+}
 .audience-button:hover {
   background-color: #218838;
 }
