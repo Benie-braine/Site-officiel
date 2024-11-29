@@ -35,6 +35,9 @@
 .footer-links a{
   text-decoration: none;
 }
+.footer-links a :hover{
+  color:yellow;
+}
 
 .footer-button {
   display: block;
