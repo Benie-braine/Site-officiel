@@ -1,4 +1,4 @@
-.container{
+.container-mariage{
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -7,34 +7,34 @@
 
 
 }
-.barre{
+.barre-mariage{
     display: block;  
     width: 10%;
 }
-.trait3{
+.trait-mariage3{
     width: 50%;
     height: 5px;
     margin-left: 12px;
     background-color: #1B3D71;
     margin-bottom: 5px;
 }
-.trait4{
+.trait-mariage4{
     width: 70%;
     height: 5px;
     background-color: #1B3D71;
 }
-.titre{
+.titre-mariage{
     color: #1B3D71;
     margin-right: 3%;
 }
-.ligne5{
+.ligne-mariage5{
     width:60%;
     margin-top: 14px;
     height: 5px;
     background-color: #1B3D71;
 }
 
-.contact-container {
+.contact-container-mariage {
     text-align: center;
     align-items:center;
     justify-content: center;
@@ -44,7 +44,7 @@
 
 
 
-.cards-container {
+.cards-container-mariage {
     display: flex;
     justify-content: center;
     align-items: center;

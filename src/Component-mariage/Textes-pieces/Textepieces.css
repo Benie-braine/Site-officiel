@@ -65,13 +65,13 @@
     padding: 6px;              /* Ajoute de l'espace autour du texte */
     background-color: ffffff;  /* Couleur de fond légère */
     border-radius: 8px;         /* Arrondit les coins */
-    max-width: 100%;           /* Limite la largeur pour une meilleure lisibilité */
+    max-width: 95%;           /* Limite la largeur pour une meilleure lisibilité */
     margin: auto;             /* Centre le div horizontalement */
     box-shadow: 0 1px 3px rgba(2, 2, 2, 2.2); /* Ajoute une ombre */
     margin-top: 1%;
     text-align: left;
     font-weight: 300;
-    font-size:30;
+    font-size:12px;
     padding: auto;
       }
   
@@ -80,17 +80,17 @@
   color: #1B3D71;
   font-weight: 500;
   margin-top: 2%;
-  margin-left: 2%;
+  margin-left: 3%;
   font-size: 5;
   }
 
   .traitt-long3{
-    width: 47%;
+    width: 45%;
     height: 3px;
     background-color: #1B3D71;
     margin-top: 4.3%;
     float: right;
-    margin-right: 1%;
+    margin-right: 3%;
   }
 
   .trait-court3{

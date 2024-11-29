@@ -45,8 +45,9 @@
       margin-top: 1%;
       display: flex;
       flex-direction: column;
-      font-weight: 100;
+      font-weight: normal;
       max-width: 100%;
+      font-size: 12px;
     }
     
     .text h1 {
@@ -64,10 +65,11 @@
     }
     
     .text p {
-      font-size: 16px;           /* Taille du texte pour le paragraphe */
+      font-size: 12px;           /* Taille du texte pour le paragraphe */
       line-height: 1.6;          /* Espacement entre les lignes */
       color: #555; 
       max-width: 100%;
+
     
   }
 
