@@ -32,6 +32,9 @@
   margin-bottom: 5px;
   color: #333;
 }
+.footer-links a{
+  text-decoration: none;
+}
 
 .footer-button {
   display: block;
@@ -97,14 +100,16 @@
 
   .footer-middle li, .footer-links li {
     font-size: 10px;
-    color:yellow;
+    
   }
   .footer-middle h3, .footer-links h3, .footer-right h3{
     font-size:12px;
     font-weight: bold;
    
   }
-  
+  .footer-left img {
+    width: 100px;
+  }
   .footer-middle p{
     font-size: 10px;
     color:red;

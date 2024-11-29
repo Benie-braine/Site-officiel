@@ -3,7 +3,7 @@ import './Footer.css';
 import logo from '../../Images/logo maire 14.svg'; // Remplacez par le chemin de votre logo
 import log from '../../Images/whatsapp.svg'; // Remplacez par le chemin de votre logo
 import lo from '../../Images/facebook.svg'; // Remplacez par le chemin de votre logo
-
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return ( 
@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="footer-links">
           <h3>Accès rapide</h3>
           <ul>
-            <a href='https://www.facebook.com/Mairie2eArrondissementPortGentil'><li>Service Etat-Civil</li></a>
+            <li>Service Etat-Civil</li>
             <li>Service Social</li>
             <li>Service Technique</li>
-            <li>Urbanisme</li>
+            <Link to='/urbanisme'><li>Urbanisme</li></Link>
             <li>Agenda</li>
             <li>CDQ</li>
             <li>Hub Municipal</li>
