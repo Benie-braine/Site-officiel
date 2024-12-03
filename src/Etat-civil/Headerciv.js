@@ -4,13 +4,13 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward'; // Import de l'
 
 const Headerciv = () => {
     return (
-        <div className='main1'>
+        <div className='main10'>
         
             
-            <div className="boutton-container3">
+            <div className="boutton-container10">
                 <div className='butts'>
-             <button className="boutton6">ACCUEIL<ArrowForwardIcon className="arrow-icon" />ETAT-CIVIL</button>
-             <h1>SERVICE ETAT-CIVIL</h1> 
+                <button className="boutton10">ACCUEIL<ArrowForwardIcon className="arrow-icon" />ETAT-CIVIL</button>
+             <h2>ETAT-CIVIL</h2> 
             </div>
             </div>
         </div>
