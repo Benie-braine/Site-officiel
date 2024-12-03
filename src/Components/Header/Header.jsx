@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'; // Import de l'icône de flèche
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 const Header = () => {
     return (
         <div className='mairie'>
@@ -15,13 +15,13 @@ const Header = () => {
             <div className="button-containers">
                 <div className="buttons-left">
                     <button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button>
-                    <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button>
+                    <Link to='/Technique'><button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button></Link> 
                     <button className="button">SERVICE SOCIAL<ArrowForwardIcon className="arrow-icon" /></button>
                     <Link to='/urbanisme'><button className="button">URBANISME<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 </div>
                 <div className="buttons-right">
                     <button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button>
-                    <button className="button">CDQ <ArrowForwardIcon className="arrow-icon" /></button>
+                    <Link to='/cdq'><button className="button">CDQ <ArrowForwardIcon className="arrow-icon" /></button></Link>
                     <button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button>
                     <button className="button">GALERIE<ArrowForwardIcon className="arrow-icon" /></button>
                 </div>
