@@ -14,8 +14,10 @@ const Header = () => {
             </div>
             <div className="button-containers">
                 <div className="buttons-left">
-                    <button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button>
-                    <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button> 
+
+                    <Link to='/etatcivil'><button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button></Link>
+                    <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button>
+
                     <button className="button">SERVICE SOCIAL<ArrowForwardIcon className="arrow-icon" /></button>
                     <Link to='/urbanisme'><button className="button">URBANISME<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 </div>

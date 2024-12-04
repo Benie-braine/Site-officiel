@@ -59,8 +59,9 @@
         margin-right:2px;
     }
    .titre h1{
-    font-size: 24px;
-    margin-top: 15px;
+    font-size: 15px;
+    margin-top: 8px;
+    
    }
    .barres{
     width: 11%;
@@ -89,7 +90,7 @@
    font-size: 11px;
 }
 .ligne5{
-    width: 46%;
+    width: 40%;
     margin-top: 14px;
     height: 2px;
     background-color: #1B3D71;

@@ -10,7 +10,7 @@ import ReglesUrb from './Pages/ReglesUrb.jsx';
 import Légalisation from './Pages/Légalisation'; // Garder cette ligne
 import AutorisationsUrbanisme from './Pages/AutorisationsUrbanisme.jsx';
 import TravauxUrbanisme from './Pages/TravauxUrbanisme.jsx';
-import Technique from './Pages/Technique.jsx';
+// import Technique from './Pages/Technique.jsx';
 import Mariage from './Pages/Mariage.jsx';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -31,7 +31,7 @@ function App() {
           <Route path="/reglesurb" element={<ReglesUrb />} />
           <Route path="/autorisationsurbanisme" element={<AutorisationsUrbanisme />} />
           <Route path="/travauxurbanisme" element={<TravauxUrbanisme />} />
-          <Route path="/technique" element={<Technique/>} />
+          {/* <Route path="/technique" element={<Technique/>} /> */}
           <Route path="/Mariage" element={<Mariage/>} />
 
 
