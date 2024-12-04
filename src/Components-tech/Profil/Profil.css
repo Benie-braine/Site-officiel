@@ -1,0 +1,60 @@
+.paper{
+    box-shadow: 0 4px 8px rgba(4, 4, 4, 4.2); /* Ajoute une ombre */
+    border: solid;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfilAvatar{
+    background-image: url('../../Images/eleve\ 4.jpg');
+}
+
+.profil-boss{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+@media(max-width:580px){
+
+    .paper{
+        box-shadow: 0 4px 8px rgba(4, 4, 4, 4.2); /* Ajoute une ombre */
+        border: solid;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ProfilAvatar{
+        background-image: url('../../Images/eleve\ 4.jpg');
+    }
+    
+    .profil-boss{
+        display: flex;
+        justify-content: space-between;   
+        align-items: center;            
+        padding: 20px;
+        gap: 15px;                      
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  
+        border-radius: 10px;           
+        background-color: #ffffff;     
+        width:50%;
+        margin-top:4%;
+        margin:2.5%;
+        margin-left:11.5%;
+    }
+
+    .paper1{
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow:hidden;
+    }
+}

@@ -3,7 +3,7 @@ import './Footer.css';
 import logo from '../../Images/logo maire 14.svg'; // Remplacez par le chemin de votre logo
 import log from '../../Images/whatsapp.svg'; // Remplacez par le chemin de votre logo
 import lo from '../../Images/facebook.svg'; // Remplacez par le chemin de votre logo
-
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return ( 
@@ -21,6 +21,7 @@ const Footer = () => {
             <li><strong>Mercredi</strong> : 7h30 à 15h30</li>
             <li><strong>Jeudi</strong> : 7h30 à 15h30</li>
             <li><strong>Vendredi</strong> : 7h30 à 15h30</li>
+
           </ul>
           <p><strong>Attention</strong> : L’accueil physique dans le hall administratif se fait uniquement sur rendez-vous.</p>
           <button className="footer-button">Voir les horaires</button>
@@ -29,10 +30,10 @@ const Footer = () => {
         <div className="footer-links">
           <h3>Accès rapide</h3>
           <ul>
-            <a href='https://www.facebook.com/Mairie2eArrondissementPortGentil'><li>Service Etat-Civil</li></a>
+            <li>Service Etat-Civil</li>
             <li>Service Social</li>
             <li>Service Technique</li>
-            <li>Urbanisme</li>
+            <Link to='/urbanisme'><li>Urbanisme</li></Link>
             <li>Agenda</li>
             <li>CDQ</li>
             <li>Hub Municipal</li>

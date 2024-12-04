@@ -1,29 +1,34 @@
-.container{
+.container1al{
     justify-content: start;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 
 }
-.barre{
+.barreal{
     width: 100%;
+    margin-top:2%;
 }
-.trait3s{
+.trait3sal{
     width: 5%;
     height: 5px;
     margin-left: 12px;
     background-color: #1B3D71;
     margin-bottom: 5px;
 }
-.trait4s{
+.trait4sal{
     width: 7%;
     height: 5px;
     background-color: #1B3D71;
 }
 
- h1{
+ .container1al h1{
     color: #1B3D71;
     text-align:start;
+    
 }
 
-.contact-container {
+.contact-containeral {
     text-align: center;
     align-items:center;
     justify-content: center;
@@ -32,7 +37,7 @@
 
 
 
-.cards-container {
+.cards1-containeral {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,40 +46,40 @@
     margin-top:40px;
 }
 
-.card {
+.card1al {
     background-color: #f7f7f7;
     border-radius: 8px;
     padding: 5px;
     text-align: center;
     width: 12%;
-    margin-right:10px;
+    margin-right:20px;
     margin-bottom: 10px;
     height: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
-.card img {
+.card1al img {
     width: 100%;
     height: 120px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
-.card h2 {
+.card1al h2 {
     font-size: 1.2rem;
     margin-top: 10px;
     color: #1B2D71;
 }
 
 /* Animation au survol */
-.card:hover {
+.card1al:hover {
     transform: translateY(-10px);
 }
 
 /* Responsive styles */
 @media (max-width: 576px) {
-    .cards-container {
+    .cards1-containeral {
         justify-content: space-around;
         align-items:center;
         width: 85%;
@@ -82,37 +87,45 @@
         margin-top: 5px;
     }
     
-    .container{
+    .container1al{
         margin-bottom: 2%;
-        margin-left: 5px;
+        justify-content: start;
+        align-items:start;
+        margin-left:-50px;
+
     }
 
-    .card {
-        width: 19%;
-        height:90px;
+    .card1al {
+        width: 18%;
+        height:80px;
+        margin-bottom: 2px;
     }
-    .card img{
+    .card1al img{
         width:100%;
-        height: 80px;
+        height: 50px;
     }
-    .card h2 {
+    .card1al h2 {
         font-size: 6px;
         margin-top: 2px;
     }
-     h1{
+    .container1al h1{
         color: #1B3D71;
-        font-size:18px;
+        font-size:14px;
     }
-   
-    .trait3s{
+   .barreal{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+   }
+    .trait3sal{
         width:10px;
     }
-    .trait4s{
+    .trait4sal{
         width: 30px;
     }
-    .barre{
-        margin-left:20px;
+    .barreal{
         width:50%;
+
     }
 
 }

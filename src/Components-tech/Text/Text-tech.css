@@ -1,0 +1,76 @@
+
+    .text {
+      text-align: center;         /* Centre le texte */
+      color: black;                /* Couleur du texte */
+      padding: 20px;              /* Ajoute de l'espace autour du texte */
+      background-color: ffffff;  /* Couleur de fond légère */
+      border-radius: 8px;         /* Arrondit les coins */
+      max-width: 80%;           /* Limite la largeur pour une meilleure lisibilité */
+      margin: auto;             /* Centre le div horizontalement */
+      box-shadow: 0 1px 3px rgba(2, 2, 2, 2.2); /* Ajoute une ombre */
+      margin-top: 1%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .text h1 {
+      font-size: 24px;           /* Taille du texte pour le titre */
+      line-height: 1.5;          /* Espacement entre les lignes */
+      font-weight: 500;         /* Met le texte en gras */
+      color:#1B3D71;            /* Couleur du texte (adaptée à votre couleur de marque) */
+      font-weight: normal;
+      align-items: center;
+      margin: auto;
+    }
+  
+    
+    .text-p {
+      font-size: 16px;           /* Taille du texte pour le paragraphe */
+      line-height: 2;          /* Espacement entre les lignes */
+      color: black;       
+    
+  };
+
+    @media (max-width:577px){
+
+    .text {
+      text-align: center;         /* Centre le texte */
+      color: black;                /* Couleur du texte */
+      padding: 5%;              /* Ajoute de l'espace autour du texte */
+      background-color: ffffff;  /* Couleur de fond légère */
+      border-radius: 8px;         /* Arrondit les coins */
+      max-width: 100%;           /* Limite la largeur pour une meilleure lisibilité */
+      margin: auto;             /* Centre le div horizontalement */
+      box-shadow: 0 1px 3px rgba(2, 2, 2, 2.2); /* Ajoute une ombre */
+      margin-top: 1%;
+      display: flex;
+      flex-direction: column;
+      font-weight: normal;
+      max-width: 100%;
+      font-size: 12px;
+    }
+    
+    .text h1 {
+      font-size: 24px;           /* Taille du texte pour le titre */
+      line-height: 1;          /* Espacement entre les lignes */
+      font-weight: bold;         /* Met le texte en gras */      margin-bottom: 10px;       /* Espace sous le titre */
+      font-weight:100;
+    }
+  
+    .text2{
+      color: #1B3D71;
+      font-weight: 500;
+      margin-left: 50%;
+      margin-top: 0.1%;
+    }
+    
+    .text p {
+      font-size: 12px;           /* Taille du texte pour le paragraphe */
+      line-height: 1.6;          /* Espacement entre les lignes */
+      color: #555; 
+      max-width: 100%;
+
+    
+  }
+
+    }

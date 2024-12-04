@@ -1,0 +1,36 @@
+.flotant{
+    opacity: 80%;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 25%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.enfant-bleu{
+    background-color: #1B3D71;
+    border-radius:2px;
+
+}
+
+.service-technique{
+    font-family: 'Anton', sans-serif;
+    color:  #1B3D71;
+    font-weight: bold;
+}
+
+.bg-mariage{
+    image-rendering: crisp-edges; /* Pour les navigateurs modernes */
+    background-image: url('../../Images/Mariages1.jpg');
+}
+
+.h3-enfant-bleus{
+    justify-items: center;
+    font-weight: lighter;
+    color: white;
+} 
