@@ -8,7 +8,7 @@ const Actualitécivil = () => {
             <div className='container2'>
             
             <div className='barret'>
-            <div className='tiret1'></div>
+            <div className='trait1'></div>
             <div className='tiret2'></div>
             </div>
             <div className='sous-titre'>

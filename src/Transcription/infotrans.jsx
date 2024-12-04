@@ -6,9 +6,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import imageActe from '../Images/actes de Naissances  2..............jpg';
+import imageMariage from '../Images/Mariage.jpeg';
 
-export default function MediaCard() {
+export default function MediaCard1() {
   return (
     <Box
       sx={{
@@ -34,7 +34,7 @@ export default function MediaCard() {
             height: 500, // Augmente la hauteur de l'image
             backgroundSize: 'cover', // Ajuste l'image pour qu'elle couvre l'espace
           }}
-          image={imageActe}
+          image={imageMariage}
         />
         <CardContent>
           {/* Agrandissement du titre */}
@@ -46,7 +46,8 @@ export default function MediaCard() {
               fontWeight: 'bold', // Rend le titre plus visible
             }}
           >
-            LEGALISATION : ACTE DE NAISSANCE
+            PROCESSUS DE DÉCLARATION DE MARIAGE
+
           </Typography>
           {/* Agrandissement du texte de contenu */}
           <Typography
@@ -56,7 +57,7 @@ export default function MediaCard() {
               lineHeight: 1.6, // Améliore la lisibilité
             }}
           >
-            Vous avez un acte de naissance à légaliser ? <br />
+           Vous souhaitez vous mariez ?  <br />
             Suivez ces étapes simples pour une procédure rapide à la Mairie du
             2e Arrondissement.
           </Typography>
