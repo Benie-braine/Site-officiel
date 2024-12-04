@@ -5,8 +5,8 @@ import log from '../../Images/whatsapp.svg'; // Remplacez par le chemin de votre
 import lo from '../../Images/facebook.svg'; // Remplacez par le chemin de votre logo
 
 
-const Footer = () => {
-  return (
+const Footertech = () => {
+  return ( 
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-left">
@@ -16,9 +16,12 @@ const Footer = () => {
         <div className="footer-middle">
           <h3>Horaires</h3>
           <ul>
-            <li><strong>Lundi</strong> : 7h30 à 15h30  </li> 
-            <h6>a</h6> 
-            <li><strong>Samedi</strong> : 7h30 à 15h30</li>
+            <li><strong>Lundi</strong> : 7h30 à 15h30</li>
+            <li><strong>Mardi</strong> : 7h30 à 15h30</li>
+            <li><strong>Mercredi</strong> : 7h30 à 15h30</li>
+            <li><strong>Jeudi</strong> : 7h30 à 15h30</li>
+            <li><strong>Vendredi</strong> : 7h30 à 15h30</li>
+
           </ul>
           <p><strong>Attention</strong> : L’accueil physique dans le hall administratif se fait uniquement sur rendez-vous.</p>
           <button className="footer-button">Voir les horaires</button>
@@ -60,4 +63,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footertech;
