@@ -15,16 +15,20 @@ const Header = () => {
             <div className="button-containers">
                 <div className="buttons-left">
 
+
                 <Link to='/Etatcivil'><button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button>
                 <Link to='/Servicesocial'> <button className="button">SERVICE SOCIAL<ArrowForwardIcon className="arrow-icon" /></button></Link>
+
 
                     <Link to='/urbanisme'><button className="button">URBANISME<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 </div>
                 <div className="buttons-right">
                     <button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button>
+
                     <Link to='/cdq'><button className="button">CDQ <ArrowForwardIcon className="arrow-icon" /></button></Link>
                     <button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button>
+
                     <button className="button">GALERIE<ArrowForwardIcon className="arrow-icon" /></button>
                 </div>
             </div>
