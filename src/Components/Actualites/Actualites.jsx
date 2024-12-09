@@ -17,7 +17,7 @@ const Actualites = () => {
             </div>
             </div>
             
-            <div className="carousel-container">
+            <div className="carousel-containeracc">
                 <Carousel>
                     <Carousel.Item>
                         <img

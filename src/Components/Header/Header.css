@@ -154,6 +154,7 @@
   .mairie {
     justify-content: flex-start; /* Commence plus haut sur l'écran */
     padding-top: 20px; /* Ajoute un peu d'espace en haut */
+    height: 80vh;
   }
 
   .audience-button {

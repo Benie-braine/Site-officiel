@@ -15,14 +15,14 @@ const Header = () => {
             <div className="button-containers">
                 <div className="buttons-left">
                     <Link to='/etatcivil'><button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button></Link>
-                    <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button>
+                   <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button>
                     <button className="button">SERVICE SOCIAL<ArrowForwardIcon className="arrow-icon" /></button>
                     <Link to='/urbanisme'><button className="button">URBANISME<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 </div>
                 <div className="buttons-right">
                     <button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button>
                     <button className="button">CDQ <ArrowForwardIcon className="arrow-icon" /></button>
-                    <button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button>
+                    <Link to='/mariage'> <button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button> </Link>
                     <button className="button">GALERIE<ArrowForwardIcon className="arrow-icon" /></button>
                 </div>
             </div>
