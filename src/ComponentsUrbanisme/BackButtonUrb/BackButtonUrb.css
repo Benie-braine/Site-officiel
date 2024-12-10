@@ -12,7 +12,7 @@
     margin-left: 8%;
     width: fit-content; /* Ajuster la largeur du bouton au contenu */
 }
-.back-button a{
+.back-button {
 text-decoration:none;
 
 }
