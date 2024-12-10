@@ -15,12 +15,10 @@ const FooterRegles = () => {
 
         <div className="footer-middle">
           <h3>Horaires</h3>
-          <ul>
-            <li><strong>Lundi</strong> : 7h30 à 15h30</li>
-            <li><strong>Mardi</strong> : 7h30 à 15h30</li>
-            <li><strong>Mercredi</strong> : 7h30 à 15h30</li>
-            <li><strong>Jeudi</strong> : 7h30 à 15h30</li>
-            <li><strong>Vendredi</strong> : 7h30 à 15h30</li>
+          <ul>  
+
+          <li><strong>Lundi  à Vendredi </strong> : </li>
+          <li><strong></strong> 7h30 - 15h30</li>
 
           </ul>
           <p><strong>Attention</strong> : L’accueil physique dans le hall administratif se fait uniquement sur rendez-vous.</p>
