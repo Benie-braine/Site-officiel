@@ -1,6 +1,6 @@
 .mairie12 {
-    background-image: url('../../Images/canal.jpg');
-    height: 80vh;
+    background-image: url('../../Images/hj.jpg');
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -17,7 +17,7 @@
   @media (max-width: 768px) {
    
     .mairie12 {
-      background-image: url('../../Images/canal.jpg');
+      background-image: url('../../Images/elec.jpg');
       height: 20vh;
       background-repeat: no-repeat;
       background-size: cover;
