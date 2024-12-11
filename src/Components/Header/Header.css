@@ -132,6 +132,7 @@
     {
     margin: 0; /* Supprimer les marges inutiles */
     width: 100%;
+
     align-items: center;
   }
   .buttons-left 
@@ -153,6 +154,7 @@
   .mairie {
     justify-content: flex-start; /* Commence plus haut sur l'écran */
     padding-top: 20px; /* Ajoute un peu d'espace en haut */
+    height: 80vh;
   }
 
   .audience-button {
@@ -165,6 +167,8 @@
   .button {
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+    height: 45px;
+    font-size: 16px;
   }
 
   .search-container {
@@ -211,10 +215,12 @@
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:100%;
     margin-left:20%;
+    height: 60px;
   }
   .buttons-right a{
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:100%;
+    height: 10px;
     margin-left:20%;
   }
   .mairie {
