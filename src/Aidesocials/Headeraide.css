@@ -1,0 +1,155 @@
+.main2aidesocial {
+    background-image: url('../Images/aide.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boutton-container1aidesocial {
+    position:inherit; /* Changez en absolute si nécessaire */
+    top: 20px; /* Ajustez cette valeur pour descendre le rectangle */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    background-color: white;
+    height: 20%;
+    border-radius: 8px;
+    opacity: 0.8;
+    overflow: hidden; 
+    margin-top: 500px;
+  }
+  
+  
+  
+  
+  .buts.aidesocial h2 {
+    font-size: 60px;
+    color: #1B3D71;
+    font-weight: bold;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .boutton2aidesocial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espace entre le texte et l'icône */
+    height: 40px;
+    margin: 10px 8px;
+    padding: 0 10px;
+    background-color: #1B3D71;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    width: 25vw; /* Largeur fixe pour aligner les boutons */
+    font-weight: bold;
+  }
+  
+  .boutton2aidesocial:hover {
+    background-color: #1B3D71;
+    color: white;
+  }
+  
+ 
+  
+  /* Styles spécifiques pour la version mobile */
+  @media (max-width: 768px) {
+    .boutton-container1.aidesocial {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 80%;
+      background-color: white;
+      height: 14%;
+      border-radius: 8px;
+      opacity: 0.8;
+    }
+  
+    .buts.aidesocial h2 {
+      font-size: 20px;
+      color: #1B3D71;
+      font-weight: bold;
+    }
+  
+    .boutton2.aidesocial {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      margin: 10px 8px;
+      padding: 0 10px;
+      background-color: #1B3D71;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      text-align: center;
+      width: 60vw;
+      font-weight: bold;
+    }
+  
+    .boutton2.aidesocial:hover {
+      background-color: #1B3D71;
+      color: white;
+    }
+  
+    .arrow-iconaidesocial{
+      margin-left: 8px;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .boutton-container1.aidesocial {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 70%;
+      background-color: white;
+      height: 14%;
+      border-radius: 8px;
+      opacity: 0.8;
+    }
+  
+    .buts.aidesocial h2 {
+      font-size: 20px;
+      color: #1B3D71;
+      font-weight: bold;
+    }
+  
+    .boutton2.aidesocial {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      margin: 10px 8px;
+      padding: 0 10px;
+      background-color: #1B3D71;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      text-align: center;
+      width: 51vw;
+      font-weight: bold;
+    }
+  
+    .boutton2.aidesocial:hover {
+      background-color: #1B3D71;
+      color: white;
+    }
+  
+    .arrow-icon.aidesocial {
+      margin-left: 8px;
+    }
+  }
+  

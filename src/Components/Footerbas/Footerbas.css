@@ -16,7 +16,7 @@
 /* Media queries pour la réactivité */
 @media (max-width: 768px) {
     
-    .word{
+    .abas-container .word{
      font-size: 10px;
     }
  }
@@ -24,7 +24,7 @@
  @media (max-width: 480px) {
     
      .word{
-         font-size: 10px;
+         font-size: 8px;
         }
      
  }

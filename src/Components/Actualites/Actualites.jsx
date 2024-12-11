@@ -17,8 +17,8 @@ const Actualites = () => {
             </div>
             </div>
             
-            <div className="carousel-container">
-                <Carousel>
+            <div className="carousel-containeracc">
+                <Carousel interval={1000}> {/* Définit le délai entre les slides à 1 seconde */}
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -26,10 +26,7 @@ const Actualites = () => {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-
-
                             <h3>VISITE DE TERRAIN:CONSTRUCTION DE L'ÉCOLE 𝐇ENRI 𝐂LEMENT </h3>
-
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -57,7 +54,6 @@ const Actualites = () => {
                 </Carousel>
             </div>
     </div>
-    
     );
 };
 
