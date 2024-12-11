@@ -22,7 +22,8 @@ margin-left: 10%;
 .travauxx{
   color: #062970;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 1.4rem;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -105,8 +106,8 @@ margin-left: 10%;
     font-family: sans-serif;
     font-weight: 200;
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: -17px;
+    font-size: 1rem;
   }
   
   .slick-slide {
@@ -117,7 +118,7 @@ margin-left: 10%;
   
   .slick-slide img {
     width: 95%;
-    height: 200px; /* Hauteur fixe pour uniformiser les images */
+    height: 210px; /* Hauteur fixe pour uniformiser les images */
     max-width: 300px; /* Largeur maximale pour les images */
     object-fit: cover; /* Recadre l'image pour remplir le conteneur */
     border-radius: 10px;

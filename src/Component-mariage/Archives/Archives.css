@@ -39,15 +39,16 @@
   flex-direction: column;
   flex: 2;
   justify-content: space-between;
-  margin-top:7.5%;
+  margin-top:6.3%;
   overflow: hidden;
 }
 
 .archives-enfants{
   color:  #1B3D71;
   font-family: sans-serif;
-  font-weight: 505;
+  font-weight: bold;
   float: left;
+  font: 1.4rem sans-serif;
 }
 
 .archive2{

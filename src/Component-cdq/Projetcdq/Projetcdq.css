@@ -1,0 +1,91 @@
+.buton-project{
+  background-color: #1B3D71;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 80%;
+}
+
+.projet-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: left;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.boss-trait{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trait-projet1{
+  width: 5%;
+  height: 4px;
+  background-color: #1B3D71;
+  margin-top: 3%;
+}
+
+.trait-projet2{
+  width: 45%;
+  height: 4px;
+  background-color: #1B3D71;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.projet-text {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: #1B3D71;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.projet-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.projet-texts {
+  flex-basis: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.projet-texts h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+.projet-texts p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(44, 43, 43);
+}
+
+
+.projet-image {
+  width: 50vh;
+  
+}
+
+.projet-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+

@@ -1,0 +1,51 @@
+
+.flottant-cdq {
+    opacity: 80%;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  
+  .cdq-grandchild-blue {
+    background-color: #1B3D71;
+    border-radius: 2px;
+    padding: 3px;
+  }
+  
+  .cdq-grandchild {
+    font-family: 'Anton', sans-serif;
+    color: #1B3D71;
+    font-weight: bold;
+  }
+  
+  .cdq-grandchild-blue-text {
+    justify-items: center;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .cdq-header {
+    image-rendering: crisp-edges;
+    background-image: url('../../Images/CDQ-copie1.jpg');
+  }
+
+  @media (max-width: 768px) {
+    .flottant-cdq {
+      width: 60%;
+    }
+  
+    .cdq-grandchild-blue-text {
+      font-size: 12px; /* Reduce font size */
+    }
+  
+    .cdq-header {
+      background-size: cover; /* Ensure image scales properly */
+    }
+  }

@@ -8,15 +8,15 @@ import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined
 function Header() {
   return (
     <header className='bg-mariage'
-      style={{
-        position: 'relative',
-        height: '500px', // Ajustez la hauteur si nécessaire
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
+    style={{
+      position: 'relative',
+      height: '500px', // Ajustez la hauteur si nécessaire
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+    }}
     >
       {/* Bouton flottant rectangulaire centré */}
       <div className='flotant'
@@ -26,7 +26,7 @@ function Header() {
           position: 'absolute',
           top: '50%',
           left: '50%',
-          width: '50%',
+          width: '40%',
           height: '25%',
           transform: 'translate(-50%, -50%)', // Centrage du bouton
           padding: '10px 20px',               // Dimensions du bouton rectangulaire

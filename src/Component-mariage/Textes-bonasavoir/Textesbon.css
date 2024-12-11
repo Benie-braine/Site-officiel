@@ -27,14 +27,13 @@
     
  .enfant-text1{
   color: #1B3D71;
-  font-weight: 500;
+  font-weight: bold;
   margin-top: 2%;
   margin-left: 12%;
-  font-size: 5;
-  }
+  font-size: 1.8rem;  }
 
   .traitt-long1{
-    width: 60%;
+    width: 62%;
     height: 3px;
     background-color: #1B3D71;
     margin-top: 2.5%;

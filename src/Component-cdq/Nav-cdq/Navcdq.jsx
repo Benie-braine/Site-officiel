@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbarcdq.css'; // Fichier CSS pour le style
+import './Navcdq.css'; // Fichier CSS pour le style
 import logo from '../../Images/logo Mairie.jpg'; // Chemin vers ton logo
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu'; // Icône de menu hamburger

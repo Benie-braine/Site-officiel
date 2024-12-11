@@ -1,12 +1,10 @@
-// src/components/Header.js
 import React from 'react';
-import './Headertech.css';
+import './Headercdq.css';
 import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined';
- 
 
-function Headertech() {
+function Header() {
   return (
-    <header className='bg1'
+    <header className='cdq-header'
       style={{
         position: 'relative',
         height: '500px', // Ajustez la hauteur si nécessaire
@@ -18,26 +16,25 @@ function Headertech() {
       }}
     >
       {/* Bouton flottant rectangulaire centré */}
-      <div className='flotant'
+      <div className='flottant-cdq'
         variant="contained"
         color= '#1B3D71;'
         style={{
           position: 'absolute',
           top: '50%',
           left: '50%',
-          width: '49%',
+          width: '30%',
           height: '25%',
           transform: 'translate(-50%, -50%)', // Centrage du bouton
-          padding: '10px 20px',               // Dimensions du bouton rectangulaire
-          backgroundColor: 'white',
-          borderRadius: '5px',           
+          padding: '10px 20px',               // Dimensions du bouton rectangulaire
+          backgroundColor: 'white', 
         }}
       >
-        <div className='enfant-bleu'><h6 className='h3-enfant-bleus'>Accueil <ArrowRightAltOutlinedIcon/> Service-technique </h6></div>
-        <h1 className='service-technique'>SERVICE TECHNIQUE</h1>
+        <div className='cdq-grandchild-blue'><h6 className='cdq-grandchild-blue-text'>Accueil <ArrowRightAltOutlinedIcon/>CDQ</h6></div>
+        <h1 className='cdq-grandchild'>CDQ</h1>
       </div>
     </header>
   );
 }
 
-export default Headertech;
+export default Header;
