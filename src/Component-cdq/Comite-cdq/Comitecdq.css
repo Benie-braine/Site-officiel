@@ -5,7 +5,7 @@
       padding: 6px;              /* Ajoute de l'espace autour du texte */
       background-color: ffffff;  /* Couleur de fond légère */
       border-radius: 8px;         /* Arrondit les coins */
-      max-width: 84%;           /* Limite la largeur pour une meilleure lisibilité */
+      max-width: 85%;           /* Limite la largeur pour une meilleure lisibilité */
       margin: auto;             /* Centre le div horizontalement */
       box-shadow: 0 1px 3px rgba(2, 2, 2, 2.2); /* Ajoute une ombre */
       margin-top: 1%;
@@ -13,6 +13,8 @@
       font-weight: bold;
       font-size:30;
       padding: auto;
+      color: rgb(63, 63, 63);
+      text-align: justify;
     }
   
   .boss-comite1{
@@ -27,9 +29,10 @@
       
    .enfant-text-comite1{
     color: #1B3D71;
-    font-weight: 500;
+    font-weight: bold;
+    font-size: 1.5rem;
     margin-top: 2%;
-    margin-left: 8.5%;
+    margin-left: 7.5%;
     }
   
     .trait-comite2{

@@ -28,7 +28,7 @@ const Projet = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae quod ratione rem natus velit esse, 
                     animi fugiat perspiciatis sunt. Laudantium assumenda mollitia voluptatem numquam labore est fugit, rem cumque.
                     </p>
-                    <button className='buton-project' type="button">Voir plus<ArrowRightAltOutlinedIcon/></button>
+                    <button className='buton-project-refect' type="button">Voir plus<ArrowRightAltOutlinedIcon/></button>
                 </div>
             </div>
         </div>

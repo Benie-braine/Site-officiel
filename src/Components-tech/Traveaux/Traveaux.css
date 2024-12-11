@@ -22,7 +22,8 @@ margin-left: 10%;
 .travauxx{
   color: #062970;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 1.4rem;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -81,6 +82,7 @@ margin-left: 10%;
 
   .slider-container {
     width: 100%;
+    margin: 0 auto;
     padding: 35px 0;
     justify-content: space-between;
     justify-content: space-around;

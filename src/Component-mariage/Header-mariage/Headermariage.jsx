@@ -26,7 +26,7 @@ function Header() {
           position: 'absolute',
           top: '50%',
           left: '50%',
-          width: '50%',
+          width: '40%',
           height: '25%',
           transform: 'translate(-50%, -50%)', // Centrage du bouton
           padding: '10px 20px',               // Dimensions du bouton rectangulaire

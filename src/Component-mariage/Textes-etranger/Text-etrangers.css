@@ -1,5 +1,5 @@
 .trait-long2{
-  width: 50%;
+  width: 52%;
   height: 3px;
   background-color: #1B3D71;
   margin-top: 2.5%;
@@ -18,10 +18,10 @@
 
 .enfant-text2{
   color: #1B3D71;
-  font-weight: 500;
+  font-weight: bold;
   margin-top: 2%;
   margin-left: 12%;
-  font-size: 5;
+  font-size: 1.8rem;
 }
 
 .texte-etranger{
