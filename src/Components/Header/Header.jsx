@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="buttons-right">
                     <button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button>
 
-                    <Link to='/cdq'><button className="button">CDQ <ArrowForwardIcon className="arrow-icon" /></button></Link>
+                    <Link to='/cdq'><button className="button">CHEFS DE QUARTIERS ET CDQ<ArrowForwardIcon className="arrow-icon" /></button></Link>
                     <button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button>
 
                     <button className="button">GALERIE<ArrowForwardIcon className="arrow-icon" /></button>
