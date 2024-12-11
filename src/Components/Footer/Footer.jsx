@@ -28,14 +28,14 @@ const Footer = () => {
         <div className="footer-links">
           <h3>Accès rapide</h3>
           <ul>
-            <li>Service Etat-Civil</li>
-            <li>Service Social</li>
-            <li>Service Technique</li>
+            <Link to='/etatcivil'><li>Service Etat-Civil</li></Link>
+            <Link to='/servicesocial'><li>Service Social</li></Link>
+            <Link to='/technique'><li>Service Technique</li></Link>
             <Link to='/urbanisme'><li>Urbanisme</li></Link>
-            <li>Agenda</li>
-            <li>CDQ</li>
-            <li>Hub Municipal</li>
-            <li>Galerie</li>
+            <Link to='/agenda'><li>Agenda</li></Link>
+            <Link to='/cdq'><li>Chefs de quartiers et CDQ</li></Link>
+            <Link to='/hubmunicipal'><li>Hub Municipal</li></Link>
+            <Link to='/galerie'><li>Galerie</li></Link>
           </ul>
         </div>
 
