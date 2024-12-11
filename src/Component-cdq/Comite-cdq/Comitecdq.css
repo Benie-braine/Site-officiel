@@ -2,7 +2,7 @@
     /* src/components/Text.css */
     .texte-comite{
       text-align: center;         /* Centre le texte */
-      padding: 6px;              /* Ajoute de l'espace autour du texte */
+      padding: 15px;              /* Ajoute de l'espace autour du texte */
       background-color: ffffff;  /* Couleur de fond légère */
       border-radius: 8px;         /* Arrondit les coins */
       max-width: 85%;           /* Limite la largeur pour une meilleure lisibilité */

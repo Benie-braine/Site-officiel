@@ -35,6 +35,7 @@ function App() {
           <Route path="/technique" element={<Technique/>} />
           <Route path="/Mariage" element={<Mariage/>} />
           <Route path="/Cdq" element={<Cdq/>} />
+
         </Routes>
       </Router>
     </div>
