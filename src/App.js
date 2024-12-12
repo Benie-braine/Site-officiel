@@ -18,7 +18,7 @@ import Mariage from './Pages/Mariage.jsx';
 import Cdq from './Pages/Cdq.jsx';
 
 
-// import Cdq from './Pages/Cdq.jsx';
+
 
 import Cdq from './Pages/Cdq.jsx';
 
@@ -56,7 +56,7 @@ function App() {
          <Route path="/Cdq" element={<Cdq/>} /> 
 
 
-          {/* <Route path="/Cdq" element={<Cdq/>} /> */}
+           
 
 
           <Route path="/Cdq" element={<Cdq/>} />
