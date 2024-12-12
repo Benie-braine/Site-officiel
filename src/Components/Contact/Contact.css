@@ -71,6 +71,10 @@
     margin-top: 10px;
     color: #1B2D71;
 }
+.card1al a{
+    text-decoration:none;
+
+}
 
 /* Animation au survol */
 .card1al:hover {

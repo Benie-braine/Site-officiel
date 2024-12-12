@@ -16,11 +16,9 @@ const Footer = () => {
         <div className="footer-middle">
           <h3>Horaires</h3>
           <ul>
-            <li><strong>Lundi</strong> : 7h30 à 15h30</li>
-            <li><strong>Mardi</strong> : 7h30 à 15h30</li>
-            <li><strong>Mercredi</strong> : 7h30 à 15h30</li>
-            <li><strong>Jeudi</strong> : 7h30 à 15h30</li>
-            <li><strong>Vendredi</strong> : 7h30 à 15h30</li>
+            <li><strong>Lundi à Vendredi</strong> : </li>
+            <li><strong></strong> 7h30 - 15h30</li>
+            
 
           </ul>
           <p><strong>Attention</strong> : L’accueil physique dans le hall administratif se fait uniquement sur rendez-vous.</p>
@@ -30,14 +28,14 @@ const Footer = () => {
         <div className="footer-links">
           <h3>Accès rapide</h3>
           <ul>
-            <li>Service Etat-Civil</li>
-            <li>Service Social</li>
-            <li>Service Technique</li>
+            <Link to='/etatcivil'><li>Service Etat-Civil</li></Link>
+            <Link to='/servicesocial'><li>Service Social</li></Link>
+            <Link to='/technique'><li>Service Technique</li></Link>
             <Link to='/urbanisme'><li>Urbanisme</li></Link>
-            <li>Agenda</li>
-            <li>CDQ</li>
-            <li>Hub Municipal</li>
-            <li>Galerie</li>
+            <Link to='/agenda'><li>Agenda</li></Link>
+            <Link to='/cdq'><li>Chefs de quartiers et CDQ</li></Link>
+            <Link to='/hubmunicipal'><li>Hub Municipal</li></Link>
+            <Link to='/galerie'><li>Galerie</li></Link>
           </ul>
         </div>
 
