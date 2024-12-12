@@ -6,13 +6,13 @@ const Textebon = ({ children }) => {
 
     <div className='boss-comite1'>
     <h4 className='enfant-text-comite1'>COMITE DE DEVELOPPEMENT DES QUARTIERS (CDQ) DU 2eme ARRONDISSEMENT DE PORT-GENTIL</h4> 
-    <div className='texte-comite'>
+    <div className='tex-comite'>
       <strong>
-Le Comité de Développement des Quartiers (CDQ) est
-un acteur clé dans l'amélioration du cadre de vie de nos quartiers. Chaque CDQ, propre à chaque quartier,
-Les CDQ, ce sont avant tout des citoyens engagés qui donnent de leur temps pour améliorer leur quartier. 
-Leur action est essentielle, mais elle ne peut se faire sans vous. En rejoignant votre CDQ, vous pourrez 
- contribuer activement à façonner votre environnement et à créer un quartier où il fait bon vivre.
+      Le Comité de Développement des Quartiers (CDQ) est
+      un acteur clé dans l'amélioration du cadre de vie de nos quartiers. Chaque CDQ, propre à chaque quartier,
+      Les CDQ, ce sont avant tout des citoyens engagés qui donnent de leur temps pour améliorer leur quartier. 
+      Leur action est essentielle, mais elle ne peut se faire sans vous. En rejoignant votre CDQ, vous pourrez 
+      contribuer activement à façonner votre environnement et à créer un quartier où il fait bon vivre.
       </strong>
     </div>
     </div>
