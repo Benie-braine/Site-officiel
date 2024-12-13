@@ -17,19 +17,19 @@ const Header = () => {
 
 
                 <Link to='/Etatcivil'><button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button></Link>
-                <button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button>
+                <Link to='/technique'><button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 <Link to='/Servicesocial'> <button className="button">SERVICE SOCIAL<ArrowForwardIcon className="arrow-icon" /></button></Link>
 
 
                     <Link to='/urbanisme'><button className="button">URBANISME<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 </div>
                 <div className="buttons-right">
-                    <button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button>
+                    <Link to='/agenda'><button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button></Link>
 
                     <Link to='/cdq'><button className="button">CHEFS DE QUARTIERS ET CDQ<ArrowForwardIcon className="arrow-icon" /></button></Link>
-                    <button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button>
+                    <Link to='/mariage'><button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button></Link>
 
-                    <button className="button">GALERIE<ArrowForwardIcon className="arrow-icon" /></button>
+                    <Link to='/galerie'><button className="button">GALERIE<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 </div>
             </div>
              {/* Ajout du bouton de demande d'audience */}
