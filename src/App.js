@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <ScrollToTop /> {/* Ce composant s'assure que chaque navigation commence en haut */}
+      <ScrollToTop />  {/* Ce composant s'assure que chaque navigation commence en haut */}
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/etatcivil" element={<Etatcivil />} /> {/* Garder cette ligne */}
@@ -41,7 +41,7 @@ function App() {
 
           <Route path="/autorisationsurbanisme" element={<AutorisationsUrbanisme />} />
           <Route path="/travauxurbanisme" element={<TravauxUrbanisme />} />
-          {/* <Route path="/technique" element={<Technique/>} /> */}
+          <Route path="/technique" element={<Technique/>} />
           <Route path="/Mariage" element={<Mariage/>} />
 
 
