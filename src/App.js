@@ -25,11 +25,6 @@ import Cdq from './Pages/Cdq.jsx';
 
 
 
-
-import Cdq from './Pages/Cdq.jsx';
-
-
-
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -59,13 +54,8 @@ function App() {
           <Route path="/technique" element={<Technique/>} />
           <Route path="/Mariage" element={<Mariage/>} />
 
-         <Route path="/Cdq" element={<Cdq/>} /> 
 
-
-           
-
-
-          <Route path="/Cdq" element={<Cdq/>} />
+          <Route path="/cdq" element={<Cdq/>} />
           <Route path="/Galerie" element={<Galerie/>} />
           <Route path="/Service" element={<Service/>} />
           <Route path="/Galeriemariage" element={<Galeriemariage/>} />
