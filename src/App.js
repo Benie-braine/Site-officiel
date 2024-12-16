@@ -8,12 +8,26 @@ import Urbanisme from './Pages/Urbanisme.jsx';
 import Amenagements from './Pages/Amenagements.jsx';
 import ReglesUrb from './Pages/ReglesUrb.jsx';
 import Transcription from './Pages/Transcription.jsx';
+import Galerie from './Pages/Galerie.jsx'
+import Service from './Pages/Service.jsx'
+import Galeriemariage from './Pages/Galeriemariage.jsx';
+import Cdqgalerie from './Cdqgalerie/Cdqheadergal/Cdqheadergal.js';
+import Socialgalerie from './Pages/Socialgalerie.jsx';
+import Culturegalerie from './Pages/Culturegalerie.jsx'
 
 import Légalisation from './Pages/Légalisation'; // Garder cette ligne
 import AutorisationsUrbanisme from './Pages/AutorisationsUrbanisme.jsx';
 import TravauxUrbanisme from './Pages/TravauxUrbanisme.jsx';
 import Technique from './Pages/Technique.jsx';
 import Mariage from './Pages/Mariage.jsx';
+
+
+
+import Cdq from './Pages/Cdq.jsx';
+
+
+
+
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -25,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <ScrollToTop /> {/* Ce composant s'assure que chaque navigation commence en haut */}
+      <ScrollToTop />  {/* Ce composant s'assure que chaque navigation commence en haut */}
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/etatcivil" element={<Etatcivil />} /> {/* Garder cette ligne */}
@@ -42,6 +56,23 @@ function App() {
           <Route path="/travauxurbanisme" element={<TravauxUrbanisme />} />
           <Route path="/technique" element={<Technique/>} />
           <Route path="/Mariage" element={<Mariage/>} />
+
+
+
+
+          <Route path="/cdq" element={<Cdq/>} />
+          <Route path="/Galerie" element={<Galerie/>} />
+          <Route path="/Service" element={<Service/>} />
+          <Route path="/Galeriemariage" element={<Galeriemariage/>} />
+          <Route path="/Cdqgalerie" element={<Cdqgalerie/>} />
+          <Route path="/Socialgalerie" element={<Socialgalerie/>} />
+          <Route path="/Culturegalerie" element={<Culturegalerie/>} />
+
+
+
+
+
+
         </Routes>
       </Router>
     </div>
