@@ -18,6 +18,10 @@
     margin-left:5%;
     color: gray;
 }
+.rubrique a{
+    text-decoration:none;
+
+}
 .rubrique h2{
     margin-bottom: 2%;
     color: #1B3D71;

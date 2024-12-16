@@ -19,12 +19,12 @@
   text-align:center;
   width: 40%;
   background-color:white;
-  height: 30%;
+  height: 20%;
   border-radius: 8px;
   opacity: 0.8;
   overflow: hidden;
 }
-.butt h1{
+.buts h2{
   font-size: 60px;
   color:#1B3D71;
   font-weight: bold;
@@ -50,12 +50,12 @@
   font-weight: bold;
 }
 
-.boutton:hover {
+.boutton2:hover {
   background-color: #1B3D71;
   color:white;
 }
 
-.arrow-icon {
+.arrow-icon1 {
   margin-left: 8px; /* Espace entre le texte du bouton et l'icône */
 }
 
@@ -64,7 +64,7 @@
 @media (max-width: 768px) {
  
 
-.boutton-container {
+.boutton-container1 {
   display: flex;
   justify-content: center;
   text-align:center;
@@ -74,14 +74,14 @@
   border-radius: 8px;
   opacity: 0.8;
 }
-.but h1{
+.buts h2{
   font-size: 20px;
   color:#1B3D71;
   font-weight: bold;
 }
 
 
-.boutton {
+.boutton2 {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Espace entre le texte et l'icône */
@@ -98,12 +98,12 @@
   font-weight: bold;
 }
 
-.boutton:hover {
+.boutton2:hover {
   background-color: #1B3D71;
   color:white;
 }
 
-.arrow-icon {
+.arrow-icon1 {
   margin-left: 8px; /* Espace entre le texte du bouton et l'icône */
 }
 
@@ -112,7 +112,7 @@
   
  
 
-.boutton-container {
+.boutton-container1 {
   display: flex;
   justify-content: center;
   text-align:center;
@@ -122,14 +122,14 @@
   border-radius: 8px;
   opacity: 0.8;
 }
-.but h1{
+.but h2{
   font-size: 20px;
   color:#1B3D71;
   font-weight: bold;
 }
 
 
-.boutton {
+.boutton2 {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Espace entre le texte et l'icône */
@@ -146,7 +146,7 @@
   font-weight: bold;
 }
 
-.boutton:hover {
+.boutton2:hover {
   background-color: #1B3D71;
   color:white;
 }

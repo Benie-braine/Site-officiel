@@ -1,4 +1,4 @@
-.cards-wrapper {
+.cards-wrapperA {
   display: flex;
   flex-direction: column; /* Permet d'empiler les blocs verticalement */
   gap: 5px; /* Espace entre les blocs */
@@ -14,7 +14,7 @@
 }
 
 /* Styles communs pour les cartes */
-.card {
+.cardA {
   background-color: white;
   justify-content: center;
   border: 1px solid #ddd;
@@ -27,12 +27,12 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card:hover {
+.cardA:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.card img {
+.cardA img {
   width: 80%;
   height: 300px;
   object-fit: cover;
@@ -40,7 +40,7 @@
   margin: 10px auto;
 }
 
-.card h2 {
+.cardA h2 {
   font-size: 16px;
   font-weight: normal;
   color: #1a73e8;
