@@ -21,7 +21,10 @@ import TravauxUrbanisme from './Pages/TravauxUrbanisme.jsx';
 import Technique from './Pages/Technique.jsx';
 import Mariage from './Pages/Mariage.jsx';
 
+
+
 import Cdq from './Pages/Cdq.jsx';
+
 
 
 
@@ -55,6 +58,8 @@ function App() {
           <Route path="/Mariage" element={<Mariage/>} />
 
 
+
+
           <Route path="/cdq" element={<Cdq/>} />
           <Route path="/Galerie" element={<Galerie/>} />
           <Route path="/Service" element={<Service/>} />
@@ -62,6 +67,7 @@ function App() {
           <Route path="/Cdqgalerie" element={<Cdqgalerie/>} />
           <Route path="/Socialgalerie" element={<Socialgalerie/>} />
           <Route path="/Culturegalerie" element={<Culturegalerie/>} />
+
 
 
 
