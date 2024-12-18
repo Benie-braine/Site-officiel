@@ -9,7 +9,9 @@ import Urbanisme from './Pages/Urbanisme.jsx';
 import Amenagements from './Pages/Amenagements.jsx';
 import ReglesUrb from './Pages/ReglesUrb.jsx';
 import Transcription from './Pages/Transcription.jsx';
+
 import Galerie from './Pages/Galerie.jsx'
+
 
 import Service from './Pages/Service.jsx'
 
@@ -20,6 +22,7 @@ import Culturegalerie from './Pages/Culturegalerie.jsx'
 
 import Dossiercdq1 from './Pages/Dossiercdq1.jsx';
 import Agenda from './Pages/Agenda.jsx'
+
 
 
 
@@ -85,6 +88,7 @@ function App() {
           <Route path="/Cdqgalerie" element={<Cdqgalerie/>} />
           <Route path="/Socialgalerie" element={<Socialgalerie/>} />
           <Route path="/Culturegalerie" element={<Culturegalerie/>} />
+
 
 
 
