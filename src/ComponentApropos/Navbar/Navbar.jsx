@@ -43,7 +43,7 @@ const Navbar = () => {
     >
       <List>
         <ListItem button>
-          <ListItemText primary={<Link to='/'>Accueil</Link>} />
+          <ListItemText primary={<Link to='/accueil'>Accueil</Link>} />
         </ListItem>
         <ListItem button>
           <ListItemText primary={<Link to='/services'>Services</Link>} />

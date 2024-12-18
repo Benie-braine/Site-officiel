@@ -1,9 +1,9 @@
 
     /* src/components/Text.css */
-    .texte-comite{
+    .tex-comite{
       text-align: center;         /* Centre le texte */
       padding: 15px;              /* Ajoute de l'espace autour du texte */
-      background-color: ffffff;  /* Couleur de fond légère */
+      background-color: #ffffff;  /* Couleur de fond légère */
       border-radius: 4px;         /* Arrondit les coins */
       max-width: 85%;           /* Limite la largeur pour une meilleure lisibilité */
       margin: auto;             /* Centre le div horizontalement */
@@ -14,7 +14,6 @@
       font-size:30;
       padding: auto;
       color: rgb(63, 63, 63);
-      text-align: justify;
     }
   
   .boss-comite1{
