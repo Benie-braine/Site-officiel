@@ -1,5 +1,5 @@
 import React from 'react';
-import Navmariage from '../Mariagegalerie/Navmariagegal/Navmariage';
+import Navbar from '../Components/Navbar/Navbar';
 import Headergaleri2 from '../Mariagegalerie/Headergaleriemariage/Headergaleri2'
 import Cartephoto2024 from '../Mariagegalerie/Cartesphoto2/Cartephoto2024';
 import Textephotos2 from '../Mariagegalerie/Textephoto2/Textephotos2';
@@ -11,7 +11,7 @@ import Boutonretour2 from '../Galerietecnic/Boutonretour2/Boutonretour2';
 function Galeriemariage() {
   return (
     <div>
-      <Navmariage />
+     <Navbar />
       <Headergaleri2/>
       <Textephotos2/>
       <Cartephoto2024 />

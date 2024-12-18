@@ -1,0 +1,111 @@
+/* Agendaheader.css */
+
+.mot-maire-container1 {
+    width: 80%; /* Réduction de la largeur du container */
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .mere1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .mere2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .mere3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .mere4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .mere5{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .mere6{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  
+  .maire-card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 10px;
+    border-radius: 8px;
+    width: 60%;
+    height: 32vh;
+    overflow: hidden;
+   margin-bottom: 20px;
+    
+    
+  }
+  
+  .maire-text1 {
+    flex-basis: 60%;
+    text-align: left;
+  }
+  
+  .maire-text1 h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: 252462;
+  }
+  
+  .maire-text1 p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: gray;
+  }
+  
+  .maire-image1 {
+    flex-basis: 35%;
+  }
+  
+  .maire-image1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .maire-card1 {
+      flex-direction: column;
+    }
+  
+    .maire-text1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .maire-image1 {
+      width: 100%;
+    }
+  
+    .mot-maire-container1 h1 {
+      font-size: 28px;
+    }
+  }
+  

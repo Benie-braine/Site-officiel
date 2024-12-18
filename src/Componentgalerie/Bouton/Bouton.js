@@ -20,7 +20,7 @@ function BoutonExampleUpdated() {
           </Button>
         </Link>
 
-        <Link to='/Cdqgalerie'>
+        <Link to='/Dossiercdq1'>
         <Button variant="primary" size="lg" className="updated-custom-button">
           <span className="updated-circle-arrow">➔</span> <strong> Chefs de quartiers et Cdq</strong>
         </Button>

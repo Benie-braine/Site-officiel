@@ -1,5 +1,5 @@
 import React from 'react';
-import Navgalerie from '../Galerietecnic/Navgalerie/Navgalerie';
+import Navbar from '../Components/Navbar/Navbar.jsx';
 import Headergalerie from '../Galerietecnic/Headergalerie/Headergalerie';
 import Cartephotos from '../Galerietecnic/Cartephotos/Cartephotos';
 import Contact from '../Components/Contact/Contact'
@@ -12,8 +12,7 @@ import Boutonretour2 from '../Galerietecnic/Boutonretour2/Boutonretour2.js';
 function Service() {
     return (
       <div>
-         
-         <Navgalerie/>
+          <Navbar/>
          <Headergalerie/>
          <Textephotos0/>
          <Cartephotos/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Components/Navbar/Navbar'
+import Navbar from '../Components/Navbar/Navbar';
 import Cultureheader from '../Culturegalerie/Cultureheader/Cultureheader';
 import Textephotos2 from '../Mariagegalerie/Textephoto2/Textephotos2';
 import Culturecarte from '../Culturegalerie/Culturecarte/Culturecarte';
@@ -12,7 +12,7 @@ import Boutonretour2 from '../Galerietecnic/Boutonretour2/Boutonretour2';
 function Culturegalerie() {
   return (
     <div>
-     < Navbar/>
+      < Navbar/>
      < Cultureheader/>
      < Textephotos2/>
      < Culturecarte/>
