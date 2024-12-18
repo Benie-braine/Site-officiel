@@ -22,11 +22,11 @@ const FormulaireTelecharger= () => {
               
             <p className='ft'> Téléchargez les formulaires nécessaires pour vos demandes d'autorisations :</p>
             <div>
-            <a href="https://calendly.com/safou-christiansergio/30min" target="_blank" rel="noopener noreferrer">
+            <a href="file:///C:/Users/user/Downloads/ANUTTC_DG_DOUAF_PiecesDemandePC_29032017_VF%20permis%20de%20construire.pdf.crdownload" target="_blank" rel="noopener noreferrer">
             <button>Formulaire de demande de permis de construire</button>
              </a>             </div>
             <div>
-            <a href="https://calendly.com/safou-christiansergio/30min" target="_blank" rel="noopener noreferrer">
+            <a href="file:///C:/Users/user/Downloads/autorisation%20demande.pdf" target="_blank" rel="noopener noreferrer">
             <button>Formulaire de déclaration préalable de travaux</button>
              </a>
              </div>
