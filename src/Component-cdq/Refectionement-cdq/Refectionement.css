@@ -149,11 +149,14 @@
     padding: 5px;
     border-radius: 8px;
     width: 100%;
+    flex-direction: column;
+    overflow: hidden;
   }
   
   .projet-texts-refect {
-    flex-basis: 25%;
-    text-align: left;
+    flex-basis: 100%;
+    text-align:left;
+    font-size: 1rem;
   }
   
   .projet-texts-refect h2 {
@@ -174,7 +177,8 @@
   }
   
   .projet-image-refect img {
-    width: 80%;
+    width: 80vw;
+    height: 20%;
     height: auto;
     border-radius: 8px;
   }

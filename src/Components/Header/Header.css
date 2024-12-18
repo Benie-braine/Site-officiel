@@ -42,13 +42,34 @@
   align-items: center;
 }
 
-.buttons-left, .buttons-right {
+.buttons-left {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.buttons-right {
   display: flex;
   flex-direction: column;
   margin: 0 20px;
 }
 
-.button {
+.buttons-right .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espace entre le texte et l'icône */
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  background-color: white;
+  color: #1B3D71;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  width: 35VW; /* Largeur fixe pour aligner les boutons */
+  font-weight: bold;
+}
+.buttons-left .button {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Espace entre le texte et l'icône */
@@ -101,9 +122,15 @@
 }
 /* Styles spécifiques pour la version mobile */
 @media (max-width: 768px) {
-  .button {
+  .buttons-left .button {
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+  }
+  .buttons-right .button {
+    font-size: 10px; /* Réduction de la taille du texte dans les boutons */
+    width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+    margin-top:-15px;
+    margin-left:41px;
   }
 
   .search-container {
@@ -132,8 +159,8 @@
     {
     margin: 0; /* Supprimer les marges inutiles */
     width: 100%;
-
     align-items: center;
+    display: block;
   }
   .buttons-left 
   {
@@ -144,12 +171,10 @@
   .buttons-left a{
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:100%;
-    margin-left:20%;
   }
   .buttons-right a{
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:100%;
-    margin-left:20%;
   }
   .mairie {
     justify-content: flex-start; /* Commence plus haut sur l'écran */
