@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Component-mariage/Nav-mariage/Navbar';
+import Navbar from '../Components/Navbar/Navbar';
 import Socialheadergal from '../Socialgalerie/Socialheadergal/Socialheadergal';
 import Footer from '../Components-tech/Footertech/Footertech';
 import Textephotos2 from '../Mariagegalerie/Textephoto2/Textephotos2';
@@ -11,7 +11,7 @@ import Boutonretour2 from '../Galerietecnic/Boutonretour2/Boutonretour2';
 function Socialgalerie() {
   return (
     <div>
-     < Navbar/> 
+     <Navbar/>
       <Socialheadergal/>
       <Textephotos2/>
       <Cartesocial/>
