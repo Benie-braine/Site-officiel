@@ -4,6 +4,8 @@ import logo from '../../Images/logo Mairie.jpg'; // Chemin vers ton logo
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu'; // Icône de menu hamburger
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {Link} from 'react-router-dom'
+
 
 const theme = createTheme({
   palette: {
@@ -41,22 +43,22 @@ const Navbar = () => {
     >
       <List>
         <ListItem button>
-          <ListItemText primary={<a href="#home">Accueil</a>} />
+          <ListItemText primary={<Link to='/'>Accueil</Link>} />
         </ListItem>
         <ListItem button>
-          <ListItemText primary={<a href="#services">Services</a>} />
+          <ListItemText primary={<Link to='/services'>Services</Link>} />
         </ListItem>
         <ListItem button>
-          <ListItemText primary={<a href="#about">À propos</a>} />
+          <ListItemText primary={<Link to='/apropos'>À propos</Link>} />
         </ListItem>
         <ListItem button>
-          <ListItemText primary={<a href="#projects">Projets</a>} />
+          <ListItemText primary={<Link to='/projet'>Projets</Link>} />
         </ListItem>
         <ListItem button>
-          <ListItemText primary={<a href="#contact">Contact</a>} />
+          <ListItemText primary={<Link to='/contact'>Contact</Link>} />
         </ListItem>
         <ListItem button>
-          <ListItemText primary={<a href="#faq">FAQ</a>} />
+          <ListItemText primary={<Link to='/faq'>FAQ</Link>} />
         </ListItem>
       </List>
     </div>
@@ -67,7 +69,9 @@ const Navbar = () => {
     <AppBar position="static" className="navbar">
       <Toolbar className='navbar-container'>
         <div className="navbar-logo">
+          <Link to='/'>
           <img src={logo} alt="Logo Mairie" />
+          </Link>
         </div>
 
         {/* Icône de menu hamburger */}

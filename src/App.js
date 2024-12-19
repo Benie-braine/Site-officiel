@@ -10,7 +10,7 @@ import Amenagements from './Pages/Amenagements.jsx';
 import ReglesUrb from './Pages/ReglesUrb.jsx';
 import Transcription from './Pages/Transcription.jsx';
 
-import Galerie from './Pages/Galerie.jsx'
+import Galerie from './Pages/Galerie.jsx';
 
 
 import Service from './Pages/Service.jsx'
@@ -84,10 +84,12 @@ function App() {
 
           <Route path="/Galerie" element={<Galerie/>} />
           <Route path="/Service" element={<Service/>} />
-          <Route path="/Galeriemariage" element={<Galeriemariage/>} />
           <Route path="/Cdqgalerie" element={<Cdqgalerie/>} />
           <Route path="/Socialgalerie" element={<Socialgalerie/>} />
           <Route path="/Culturegalerie" element={<Culturegalerie/>} />
+          <Route path="/galeriemariage" element={<Galeriemariage/>} /> 
+          <Route path="/dossiercdq1" element={<Dossiercdq1/>} /> 
+          <Route path="/agenda" element={<Agenda/>} /> 
 
 
 

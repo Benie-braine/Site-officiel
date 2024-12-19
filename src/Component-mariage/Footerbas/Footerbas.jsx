@@ -1,7 +1,7 @@
 import React from 'react';
-import './Footer-mariage2.css'; // Assurez-vous d'importer le fichier CSS
+import './Footerbas.css'; // Assurez-vous d'importer le fichier CSS
 
-const Footerbas2 = () => {
+const Footerbas = () => {
     return (
         <div className="abas-container">
             <span className="word">Politique de confidentialité</span>
@@ -11,4 +11,4 @@ const Footerbas2 = () => {
     );
 };
 
-export default Footerbas2;
+export default Footerbas;

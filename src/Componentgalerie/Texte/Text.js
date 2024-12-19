@@ -3,7 +3,7 @@ import './Text.css'; // Assure-toi d'importer le fichier CSS si nécessaire
 
 function Text() {
   return (
-    <div className="App">
+    <div className="textgal">
       <div className="outside-text">
         <p>
           Bienvenue dans la Galerie du 2e Arrondissement de Port-Gentil.

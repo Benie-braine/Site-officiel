@@ -1,11 +1,11 @@
 import React from 'react';
-import './Header.css'; // Importe le CSS
+import './HeaderGalerie.css'; // Importe le CSS
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'; // Import de l'icône de flèche
 
 
-function Header() {
+function HeaderGalerie() {
   return (
-    <div className="header-container">
+    <div className="header-containerga">
         <div className="boutton-containerga">
                 <div className='butga'>
              <button className="bouttonga">ACCUEIL<ArrowForwardIcon className="arrow-icon" />GALERIE</button>
@@ -16,4 +16,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderGalerie;
