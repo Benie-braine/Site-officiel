@@ -32,6 +32,12 @@
   margin-bottom: 5px;
   color: #333;
 }
+.footer-links a{
+  text-decoration: none;
+}
+.footer-links a :hover{
+  color:yellow;
+}
 
 .footer-button {
   display: block;
@@ -86,6 +92,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .subscribe-button:hover {
@@ -97,12 +104,19 @@
 
   .footer-middle li, .footer-links li {
     font-size: 10px;
+    
   }
   .footer-middle h3, .footer-links h3, .footer-right h3{
     font-size:12px;
+    font-weight: bold;
+   
+  }
+  .footer-left img {
+    width: 100px;
   }
   .footer-middle p{
     font-size: 10px;
+    color:red;
   }
   .email-input {
     width:100%;

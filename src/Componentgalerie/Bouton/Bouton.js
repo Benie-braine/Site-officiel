@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import './Bouton.css'; // Assure-toi de renommer le fichier CSS
 import { Link } from 'react-router-dom';
 
-function BoutonExampleUpdated() {
+function Bouton() {
   return (
     <div className="updated-button-wrapper">
       <h1 className='R1'><strong> Rubriques</strong></h1>
@@ -36,12 +36,6 @@ function BoutonExampleUpdated() {
           <span className="updated-circle-arrow">➔</span> <strong>Culture et Sport</strong>
         </Button>
         </Link>
-        
-
-      
-
-
-
 
       </div>
      
@@ -49,4 +43,4 @@ function BoutonExampleUpdated() {
   );
 }
 
-export default BoutonExampleUpdated;
+export default Bouton;
