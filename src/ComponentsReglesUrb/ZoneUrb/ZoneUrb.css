@@ -121,18 +121,18 @@
     width:80%;
     height:100px;
     background-color:white;
-    align-items:center;
-    padding-top:20px;
+    align-items:start;
+    padding-top:10px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(7, 3, 3, 0.1);
 
     
 }
 .textecontainer strong{
-    color:blue;
+    color:#1B3D71;
 }
 .textecontainer p{
-margin-left:5%;
+margin-left: 2%;
+margin-top:-12px;
 
 }
 /* Responsive styles */
@@ -175,10 +175,9 @@ margin-left:5%;
 } 
 .textecontainer p{
     font-size: 10px;
+    margin-top:-10px;
 }
-.textecontainer{
-    height: 110px;
-}
+
    .texte33{
     width:80%;
     height: 130px;
