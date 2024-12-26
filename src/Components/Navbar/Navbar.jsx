@@ -46,9 +46,6 @@ const Navbar = () => {
           <ListItemText primary={<Link to='/'>Accueil</Link>} />
         </ListItem>
         <ListItem button>
-          <ListItemText primary={<Link to='/services'>Services</Link>} />
-        </ListItem>
-        <ListItem button>
           <ListItemText primary={<Link to='/apropos'>À propos</Link>} />
         </ListItem>
         <ListItem button>
