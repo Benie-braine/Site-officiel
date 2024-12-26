@@ -49,8 +49,9 @@
     overflow: hidden; /* Cache les parties de l'image qui dépassent */
 }
 .carousel-containeracc .carousel-caption{
-    background-color: red;
+    background-color:#1B3D71;
     opacity:0.8;
+
 }
 
 /* Adjust the image size */

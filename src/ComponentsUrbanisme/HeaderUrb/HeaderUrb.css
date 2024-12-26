@@ -105,7 +105,18 @@
   
   }
   @media (max-width: 420px) {
-    
+  
+    .mairie1 {
+      background-image: url('../../Images/eclairage.jpg');
+      height: 80vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+    }
    
  
   .boutton-container {
@@ -114,7 +125,7 @@
     text-align:center;
     width: 70%;
     background-color:white;
-    height: 20%;
+    height: 15%;
     border-radius: 8px;
     opacity: 0.8;
   }
