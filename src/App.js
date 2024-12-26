@@ -33,7 +33,6 @@ import Technique from './Pages/Technique.jsx';
 import Mariage from './Pages/Mariage.jsx';
 
 import Cdq from './Pages/Cdq.jsx';
-import Services from './Pages/Services.jsx';
 import Apropos from './Pages/Apropos.jsx';
 
 
@@ -70,7 +69,6 @@ function App() {
           <Route path="/Mariage" element={<Mariage/>} />
 
           <Route path="/cdq" element={<Cdq/>} /> 
-          <Route path="/services" element={<Services/>} /> 
           <Route path="/apropos" element={<Apropos/>} /> 
           <Route path="/projet" element={<Projet/>} /> 
           <Route path="/contact" element={<Contact/>} /> 
