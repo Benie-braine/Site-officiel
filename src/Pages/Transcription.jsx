@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Transcription/Navbartrans/Navbartrans';
+import Navbar from '../Components/Navbar/Navbar';
 import Headertrans from '../Transcription/Headertrans';
 import Cartestrans from '../Transcription/Cartestrans';
 import MediaCard1 from '../Transcription/infotrans'; // Importez correctement le composant MediaCard1
@@ -13,7 +13,7 @@ import Footerbas from '../Components/Footerbas/Footerbas';
 function Transcription() {
   return (
     <div>
-      <Navbar />  
+      <Navbar/>  
       <Headertrans /> 
       <Cartestrans /> 
       <MediaCard1 /> {/* Utilisation correcte du composant */}

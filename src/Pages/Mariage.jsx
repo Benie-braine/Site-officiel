@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from '../Component-mariage/Navbar/Navbar';
+import Navbar from '../Components/Navbar/Navbar';
 import Headermariage from '../Component-mariage/Header-mariage/Headermariage';
 import Textes from '../Component-mariage/Textes-bonasavoir/Textes';
 import Texte from '../Component-mariage/Textes-pieces/Texte';
 import Textetrangers from '../Component-mariage/Textes-etranger/Text-etrangers';
 import Archives from '../Component-mariage/Archives/Archives';
 import Reseaux from '../Component-mariage/Reseaux/Reseaux';
-import Contactmariage from '../Component-mariage/Contact-mariage/Contact-mariage';
-import Footer from'../Component-mariage/Footer/Footer';
-import Footerbas from '../Component-mariage/Footerbas/Footerbas';
+import Contact from '../Components/Contact/Contact';
+import Footer from'../Components/Footer/Footer';
+import Footerbas from '../Components/Footerbas/Footerbas';
 
 function Mariage() {
 
@@ -21,7 +21,7 @@ function Mariage() {
       <Textetrangers/>
       <Archives/>
       <Reseaux/>
-      <Contactmariage/>
+      <Contact/>
       <Footer/>
       <Footerbas/>
     </div>

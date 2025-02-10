@@ -1,22 +1,22 @@
 import React from 'react';
-import NavbarReglesUrb from '../ComponentsReglesUrb/NavbarReglesUrb/NavbarReglesUrb';
+import Navbar from '../Components/Navbar/Navbar';
 import TitreRegleUrb from '../ComponentsReglesUrb/TitreRegleUrb/TitreRegleUrb';
 import ZoneUrb from '../ComponentsReglesUrb/ZoneUrb/ZoneUrb';
 import Servitude from '../ComponentsReglesUrb/Servitude/Servitude';
 import ButtonUrb from '../ComponentsReglesUrb/ButtonUrb/ButtonUrb'
-import FooterRegles from '../ComponentsReglesUrb/FooterRegles/FooterRegles';
-import FooterbasRegles from '../ComponentsReglesUrb/FooterbasRegles/FooterbasRegles';
+import Footer from '../Components/Footer/Footer';
+import Footerbas from '../Components/Footerbas/Footerbas';
 
 function ReglesUrb() {
     return (
       <div>
-       <NavbarReglesUrb/>  
+       <Navbar/>  
        <TitreRegleUrb/>
        <ZoneUrb/>
        <Servitude/>
        <ButtonUrb/>
-       <FooterRegles/>
-       <FooterbasRegles/>
+       <Footer/>
+       <Footerbas/>
       </div>
       
     );

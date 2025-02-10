@@ -1,6 +1,6 @@
 .main10 {
   background-image: url('../Images/photo-main.jpg');
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -19,7 +19,7 @@
   text-align:center;
   width: 40%;
   background-color:white;
-  height: 20%;
+  height: 30%;
   border-radius: 8px;
   opacity: 0.8;
   overflow: hidden;

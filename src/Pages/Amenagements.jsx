@@ -1,22 +1,24 @@
 import React from 'react';
-import NavbarAme from '../ComponentsAmenagements/NavbarAme/NavbarAme';
+import Navbar from '../Components/Navbar/Navbar';
 import Amenagementstitre from '../ComponentsAmenagements/Amenagementstitre/Amenagementstitre';
 import ActualitesAme from '../ComponentsAmenagements/ActualitesAme/ActualitesAme';
 import TousAme from '../ComponentsAmenagements/TousAme/TousAme';
 import ButtonAme from '../ComponentsAmenagements/ButtonAme/ButtonAme';
-import FooterAme from '../ComponentsAmenagements/FooterAme/FooterAme';
-import FooterbasAme from '../ComponentsAmenagements/FooterbasAme/FooterbasAme';
+import Contact from '../Components/Contact/Contact';
+import Footer from '../Components/Footer/Footer';
+import Footerbas from '../Components/Footerbas/Footerbas';
 
 function Amenagements() {
     return (
       <div>
-       <NavbarAme/>  
+       <Navbar/>  
        <Amenagementstitre/>
        <ActualitesAme/>
        <TousAme/>
        <ButtonAme/>
-       <FooterAme/>
-       <FooterbasAme/>
+       <Contact/>
+       <Footer/>
+       <Footerbas/>
       </div>
       
     );

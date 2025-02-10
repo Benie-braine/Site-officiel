@@ -44,16 +44,16 @@ const Procedureasuivre= () => {
             <h6>
             DELAIS DE TRAITEMENT:
             </h6>
-            <p><strong>* A Permis de construire : 2 à 3 mois selon l’ampleur du projet</strong></p>
-            <p><strong>* A Déclaration préalable : 1 mois maximum</strong></p>
-           <p> <strong>* A Permis de démolir : 2 mois.</strong></p>
+            <p><strong>* Permis de construire : 2 à 3 mois selon l’ampleur du projet</strong></p>
+            <p><strong>* Déclaration préalable : 1 mois maximum</strong></p>
+           <p> <strong>* Permis de démolir : 2 mois.</strong></p>
             
             </div>
             <div className='limitepas'></div>
             <div className='documentpas'>
             
             <p>
-            * A Pour une déclaration préalable de travaux, fournissez une description des travaux et des plans
+            * Pour une déclaration préalable de travaux, fournissez une description des travaux et des plans
              sommaires
             </p>
             <div className='declarationp'>

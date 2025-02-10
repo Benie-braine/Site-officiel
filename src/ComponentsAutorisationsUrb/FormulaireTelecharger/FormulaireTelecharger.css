@@ -47,7 +47,9 @@
 .ft{
     text-align:center;
 }
-.texteft a{
+
+
+.texteft button{
     width:40%;
     height:40px;
     border: none;
@@ -57,8 +59,9 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top:20px;
     font-weight: bold;
+    font-size:12px;
 }
-.texteft a button:hover{
+.texteft button:hover{
     background-color: yellow;
     color: #1B3D71;
 }

@@ -13,7 +13,7 @@ import Transcription from './Pages/Transcription.jsx';
 import Galerie from './Pages/Galerie.jsx';
 
 
-import Service from './Pages/Service.jsx'
+import Service from './Pages/Service.jsx';
 
 import Galeriemariage from './Pages/Galeriemariage.jsx';
 import Cdqgalerie from './Cdqgalerie/Cdqheadergal/Cdqheadergal.js';
@@ -44,7 +44,7 @@ import '@fontsource/roboto/700.css';
 import Servicesocial from './Pages/Servicesocial.jsx';
 import Aidesocials from './Pages/Aidesocials.jsx';
 import Projet from './Pages/Projet.jsx';
-import Contact from './Pages/Contact.jsx';
+import Numerosutiles from './Pages/Numerosutiles.jsx';
 
 function App() {
   return (
@@ -71,7 +71,7 @@ function App() {
           <Route path="/cdq" element={<Cdq/>} /> 
           <Route path="/apropos" element={<Apropos/>} /> 
           <Route path="/projet" element={<Projet/>} /> 
-          <Route path="/contact" element={<Contact/>} /> 
+          <Route path="/numerosutiles" element={<Numerosutiles/>} /> 
 
 
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import Aproposde from '../ComponentApropos/Aproposde/Aproposde';
-import Navbar from '../ComponentApropos/Navbar/Navbar';
+import Navbar from '../Components/Navbar/Navbar';
 import BackButtonUrb from '../ComponentApropos/BackButtonUrb/BackButtonUrb';
-import Contact from '../ComponentApropos/Contact/Contact';
-import Footer from '../ComponentApropos/Footer/Footer';
-import Footerbas from '../ComponentApropos/Footerbas/Footerbas';
+import Contact from '../Components/Contact/Contact';
+import Footer from '../Components/Footer/Footer';
+import Footerbas from '../Components/Footerbas/Footerbas';
 
 function Apropos() {
     return (

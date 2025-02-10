@@ -1,26 +1,26 @@
 import React from 'react';
-import NavbarUrb from '../ComponentsUrbanisme/NavbarUrb/NavbarUrb';
+import Navbar from '../Components/Navbar/Navbar';
 import HeaderUrb from '../ComponentsUrbanisme/HeaderUrb/HeaderUrb';
 import AproposUrb from '../ComponentsUrbanisme/AproposUrb/AproposUrb';
 import RubriqueUrb from '../ComponentsUrbanisme/RubriqueUrb/RubriqueUrb'
 import CarteUrb from '../ComponentsUrbanisme/CarteUrb/CarteUrb';
 import BackButtonUrb from '../ComponentsUrbanisme/BackButtonUrb/BackButtonUrb';
-import ContactUrb from '../ComponentsUrbanisme/ContactUrb/ContactUrb';
-import FooterUrb from '../ComponentsUrbanisme/FooterUrb/FooterUrb';
-import FooterbasUrb from '../ComponentsUrbanisme/FooterbasUrb/FooterbasUrb';
+import Footer from '../Components/Footer/Footer';
+import Footerbas from '../Components/Footerbas/Footerbas';
+import Contact from '../Components/Contact/Contact';
 
 function Accueil() {
     return (
       <div>
-       <NavbarUrb/>  
+       <Navbar/>  
        <HeaderUrb/>
        <AproposUrb/>
        <RubriqueUrb/>
        <CarteUrb/>
-       <ContactUrb/>
+       <Contact/>
        <BackButtonUrb/>
-       <FooterUrb/>
-       <FooterbasUrb/>
+       <Footer/>
+       <Footerbas/>
       </div>
       
     );

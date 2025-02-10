@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 
 function Service() {
   return (
-    <div className="mere1">
+    <div className="mere1ser">
       
       <div className="bloc1">
       <div className='photo'>
           <img src={image1} alt="" />
           </div>
           <div className='legalisation'>
-          <Link to='/Legalisation'><button className="service-button">LÉGALISATION</button></Link>
+          <Link to='/Legalisation'><button className="service-button"><p>LÉGALISATION</p></button></Link>
           </div>
       </div>
 
@@ -23,7 +23,7 @@ function Service() {
           <img src={image2} alt="" />
           </div>
           <div className='transcription'>
-          <Link to='/Transcription'> <button className="service-button2">TRANSCRIPTION</button></Link>
+          <Link to='/Transcription'> <button className="service-button2"><p>TRANSCRIPTION</p></button></Link>
           </div>
       </div>
     </div>
