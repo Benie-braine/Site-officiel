@@ -20,7 +20,7 @@ const ConsultationDossier= () => {
             </div>
             <div className='textecd'>
               
-            <p> A Pour suivre l'état d'avancement de votre demande ou consulter les autorisations déjà délivrées, un portail en ligne est mis à votre disposition (si disponible), ou vous pouvez vous rendre directement au service d'urbanisme de la mairie.</p>
+            <p> Pour suivre l'état d'avancement de votre demande ou consulter les autorisations déjà délivrées, un portail en ligne est mis à votre disposition (si disponible), ou vous pouvez vous rendre directement au service d'urbanisme de la mairie.</p>
             
            </div>
            

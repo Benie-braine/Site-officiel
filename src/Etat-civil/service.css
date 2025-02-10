@@ -1,19 +1,18 @@
-.mere1 {
+.mere1ser {
     display: flex;
-    justify-content: center;
-    width:  100%;
+    width:  90%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    margin-bottom: 5%;
     margin-top: 5%;
+    justify-content: center;
     gap: 10px; /* Diminuez encore cette valeur pour rapprocher les images */
 }
 
 .bloc1 , .bloc2 {
     margin: 0 5px; /* Réduit davantage l'espacement horizontal */
-    justify-content: center;  
     width: 40%;
-    align-items: center;
     overflow: hidden;
     justify-content: center;
 }
@@ -36,7 +35,7 @@ height:  30%;
 .service-button {
     background-color: #1B3D71;
     color: white;
-    padding: 15px 250px; /* Augmente la taille du bouton */
+    padding: 2px 170px; /* Augmente la taille du bouton */
     border: none;
     border-radius: 4px; /* Ajout de coins légèrement arrondis */
     cursor: pointer;
@@ -44,16 +43,25 @@ height:  30%;
     transition: background-color 0.3s;
     width: 100%;
 }
+.service-button p{
+    text-align: center;
+    margin-bottom: 5px;
+}
 .service-button2 {
     background-color: #1B3D71;
     color: white;
-    padding: 15px 250px; /* Augmente la taille du bouton */
+    padding: 2px 170px; /* Augmente la taille du bouton */
     border: none;
     border-radius: 4px; /* Ajout de coins légèrement arrondis */
     cursor: pointer;
     font-size: 20px; /* Augmente la taille de la police */
     transition: background-color 0.3s;
-    width: 96%;
+    width: 95%;
+}
+.service-button2 p{
+    text-align: center;
+    margin-bottom: 5px;
+
 }
 .service-button2:hover {
     background-color: #f2f5f8;

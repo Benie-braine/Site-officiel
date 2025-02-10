@@ -1,69 +1,65 @@
-.container2{
+.containeretc{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;    
     margin-top:4%;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
 }
-    .barret{
+    .barreetc{
         display: block;  
         width: 10%;
     }
-    .trait1{
+    .trait1etc{
         width: 50%;
         height: 5px;
-        margin-left: 12px;
+        margin-left: 14px;
         background-color: #1B3D71;
         margin-bottom: 5px;
     }
-    .tiret2{
-        width: 70%;
+    .tiret2etc{
+        width: 75%;
         height: 5px;
         background-color: #1B3D71;
     }
-    .sous-titre{
+    .sous-titreetc{
         color: #1B3D71;
-        margin-right: 3%;
         font-weight: bold;
     }
-    .tiret h1{
+    .tiretetc h1{
         font-weight: bold;
         margin-bottom: 15px;
-        margin-right: 20px;
+        margin-right: 10px;
     }
-    .tiret{
-        width: 49%;
+    .tiretetc{
+        width: 60%;
         margin-top: 14px;
         height: 2px;
         background-color: #1B3D71;
     }
     
-.rectangle-blanc {
+
+.civiltexte{
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:2%;
+    text-align: start;
+    box-shadow: 0 4px 8px rgba(136, 85, 85, 0.2); 
     background-color: white;
-    padding: 20px;
-    margin-top: 100px; 
     border-radius: 15px; 
-    text-align: justify;
-    width: 100%; 
-    max-width:  70%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
-.rectangle-blanc ul  {
-    color: #333;
-    font-size: 30px;
-    text-align: left; 
-    text-align: justify;
-    line-height: 1.5;
-    padding: 0 20px; 
+    padding:20px;
+
 
 }
-.rectangle-blanc  li {
-    color: #333;
-    font-size: 30px;
-    text-align: left; 
-    text-align: justify;
-    line-height: 1.5;
-    padding: 0 20px; 
+.civiltexte p{
+    font-size:20px;
+}
 
+.civiltexte  li {
+   
+font-weight: bold;
+color: gray;
+margin-top:20px;
 }

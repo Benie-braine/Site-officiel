@@ -1,43 +1,19 @@
-// src/components/Header.js
 import React from 'react';
 import './Headertech.css';
-import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined';
- 
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward'; // Import de l'icône de flèche
 
-function Headertech() {
-  return (
-    <header className='bg1'
-      style={{
-        position: 'relative',
-        height: '500px', // Ajustez la hauteur si nécessaire
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
-      {/* Bouton flottant rectangulaire centré */}
-      <div className='flotant'
-        variant="contained"
-        color= '#1B3D71;'
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          width: '49%',
-          height: '25%',
-          transform: 'translate(-50%, -50%)', // Centrage du bouton
-          padding: '10px 20px',               // Dimensions du bouton rectangulaire
-          backgroundColor: 'white',
-          borderRadius: '5px',           
-        }}
-      >
-        <div className='enfant-bleu'><h6 className='h3-enfant-bleus'>Accueil <ArrowRightAltOutlinedIcon/> Service-technique </h6></div>
-        <h1 className='service-technique'>SERVICE TECHNIQUE</h1>
-      </div>
-    </header>
-  );
-}
+const Headertech = () => {
+    return (
+        <div className='mairie1tec'>
+            
+            <div className="boutton-containertec">
+                <div className='buttec'>
+             <button className="bouttontec">ACCUEIL<ArrowForwardIcon className="arrow-icon" />SERVICE TECHNIQUE</button>
+             <h1>TECHNIQUE</h1> 
+            </div>
+            </div>
+        </div>
+    );
+};
 
 export default Headertech;

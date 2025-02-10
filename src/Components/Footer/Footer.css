@@ -37,6 +37,7 @@
 }
 .footer-links a :hover{
   color:yellow;
+  text-decoration: underline;
 }
 
 .footer-button {
@@ -97,6 +98,7 @@
 
 .subscribe-button:hover {
   background-color: yellow;
+  
 }
 
 /* Responsive styles */

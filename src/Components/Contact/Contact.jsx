@@ -2,9 +2,9 @@ import React from 'react';
 import './Contact.css';
 import {Link} from 'react-router-dom';
 import AgendaImage from '../../Images/Agenda.png';
-import numeroImage from '../../Images/numero.jpeg';
+import numeroImage from '../../Images/NumeroUtile.jpeg';
 import CDQImage from '../../Images/CDQ.jpg';
-import galerieImage from '../../Images/galerie.jpeg';
+import galerieImage from '../../Images/Galerie2.jpeg';
 import MARIAGEImage from '../../Images/MARIAGE.jpg';
 
 const Contact = () => {
@@ -29,14 +29,14 @@ const Contact = () => {
                     </Link>
                 </div>
                 <div className="card1al">
-                    <Link to='/numeros-utiles'>
-                    <img src={numeroImage} alt="numero" />
+                    <Link to='/numerosutiles'>
+                    <img src={numeroImage} alt="NumeroUtile" />
                     <h2>Numeros utiles </h2>
                     </Link>
                 </div>
                 <div className="card1al">
                     <Link to='/galerie'>
-                    <img src={galerieImage} alt="galerie" />
+                    <img src={galerieImage} alt="Galerie2" />
                     <h2>Galerie</h2>
                     </Link>
                 </div>

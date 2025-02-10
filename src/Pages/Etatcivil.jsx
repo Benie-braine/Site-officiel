@@ -20,8 +20,8 @@ function Etatcivil() {
       <Actualitécivil />
       <Service/>
       <Contact/>
-     <Footer/>
-     <Footerbas/>
+      <Footer/>
+      <Footerbas/>
     </>
   );
 }

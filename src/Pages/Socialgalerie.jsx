@@ -18,7 +18,7 @@ function Socialgalerie() {
       <Voirplus/>
       <Boutonretour2/>
       <Contact/>
-      < Footer />
+      <Footer/>
       <Footerbas/>
 
     
