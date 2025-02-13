@@ -1,18 +1,16 @@
 
     /* src/components/Text.css */
-    .tex-comite{
+    .texte-comite{
       text-align: center;         /* Centre le texte */
-      padding: 15px;              /* Ajoute de l'espace autour du texte */
+      padding: 10px;              /* Ajoute de l'espace autour du texte */
       background-color: #ffffff;  /* Couleur de fond légère */
       border-radius: 4px;         /* Arrondit les coins */
       max-width: 85%;           /* Limite la largeur pour une meilleure lisibilité */
       margin: auto;             /* Centre le div horizontalement */
       box-shadow: 0 1px 3px rgba(2, 2, 2, 2.2); /* Ajoute une ombre */
-      margin-top: 1%;
+      margin-top: 2%;
       text-align: center;
-      font-weight: bold;
-      font-size:30;
-      padding: auto;
+      font-size:24px;
       color: rgb(63, 63, 63);
     }
   
@@ -76,14 +74,14 @@
         font-size:12px;
         padding: auto;
           }
-      
+          
         
      .enfant-text-comite1{
       color: #1B3D71;
-      font-weight: lighter;
+      font-weight: bold;
       margin-top: 2%;
       margin-left: 2%;
-      font-size: 1;
+      font-size: 20px;
       }
     
       .trait-comite2{
