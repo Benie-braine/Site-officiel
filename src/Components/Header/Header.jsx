@@ -53,13 +53,13 @@ const Header = () => {
     };
 
     return (
-        <div className='mairie'>
-            <div className='mere-search'>
-                <div className="search-container">
+        <div className='mairiea'>
+            <div className='mere-searcha'>
+                <div className="search-containera">
                     <input 
                         type="text" 
                         placeholder="Rechercher..." 
-                        className="search-input" 
+                        className="search-inputa" 
                         value={searchTerm}
                         onChange={handleSearch}
                     />
@@ -80,7 +80,7 @@ const Header = () => {
                 )}
             </div>
 
-            <div className="button-containers">
+            <div className="button-containersa">
                 <div className="buttons-left">
                     <Link to='/Etatcivil'><button className="button">SERVICE ETAT CIVIL<ArrowForwardIcon className="arrow-icon" /></button></Link>
                     <Link to='/technique'><button className="button">SERVICE TECHNIQUE<ArrowForwardIcon className="arrow-icon" /></button></Link>

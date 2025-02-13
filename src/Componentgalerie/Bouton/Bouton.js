@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Bouton() {
   return (
     <div className="updated-button-wrapper">
-      <h1 className='R1'><strong> Rubriques</strong></h1>
+      <h1 className='r1'><strong> Rubriques</strong></h1>
       <div className="updated-button-container">
         <Link to='/service'>
           <Button variant="primary" size="lg" className="updated-custom-button">

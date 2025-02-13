@@ -1,4 +1,4 @@
-.mairie {
+.mairiea {
   background-image: url('../../Images/Mairie de.jpg');
   height: 100vh;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.search-container {
+.search-containera {
   display: flex;
   align-items: center;
   background-color: white;
@@ -23,7 +23,7 @@
   margin-bottom: 20px; /* Espace entre la barre de recherche et les boutons */
 }
 
-.search-input {
+.search-inputa {
   flex-grow: 1;
   border: none;
   outline: none;
@@ -60,7 +60,7 @@
   background-color: #f0f0f0;
 }
 
-.button-containers {
+.button-containersa {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -158,7 +158,7 @@
     margin-left:41px;
   }
 
-  .search-container {
+  .search-containera {
     width: 80%; /* La barre de recherche occupe tout l'espace disponible */
     margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
   }
@@ -174,7 +174,7 @@
     align-items: center;
     display: flex;
   }
-  .button-containers {
+  .button-containersa {
     align-items: center;
     flex-direction:column;
     justify-content: center;
@@ -201,7 +201,7 @@
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:100%;
   }
-  .mairie {
+  .mairiea {
     justify-content: flex-start; /* Commence plus haut sur l'écran */
     padding-top: 20px; /* Ajoute un peu d'espace en haut */
     height: 80vh;
@@ -221,7 +221,7 @@
     font-size: 16px;
   }
 
-  .search-container {
+  .search-containera {
     width: 80%; /* La barre de recherche occupe tout l'espace disponible */
     margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
   }
@@ -239,7 +239,7 @@
     margin-top: 50px;
 
   }
-  .button-containers {
+  .button-containersa {
     align-items: center;
     justify-content: center;
     flex-direction:column;
@@ -273,7 +273,7 @@
     height: 10px;
     margin-left:20%;
   }
-  .mairie {
+  .mairiea {
     justify-content: flex-start; /* Commence plus haut sur l'écran */
     padding-top: 20px; /* Ajoute un peu d'espace en haut */
   }

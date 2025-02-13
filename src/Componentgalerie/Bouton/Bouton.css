@@ -3,10 +3,8 @@
 .updated-button-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
   padding: 20px;
-  margin-left: 80px;
+  align-items:center;
 }
 .updated-button-wrapper a{
   text-decoration: none;
@@ -16,8 +14,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px; /* Espace entre les boutons */
-  margin-bottom: auto;
-  margin-left: 50px;
 }
 
 .updated-custom-button, .updated-custom-retour {
@@ -48,12 +44,12 @@
   border: 2px solid #1B3D71; /* Bordure */
 }
 
-.updated-back-button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: auto;
+.updated-custom-button{
+  width:70vw;
 }
-
+.r1{
+  text-align:center;
+}
 /* Butonbackgal.css */
 
 .Butonbackgal {
@@ -94,29 +90,45 @@
 
 /* Responsive styles */
 @media (max-width: 576px) {
-  .Butonbackgal {
+  .updated-button-wrapper {
     display: flex;
-    justify-content: space-around;
-    margin-top: 3%;
-    width: 80%;
+    flex-direction: column;
+    padding: 20px;
+    align-items:center;
+  }
+  .updated-button-wrapper a{
+    text-decoration: none;
+  }
+  
+  .updated-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espace entre les boutons */
+  }
+  
+  
+  
+  .updated-circle-arrow {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px; /* Taille du cercle */
+    height: 25px; /* Taille du cercle */
+    border-radius: 50%; /* Cercle */
+    background-color: #ffff; /* Couleur de fond du cercle */
+    color: #1B3D71; /* Couleur de l'icône */
+    font-size: 16px; /* Taille de l'icône */
+    border: 2px solid #1B3D71; /* Bordure */
+  }
+  
+ 
+  
+  .R1 { margin-left: 70px;
+    font-size: 30px;
+  
+  
   }
 
-  .Butonbackgal22, .Butonbackgal44 {
-    width: 100%;
-    height: 30px;
-    font-size: 10px;
-    border: none;
-    cursor: pointer;
-    background-color: #1B3D71;
-    color: white;
-    border-radius: 5px;
-    margin: 10px;
-    transition: background-color 0.3s ease;
-  }
-
-  .Butonbackgal33 {
-    margin-right: 25px; /* Espace entre la flèche et le texte */
-  }
 }
 
 
