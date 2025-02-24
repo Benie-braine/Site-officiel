@@ -65,11 +65,14 @@
   @media (max-width: 480px) {
     .block1aide-social, .block2aide-social, .block3aide-social {
       grid-template-columns: 1fr; /* Une colonne sur mobile */
+      margin-left: auto;
+      margin-right: auto;
     }
   
     .cardAaide-social img {
       width: 90%; /* Ajuste la taille de l'image pour petits écrans */
       height: auto; /* Conserve les proportions */
     }
+  
   }
   

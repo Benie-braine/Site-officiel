@@ -1,22 +1,30 @@
 .container3{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;    
     margin-top:4%;
+    width: 100%;
+}
+.mere3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
     .barrets3{
         display: block;  
         width: 10%;
+        height: 5px;
+        align-items: center;
     }
     .trait3{
         width: 20%;
         height: 5px;
-        margin-left: 5px;
         background-color: #1B3D71;
         margin-bottom: 5px;
+       margin-left: 15%;
     }
-    .tiret3{
-        width: 70%;
+    .tiret3a{
+        width: 50%;
         height: 5px;
         background-color: #1B3D71;
     }
@@ -24,15 +32,14 @@
         color: #1B3D71;
         margin-right: 1%;
         font-weight: bold;
+        margin-bottom: 5px;
+        font-size: 40px;
+        
     }
-    .tiret3 h2{
-        font-weight: bold;
-        margin-bottom: 15px;
-        margin-right: 20px;
-    }
+    
     .tiret3{
-        width: 49%;
-        margin-top: 14px;
+        width: 69%;
+        margin-top: 25px;
         height: 2px;
         background-color: #1B3D71;
     }
@@ -40,18 +47,17 @@
 .rectangle-blanc3 {
     background-color: white;
     padding: 20px;
-    margin-top: 100px; 
+    margin-top: 1%; 
     border-radius: 15px; 
     text-align: justify;
-    width: 100%; 
-    max-width:  70%;
+    width: 80%; 
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 .rectangle-blanc3 ul  {
-    color: #333;
-    font-size: 30px;
+    color: gray;
+    font-size: 24px;
     text-align: left; 
     text-align: justify;
     line-height: 1.5;
@@ -60,10 +66,87 @@
 }
 .rectangle-blanc  li {
     color: #333;
-    font-size: 30px;
+    font-size: 24px;
     text-align: left; 
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1;
     padding: 0 20px; 
 
 }
+
+
+@media (max-width: 768px) {
+ 
+    .container3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+        margin-top:4%;
+        width: 100%;
+    }
+    .mere3{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .barrets3{
+            display: block;  
+            width: 10%;
+            height: 5px;
+            align-items: center;
+        }
+        .trait3{
+            width: 20%;
+            height: 5px;
+            background-color: #1B3D71;
+            margin-bottom: 5px;
+           margin-left: 25%;
+        }
+        .tiret3a{
+            width: 70%;
+            height: 5px;
+            background-color: #1B3D71;
+        }
+        .sous-titre3{
+            color: #1B3D71;
+            margin-top: 20px;
+            font-size:30px;
+        }
+      
+        .tiret3{
+            width: 40%;
+            margin-top: 25px;
+            height: 2px;
+            background-color: #1B3D71;
+        }
+        
+    .rectangle-blanc3 {
+        background-color: white;
+        padding: 20px;
+        margin-top: 1%; 
+        border-radius: 15px; 
+        text-align: justify;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    .rectangle-blanc3 ul  {
+        color: gray;
+        font-size: 12px;
+        text-align: left; 
+        text-align: justify;
+        line-height: 1.5;
+        padding: 0 20px; 
+    
+    }
+    .rectangle-blanc  li {
+        color: #333;
+        font-size: 12px;
+        text-align: left; 
+        text-align: justify;
+        line-height: 1;
+        padding: 0 20px; 
+    
+    }
+  }

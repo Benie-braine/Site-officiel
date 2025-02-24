@@ -22,7 +22,7 @@ export default function MediaCard() {
     >
       <Card
         sx={{
-          width: 1485, // Largeur augmentée
+          width: 1080, // Largeur augmentée
           height: 800, // Hauteur augmentée
           boxShadow: 3, // Ajout d'une ombre pour un effet esthétique
           borderRadius: 2, // Coins légèrement arrondis
@@ -53,10 +53,10 @@ export default function MediaCard() {
             variant="h6" // Texte plus grand
             sx={{
               color: 'text.secondary',
-              lineHeight: 1.6, // Améliore la lisibilité
+              lineHeight: 1, // Améliore la lisibilité
             }}
           >
-            Vous avez un acte de naissance à légaliser ? <br />
+            Vous avez un acte de naissance à légaliser ?
             Suivez ces étapes simples pour une procédure rapide à la Mairie du
             2e Arrondissement.
           </Typography>

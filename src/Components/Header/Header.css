@@ -112,9 +112,11 @@
 }
 .buttons-left a{
   text-decoration: none;
+  width: 10%;
 }
 .buttons-right a{
   text-decoration: none;
+  width: 10%;
 }
 
 .button:hover {
@@ -150,16 +152,19 @@
   .buttons-left .button {
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+    margin-left: auto;
+    margin-right: auto;
   }
   .buttons-right .button {
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
-    margin-top:-15px;
-    margin-left:41px;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
   }
 
   .search-containera {
-    width: 80%; /* La barre de recherche occupe tout l'espace disponible */
+    width: 100%; /* La barre de recherche occupe tout l'espace disponible */
     margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
   }
   .search-input{
@@ -196,6 +201,7 @@
   .buttons-left a{
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:100%;
+    text-align: center;
   }
   .buttons-right a{
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
@@ -216,13 +222,13 @@
   
   .button {
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
-    width:80%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
+    width:90%; /* Largeur relative pour mieux s'adapter à l'écran mobile */
     height: 45px;
     font-size: 16px;
   }
 
   .search-containera {
-    width: 80%; /* La barre de recherche occupe tout l'espace disponible */
+    width: 100%; /* La barre de recherche occupe tout l'espace disponible */
     margin-bottom: 10px; /* Moins d'espace entre la barre de recherche et les boutons */
   }
   .search-input{
@@ -253,19 +259,22 @@
     {
     margin: 0; /* Supprimer les marges inutiles */
     width: 100%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .buttons-left 
   {
   margin: 0; /* Supprimer les marges inutiles */
   width: 100%;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
   .buttons-left a{
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */
     width:100%;
-    margin-left:20%;
     height: 60px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .buttons-right a{
     font-size: 10px; /* Réduction de la taille du texte dans les boutons */

@@ -8,7 +8,7 @@ const HeaderUrb = () => {
             
             <div className="boutton-container">
                 <div className='but'>
-             <button className="boutton">ACCUEIL<ArrowForwardIcon className="arrow-icon" />URBANISME</button>
+             <button  className="bouttone">ACCUEIL<ArrowForwardIcon className="arrow-icon" />URBANISME</button>
              <h1>URBANISME</h1> 
             </div>
             </div>
