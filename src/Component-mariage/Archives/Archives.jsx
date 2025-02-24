@@ -1,6 +1,5 @@
 import React from 'react';
 import './Archives.css';
-import ChevronLefttIcon from '@mui/icons-material/ChevronLeft';
 
 
 function Photos() {
@@ -37,9 +36,7 @@ function Photos() {
    </div>
    </div>
 
-   <div className='buton'><button className='corp-buton' type="button">
-    <h7> <ChevronLefttIcon/>page-precedente</h7></button>
-    </div>
+   
 
    </div>
   );

@@ -10,8 +10,8 @@ function Headertrans() {
             
         <div className="boutton-container13">
             <div className='butT'>
-            <button className="boutton13">ACCUEIL<ArrowForwardIcon className="arrow-icon" />ETAT-CIVIL<ArrowForwardIcon className="arrow-icon1" />TRANSCRIPTION</button>
-         <h2>TRANSCRIPTION</h2> 
+            <button className="boutton13">ETAT-CIVIL<ArrowForwardIcon className="arrow-icon1" />TRANSCRIPTION</button>
+         <h1>TRANSCRIPTION</h1> 
         </div>
         </div>
     </div>

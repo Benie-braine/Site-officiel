@@ -18,7 +18,7 @@
     background-color:white;
     border-radius: 8px;
     opacity: 0.8;
-    height: 30%;
+    height: 35%;
     overflow: hidden;
   }
   .but h1{
@@ -28,7 +28,7 @@
   }
  
   
-  .boutton {
+  .bouttone {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Espace entre le texte et l'icône */
@@ -45,7 +45,7 @@
     font-weight: bold;
   }
   
-  .boutton:hover {
+  .bouttone:hover {
     background-color: #1B3D71;
     color:white;
   }
@@ -70,14 +70,14 @@
     opacity: 0.8;
   }
   .but h1{
-    font-size: 20px;
+    font-size: 30px;
     color:#1B3D71;
     font-weight: bold;
     text-align: center;
   }
  
   
-  .boutton {
+  .bouttone {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Espace entre le texte et l'icône */
@@ -90,11 +90,11 @@
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    width: 70VW; /* Largeur fixe pour aligner les boutons */
+    width: 60VW; /* Largeur fixe pour aligner les boutons */
     font-weight: bold;
   }
   
-  .boutton:hover {
+  .bouttone:hover {
     background-color: #1B3D71;
     color:white;
   }
@@ -108,7 +108,7 @@
   
     .mairie1 {
       background-image: url('../../Images/eclairage.jpg');
-      height: 80vh;
+      height: 50vh;
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
@@ -125,7 +125,7 @@
     text-align:center;
     width: 70%;
     background-color:white;
-    height: 15%;
+    height: 25%;
     border-radius: 8px;
     opacity: 0.8;
   }

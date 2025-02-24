@@ -11,8 +11,8 @@ const AproposUrb= () => {
             <div className='trait1'></div>
             <div className='trait2'></div>
             </div>
-            <div className='titreurb'>
-                <h1>A PROPOS</h1>
+            <div className='titreurbu'>
+                <h1 style={{color:'#1B3D71'}}>A PROPOS</h1>
             </div>
             <div className='ligne5'>
             </div>

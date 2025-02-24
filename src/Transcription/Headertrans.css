@@ -10,9 +10,6 @@
   align-items: center;
 }
 
-
-
-
 .boutton-container13 {
   display: flex;
   justify-content: center;
@@ -24,7 +21,7 @@
   opacity: 0.8;
   overflow: hidden;
 }
-.butT h2{
+.butT h1{
   font-size: 60px;
   color:#1B3D71;
   font-weight: bold;
@@ -63,21 +60,32 @@
 /* Styles spécifiques pour la version mobile */
 @media (max-width: 768px) {
  
+  .main13 {
+    background-image: url('../Images/photo-main.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+  }
 
 .boutton-container13 {
   display: flex;
   justify-content: center;
   text-align:center;
-  width: 80%;
+  width: 90%;
   background-color:white;
-  height: 14%;
+  height: 26%;
   border-radius: 8px;
   opacity: 0.8;
 }
-.butT h2{
-  font-size: 20px;
+.butT h1{
   color:#1B3D71;
   font-weight: bold;
+  font-size: 30px;
 }
 
 
@@ -94,7 +102,7 @@
   border-radius: 2px;
   cursor: pointer;
   text-align: center;
-  width: 60VW; /* Largeur fixe pour aligner les boutons */
+  width: 75VW; /* Largeur fixe pour aligner les boutons */
   font-weight: bold;
 }
 
@@ -107,53 +115,4 @@
   margin-left: 8px; /* Espace entre le texte du bouton et l'icône */
 }
 
-}
-@media (max-width: 420px) {
-  
- 
-
-.boutton-container13 {
-  display: flex;
-  justify-content: center;
-  text-align:center;
-  width: 70%;
-  background-color:white;
-  height: 14%;
-  border-radius: 8px;
-  opacity: 0.8;
-}
-.butT h2{
-  font-size: 20px;
-  color:#1B3D71;
-  font-weight: bold;
-}
-
-
-.boutton13 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Espace entre le texte et l'icône */
-  height: 40px;
-  margin: 10px 8px;
-  padding: 0 10px;
-  background-color: #1B3D71;
-  color:white ;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-  text-align: center;
-  width: 51vw; /* Largeur fixe pour aligner les boutons */
-  font-weight: bold;
-}
-
-.boutton13:hover {
-  background-color: #1B3D71;
-  color:white;
-}
-
-.arrow-icon {
-  margin-left: 8px; /* Espace entre le texte du bouton et l'icône */
-}
-
- 
 }

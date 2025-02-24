@@ -10,9 +10,9 @@ function Headeraide() {
     <div className="boutton-container1aidesocial">
         <div className='buts aidesocial'>
             <button className="boutton2aidesocial">
-                ACCUEIL<ArrowForwardIcon className="arrow-iconaidesocial" />AIDE-SOCIAL
+                SERVICE SOCIAL<ArrowForwardIcon className="arrow-iconaidesocial" />AIDE SOCIALE
             </button>
-            <h2 className="aidesocial1">AIDE-SOCIAL</h2>
+            <h2 className="aidesocial1">AIDE SOCIALE</h2>
         </div>
     </div>
 </div>

@@ -4,7 +4,6 @@
   width: 100%;
   margin: 0 auto;
   padding: 35px 0;
-  justify-content: space-between;
   justify-content: space-around;
 }
 
@@ -16,11 +15,12 @@ flex-direction: column;
 box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2); /* Ombre bleutée subtile */
 width: 80%;
 border-radius: 7px;
-margin-left: 10%;
+margin-right: auto;
+margin-left: auto;
 }
 
 .travauxx{
-  color: #062970;
+  color: #1B3D71;
   font-family: sans-serif;
   font-weight: bold;
   font-size: 1.4rem;
@@ -53,13 +53,14 @@ margin-left: 10%;
 .slick-next {
   width: 40px;
   height: 40px;
-  color: #0000FF; /* Bleu pour les flèches */
-  background-color: white;
+  color: #FFFFFF; /* Bleu pour les flèches */
+  background-color:#1B3D71;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2);
   display: flex !important;
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
 
 .slick-prev:hover,
@@ -81,7 +82,7 @@ margin-left: 10%;
 
 
   .slider-container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     padding: 35px 0;
     justify-content: space-between;
@@ -119,7 +120,6 @@ margin-left: 10%;
   .slick-slide img {
     width: 95%;
     height: 210px; /* Hauteur fixe pour uniformiser les images */
-    max-width: 300px; /* Largeur maximale pour les images */
     object-fit: cover; /* Recadre l'image pour remplir le conteneur */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2); /* Ombre bleutée subtile */
@@ -131,17 +131,18 @@ margin-left: 10%;
   }
   
   .slick-prev,
-  .slick-next {
-    width: 40px;
-    height: 40px;
-    color: #0000FF; /* Bleu pour les flèches */
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2);
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
+.slick-next {
+  width: 40px;
+  height: 40px;
+  color: #FFFFFF; /* Bleu pour les flèches */
+  background-color:#1B3D71;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2);
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
   
   .slick-prev:hover,
   .slick-next:hover {

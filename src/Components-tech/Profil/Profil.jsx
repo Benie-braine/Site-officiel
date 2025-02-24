@@ -15,10 +15,11 @@ const Profil = () => {
         boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',  // Ombre portée
         borderRadius: '10px',             // Coins arrondis
         backgroundColor: '#ffffff',       // Couleur de fond douce
-        width:'75%',
+        width:'80%',
         marginTop:'4%',
         margin:'2.5%',
-        marginLeft:'11.5%',
+        marginLeft:'auto',
+        marginRight:'auto',
       }}
     >
       {/* Premier Paper */}
