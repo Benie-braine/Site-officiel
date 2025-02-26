@@ -20,73 +20,68 @@ import mariage35 from '../../Images/mariage gal/mariage35.jpg';
 const Cartephoto2024 = () => {
     return (
         <div className="Cartephotos-container2">
-            <div className='container24'>
-                <div className='barre24'>
-                    <div className='trait24s'></div>
-                    <div className='trait24s'></div>
-                   
-                </div>
-            </div>
+           
+            
 
             <div className="cards1-container2024">
-                <div className="card30">
+                <div className="card24p">
 
                     <img src={mariage20} alt="" />
                 </div>
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage22} alt="" />
                 </div>
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage23} alt="" />
                 </div>
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage24} alt="" />
                 </div>
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage25} alt="" />
                 </div>
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage26} alt="" />
                 </div>
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage27} alt="" />
                 </div>
                  
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage28} alt="" />
                 </div>
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage29} alt="" />
                 </div>
                 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage30} alt="" />
                 </div>
                  
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage31} alt="" />
                 </div>
                   
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage32} alt="" />
                 </div>
                    
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage36} alt="" />
                 </div>
                      
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage34} alt="" />
                 </div>  
 
-                <div className="card24">
+                <div className="card24p">
                     <img src={mariage35} alt="" />
                 </div>
 

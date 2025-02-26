@@ -31,9 +31,10 @@
 .titrepas h1{
     color: #1B3D71;
     font-weight: bold;
+    font-size: 30px;
 }
 .ligne5pas{
-    width: 47%;
+    width: 54%;
     margin-top: 20px;
     height: 2px;
     background-color: #1B3D71;

@@ -2,7 +2,7 @@
 
 .header-containerga {
     width: 100%; /* Prend toute la largeur disponible */
-    height: 500px; /* Hauteur définie pour ton en-tête */
+    height: 80vh; /* Hauteur définie pour ton en-tête */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,17 +17,18 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 60%;
+    width: 40%;
     background-color: white;
     border-radius: 8px;
     opacity: 0.8;
     height: 30%;
     overflow: hidden;
     margin-top: 20%;
+    
   }
   
-  .butga1 h1 {
-    font-size: 60px;
+  .techserv {
+    font-size: 40px;
     color: #1B3D71;
     font-weight: bold;
     text-align: center;
@@ -48,7 +49,8 @@
     text-align: center;
     width: 25vw; /* Largeur fixe pour aligner les boutons */
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .bouttonga1:hover {
@@ -63,31 +65,52 @@
   /* Media queries pour les petits écrans */
   @media (max-width: 768px) {
     .header-containerga {
-      height: 400px; /* Ajuste la hauteur pour les petits écrans */
+      height: 50vh; /* Ajuste la hauteur pour les petits écrans */
     }
   
     .boutton-containerga1 {
-      width: 80%; /* Réduit la largeur pour les petits écrans */
-      margin-top: 10%; /* Ajuste la marge pour les petits écrans */
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 90%;
+      background-color: white;
+      border-radius: 8px;
+      opacity: 0.8;
+      height: 30%;
+      overflow: hidden;
+      margin-top: 30%;
+      
     }
-  
-    .butga1 h1 {
-      font-size: 40px; /* Réduit la taille de la police pour les petits écrans */
+    .techserv {
+      font-size: 30px;
+      color: #1B3D71;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 3%;
     }
+    
+  .bouttonga1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espace entre le texte et l'icône */
+    height: 40px;
+    margin: 10px 8px;
+    padding: 0 10px;
+    background-color: #1B3D71;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    width: 78vw; /* Largeur fixe pour aligner les boutons */
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  @media (max-width: 480px) {
-    .header-containerga {
-      height: 300px; /* Ajuste la hauteur pour les très petits écrans */
-    }
-  
-    .boutton-containerga1 {
-      width: 90%; /* Prend toute la largeur disponible */
-      margin-top: 5%; /* Ajuste la marge pour les très petits écrans */
-    }
-  
-    .butga1 h1 {
-      font-size: 30px; /* Réduit encore la taille de la police */
-    }
+  .bouttonga1:hover {
+    background-color: #13345A;
+    color: white;
+  }
   }
   

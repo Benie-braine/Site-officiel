@@ -9,8 +9,8 @@ function Cultureheader() {
         <div className="boutton-containerga26">
                 <div className='butga26'>
                   
-             <button className="bouttonga26">ACCUEIL<ArrowForwardIcon className="1arrow-icon" />Culture et Sport</button>
-             <h1>Culture et Sport</h1> 
+             <button className="bouttonga26">GALERIE<ArrowForwardIcon className="1arrow-icon" />CULTURE ET SPORT</button>
+             <h1>CULTURE ET SPORT</h1> 
             </div>
             </div>
     </div>

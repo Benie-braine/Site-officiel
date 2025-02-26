@@ -31,9 +31,10 @@
 .titrecd h1{
     color: #1B3D71;
     font-weight: bold;
+    font-size: 30px;
 }
 .ligne5cd{
-    width: 23%;
+    width: 36%;
     margin-top: 20px;
     height: 2px;
     background-color: #1B3D71;

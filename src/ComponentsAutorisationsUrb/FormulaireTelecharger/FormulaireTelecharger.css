@@ -31,9 +31,10 @@
 .titreft h1{
     color: #1B3D71;
     font-weight: bold;
+    font-size: 30px;
 }
 .ligne5ft{
-    width: 5%;
+    width: 20%;
     margin-top: 20px;
     height: 2px;
     background-color: #1B3D71;

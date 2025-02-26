@@ -29,7 +29,7 @@
 }
 
 .trait-projet2-refect{
-  width: 30%;
+  width: 15%;
   height: 4px;
   background-color: #1B3D71;
   margin-top: 3%;
@@ -37,13 +37,13 @@
 }
 
 .projet-text-refect {
-  font-size: 1.6rem;
+  font-size: 30px;
   margin-bottom: 20px;
   margin-top: 30px;
   color: #1B3D71;
   font-weight: bold;
   text-align: left;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
 .projet-card-refect {
@@ -65,16 +65,12 @@
   flex-direction: column;
 }
 
-.projet-texts-refect h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: yellow;
-}
+
 
 .projet-texts-refect p {
-  font-size: 1.2rem;
+  font-size: 20px;
   line-height: 1.6;
-  color: rgb(31, 30, 30);
+  color: gray;
 }
 
 

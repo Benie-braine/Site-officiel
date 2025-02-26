@@ -21,13 +21,7 @@ import cdq15 from '../../Images/cdq photos/cdq15.jpg';
 const Cartescdq2 = () => {
     return (
         <div className="Cartescdq-container">
-            <div className='container12'>
-                <div className='barrecdq'>
-                    <div className='traitcdqs'></div>
-                    <div className='traitcdq'></div>
-                   
-                </div>
-            </div>
+           
 
             <div className="cardscdq-container2">
                 <div className="card1cdq">

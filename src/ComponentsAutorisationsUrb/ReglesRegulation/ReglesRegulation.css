@@ -31,9 +31,10 @@
 .titrerr h1{
     color: #1B3D71;
     font-weight: bold;
+    font-size: 30px;
 }
 .ligne5rr{
-    width: 20%;
+    width: 30%;
     margin-top: 20px;
     height: 2px;
     background-color: #1B3D71;

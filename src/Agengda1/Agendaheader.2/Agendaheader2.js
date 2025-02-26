@@ -7,10 +7,10 @@ function Agendaheader2() {
   return (
     <div className="header-containerga12">
         <div className="boutton-containerga12">
-                <div className='butga1'>
+                <div className='butga12'>
                   
-             <button className="bouttonga12">ACCUEIL<ArrowForwardIcon className="1arrow-icon" />Agenda</button>
-             <h1>Agenda</h1> 
+             <button className="bouttonga12">ACCUEIL<ArrowForwardIcon className="1arrow-icon" />AGENDA</button>
+             <h1>AGENDA</h1> 
             </div>
             </div>
     </div>

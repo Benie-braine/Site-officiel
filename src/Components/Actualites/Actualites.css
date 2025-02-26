@@ -22,14 +22,15 @@
     background-color: #1B3D71;
 }
 .titre{
-    color: #1B3D71;
     margin-right: 3%;
     font-weight: bold;
 }
 .titres h1{
     font-weight: bold;
+    color: #1B3D71;
     margin-bottom: 15px;
     margin-right: 20px;
+    font-size: 30px;
 }
 .lignes55{
     width: 69%;

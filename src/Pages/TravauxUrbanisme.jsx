@@ -4,7 +4,7 @@ import HeaderTravauxUrb from '../ComponentsTravauxUrb/HeaderTravauxUrb/HeaderTra
 import TitreTravauxUrb from '../ComponentsTravauxUrb/TitreTravauxUrb/TitreTravauxUrb';
 import TitreEncours from '../ComponentsTravauxUrb/TitreEncours/TitreEncours';
 import TitreAvenir from '../ComponentsTravauxUrb/TitreAvenir/TitreAvenir';
-import Boutonturb from '../ComponentsTravauxUrb/Boutonturb/Boutonturb';
+import Boutonturb from '../ComponentsReglesUrb/ButtonUrb/ButtonUrb';
 import Footer from '../Components/Footer/Footer';
 import Footerbas from '../Components/Footerbas/Footerbas';
 

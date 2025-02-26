@@ -5,6 +5,9 @@
   flex-direction: column;
   padding: 20px;
   align-items:center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .updated-button-wrapper a{
   text-decoration: none;
@@ -45,7 +48,7 @@
 }
 
 .updated-custom-button{
-  width:70vw;
+  width:80vw;
 }
 .r1{
   text-align:center;
@@ -95,6 +98,9 @@
     flex-direction: column;
     padding: 20px;
     align-items:center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .updated-button-wrapper a{
     text-decoration: none;

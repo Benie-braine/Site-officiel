@@ -1,11 +1,10 @@
 .box-boss {
   display: flex;
   margin: auto;
-  max-width: 80%;
-  align-items: center;
-  justify-content: center;
+  max-width: 90%;
   margin-top: 2%;
-  margin-left: 4%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .archive-mother{
@@ -13,8 +12,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 12%;
   overflow: hidden;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .buton{
@@ -39,7 +40,7 @@
   flex-direction: column;
   flex: 2;
   justify-content: space-between;
-  margin-top:6.3%;
+  margin-top:6.4%;
   overflow: hidden;
 }
 
@@ -48,12 +49,11 @@
   font-family: sans-serif;
   font-weight: bold;
   float: left;
-  font: 1.4rem sans-serif;
+  font-size: 20px;
 }
 
 .archive2{
   width: 50%;
-  height: auto;
   object-fit: cover;
 }
 
@@ -63,9 +63,9 @@ width: 100%;
 
   @media (max-width:560px) {
     .box-boss {
-      display: flex;
+      display: block;
       margin: auto;
-      max-width: 100%;
+      max-width: 90%;
       align-items: center;
       justify-content: center;
       margin-top: 1%;
@@ -77,7 +77,6 @@ width: 100%;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      margin-left: 5%;
       overflow: hidden;
     }
   
@@ -102,21 +101,21 @@ width: 100%;
     .archives-enfant2 {
       display: flex;
       flex-direction: column;
-      flex: 2;
-      justify-content: space-between;
-      margin-top:11.5%;
+      
+      justify-content: center;
       overflow: hidden;
     }
     
     .archives-enfants{
       color:  #1B3D71;
       font-family: sans-serif;
-      font-weight: 500;
+      font-weight: bold;
       float: left;
+      font-size: 20px;
     }
   
     .archive2{
-      width: 50%;
+      width: 100%;
       height: auto;
       object-fit: cover;
     }
