@@ -1,7 +1,7 @@
 .flotant{
     opacity: 0.8;
     width: 40%;
-    height: 35%;
+    height: 35vh;
     background-color: white;
     align-items: center;
     justify-content: center;
@@ -42,8 +42,8 @@
  
     .flotant{
         opacity: 0.8;
-        width: 90%;
-        height: 35%;
+        width: 80%;
+        height: 30%;
         background-color: white;
         align-items: center;
         justify-content: center;
@@ -64,7 +64,7 @@
         border-radius: 2px;
         cursor: pointer;
         text-align: center;
-        width: 75VW; /* Largeur fixe pour aligner les boutons */
+        width: 60VW; /* Largeur fixe pour aligner les boutons */
         font-weight: bold;
     
     }
@@ -78,7 +78,7 @@
     .bg-mariage{
         image-rendering: crisp-edges; /* Pour les navigateurs modernes */
         background-image: url('../../Images/Mariages1.jpg');
-        height: 50vh;
+       
     }
     
 

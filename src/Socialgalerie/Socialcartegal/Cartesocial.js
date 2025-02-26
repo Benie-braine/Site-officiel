@@ -25,7 +25,7 @@ const Cartesocial = () => {
             </div>
 
             <div className="cards1-containersocial">
-                <div className="card30">
+                <div className="sos0">
                     <img src={sos10} alt="" />
                 </div>
 

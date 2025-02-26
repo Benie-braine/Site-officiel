@@ -7,10 +7,10 @@ function Headergaleri2() {
   return (
     <div className="header-containerga12">
         <div className="boutton-containerga12">
-                <div className='butga1'>
+                <div className='butga123'>
                   
-             <button className="bouttonga12">ACCUEIL<ArrowForwardIcon className="12arrow-icon" />Mariages</button>
-             <h1>Mariages</h1> 
+             <button className="bouttonga123">GALERIE<ArrowForwardIcon className="12arrow-icon" />MARIAGES</button>
+             <h1>MARIAGES</h1> 
             </div>
             </div>
     </div>

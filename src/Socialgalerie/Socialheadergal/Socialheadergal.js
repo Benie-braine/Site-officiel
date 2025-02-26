@@ -9,8 +9,8 @@ function Socialheadergal() {
         <div className="boutton-containerga25">
                 <div className='butga25'>
                   
-             <button className="bouttonga25">ACCUEIL<ArrowForwardIcon className="1arrow-icon" />Social</button>
-             <h1>Social</h1> 
+             <button className="bouttonga25">GALERIE<ArrowForwardIcon className="1arrow-icon" />SERVICE SOCIAL</button>
+             <h1>SERVICE SOCIAL</h1> 
             </div>
             </div>
     </div>

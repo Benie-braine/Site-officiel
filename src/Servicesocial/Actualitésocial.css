@@ -30,15 +30,15 @@
     }
     .sous-titre3{
         color: #1B3D71;
-        margin-right: 1%;
+    }
+    .sous-titre3 h1{
         font-weight: bold;
-        margin-bottom: 5px;
-        font-size: 40px;
-        
+        font-size: 30px;
+        margin-top: 8px;
     }
     
     .tiret3{
-        width: 69%;
+        width: 74%;
         margin-top: 25px;
         height: 2px;
         background-color: #1B3D71;
@@ -57,7 +57,7 @@
 }
 .rectangle-blanc3 ul  {
     color: gray;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left; 
     text-align: justify;
     line-height: 1.5;
@@ -66,7 +66,7 @@
 }
 .rectangle-blanc  li {
     color: #333;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left; 
     text-align: justify;
     line-height: 1;
@@ -109,8 +109,6 @@
         }
         .sous-titre3{
             color: #1B3D71;
-            margin-top: 20px;
-            font-size:30px;
         }
       
         .tiret3{
@@ -119,7 +117,10 @@
             height: 2px;
             background-color: #1B3D71;
         }
-        
+        .sous-titre3 h1{
+            font-weight: bold;
+            font-size: 30px;
+        } 
     .rectangle-blanc3 {
         background-color: white;
         padding: 20px;

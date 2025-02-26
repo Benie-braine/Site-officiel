@@ -5,7 +5,7 @@ const TypeAutorisations= () => {
     return (
         <div className='mereta'>
 
-        <div className='containerAta'>
+        <div className='containeraAta'>
             
             <div className='barresta'>
             <div className='trait1ta'></div>

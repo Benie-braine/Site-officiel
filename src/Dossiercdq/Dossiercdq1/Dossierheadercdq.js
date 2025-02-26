@@ -7,10 +7,10 @@ function Dossierheadercdq() {
   return (
     <div className="header-containerga24">
         <div className="boutton-containerga24">
-                <div className='butga1'>
+                <div className='butga190'>
                   
-             <button className="bouttonga24">ACCUEIL<ArrowForwardIcon className="24arrow-icon" />Chefs de quartiers et Cdq</button>
-             <h1>Chefs de quartiers et Cdq</h1> 
+             <button className="bouttonga24">GALERIE<ArrowForwardIcon className="24arrow-icon" />CHEFS DE QUARTIERS ET CDQ</button>
+             <h1>CHEFS DE QUARTIERS ET CDQ</h1> 
             </div>
             </div>
     </div>

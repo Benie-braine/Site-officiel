@@ -9,8 +9,8 @@ function Headergalerie() {
         <div className="boutton-containerga1">
                 <div className='butga1'>
                   
-             <button className="bouttonga1">ACCUEIL<ArrowForwardIcon className="1arrow-icon" />GALERIE</button>
-             <h1>Services Techniques</h1> 
+             <button className="bouttonga1">GALERIE<ArrowForwardIcon className="1arrow-icon" />SERVICE TECHINQUE</button>
+             <h1 className='techserv'>SERVICE TECHNIQUE</h1> 
             </div>
             </div>
     </div>

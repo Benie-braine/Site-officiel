@@ -31,16 +31,17 @@
 .tite h1{
     color: #1B3D71;
     font-weight: bold;
+    font-size: 40px;
 }
 .lign5{
-    width: 35%;
+    width: 30%;
     margin-top: 20px;
     height: 2px;
     background-color: #1B3D71;
 }
 .tex{
     width:80%;
-    height: 100px;
+    height: 140px;
     background-color:white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-left: auto;
@@ -53,9 +54,11 @@
 }
 .tex p{
     text-align: center;
-   padding-top: 1%;
+   padding: 1%;
    color: gray;
    text-align: start;
+   margin-left: auto;
+   margin-right: auto;
 }
 .tex strong{
     color:blue

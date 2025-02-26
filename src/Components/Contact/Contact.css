@@ -25,7 +25,8 @@
  .container1al h1{
     color: #1B3D71;
     text-align:start;
-    
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .contact-containeral {

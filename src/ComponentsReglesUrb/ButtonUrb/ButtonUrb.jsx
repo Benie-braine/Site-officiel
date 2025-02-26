@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const ButtonUrb = () => {
   return (
-    <div className="button-container">
+    <div className="buutton-container">
 
       <Link to='/urbanisme'>
       <button className="btn previous-btn">

@@ -4,7 +4,7 @@ import './Boutonretour2.css'; // Importe le CSS
 
 const Boutonretour2 = () => {
   return (
-    <div className='Buton90'>
+    
       <div className="Butonbackgal">
         <Link to='/galerie'>
           <button className="Butonbackgal22">
@@ -17,7 +17,7 @@ const Boutonretour2 = () => {
           </button>
         </Link>
       </div>
-    </div>
+   
   );
 };
 

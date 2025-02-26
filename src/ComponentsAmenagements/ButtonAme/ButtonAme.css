@@ -1,9 +1,10 @@
-.button-container {
+.buetton-container {
   display: flex;
   justify-content: space-around;
   margin-left: 8%;
   margin-top: 3%;
-  width:35%;
+  width:50%;
+
 }
 
 .previous-btn{
@@ -55,7 +56,7 @@
 }
 /* Responsive styles */
 @media (max-width: 576px) {
-.button-container {
+.buetton-container {
   display: flex;
   justify-content: space-around;
   margin-top: 3%;

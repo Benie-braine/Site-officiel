@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const ButtonAutoU = () => {
   return (
-    <div className="button-container">
+    <div className="buttona-container">
       <Link to='/urbanisme'>
       <button className="btn previous-btn">
         <span className="arrow-left">&#8592;</span> Page Précédente

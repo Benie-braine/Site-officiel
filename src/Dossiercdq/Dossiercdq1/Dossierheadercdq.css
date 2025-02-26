@@ -2,7 +2,7 @@
 
 .header-containerga24 {
     width: 100%; /* Prend toute la largeur disponible */
-    height: 500px; /* Hauteur définie pour ton en-tête */
+    height: 80vh; /* Hauteur définie pour ton en-tête */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 60%;
+    width: 50%;
     background-color: white;
     border-radius: 8px;
     opacity: 0.8;
@@ -26,8 +26,8 @@
     margin-top: 20%;
   }
   
-  .butga24 h1 {
-    font-size: 60px;
+  .butga190 h1 {
+    font-size: 40px;
     color: #1B3D71;
     font-weight: bold;
     text-align: center;
@@ -46,9 +46,10 @@
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    width: 25vw; /* Largeur fixe pour aligner les boutons */
+    width: 35vw; /* Largeur fixe pour aligner les boutons */
     font-weight: bold;
-    margin-left: 170px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .bouttonga24:hover {
@@ -60,31 +61,42 @@
   /* Media queries pour les petits écrans */
   @media (max-width: 768px) {
     .header-containerga24 {
-      height: 400px; /* Ajuste la hauteur pour les petits écrans */
+      height: 50vh; /* Ajuste la hauteur pour les petits écrans */
     }
   
     .boutton-containerga24 {
-      width: 80%; /* Réduit la largeur pour les petits écrans */
-      margin-top: 10%; /* Ajuste la marge pour les petits écrans */
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 98%;
+      background-color: white;
+      border-radius: 8px;
+      opacity: 0.8;
+      height: 30%;
+      overflow: hidden;
+      margin-top: 20%;
     }
   
-    .butga24 h1 {
-      font-size: 40px; /* Réduit la taille de la police pour les petits écrans */
+    .butga190 h1 {
+      font-size: 25px; /* Réduit la taille de la police pour les petits écrans */
     }
-  }
-  
-  @media (max-width: 480px) {
-    .header-containerga24 {
-      height: 300px; /* Ajuste la hauteur pour les très petits écrans */
-    }
-  
-    .boutton-containerga24 {
-      width: 90%; /* Prend toute la largeur disponible */
-      margin-top: 5%; /* Ajuste la marge pour les très petits écrans */
-    }
-  
-    .butga24 h1 {
-      font-size: 30px; /* Réduit encore la taille de la police */
+    .bouttonga24 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Espace entre le texte et l'icône */
+      height: 40px;
+      margin: 10px 8px;
+      padding: 0 10px;
+      background-color: #1B3D71;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      text-align: center;
+      width: 95vw; /* Largeur fixe pour aligner les boutons */
+      font-weight: bold;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   
