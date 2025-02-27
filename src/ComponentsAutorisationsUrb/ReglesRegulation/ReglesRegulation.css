@@ -55,7 +55,7 @@
 @media (max-width: 576px) {
    
    .titrerr h1{
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 15px;
    }
    .barresrr{
@@ -70,7 +70,7 @@
    }
   
 .ligne5rr{
-    width: 5%;
+    width: 1%;
     margin-top: 14px;
     height: 2px;
     background-color: #1B3D71;

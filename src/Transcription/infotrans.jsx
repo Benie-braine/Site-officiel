@@ -31,7 +31,7 @@ export default function MediaCard1() {
         {/* Agrandissement de l'image */}
         <CardMedia
           sx={{
-            height: 500, // Augmente la hauteur de l'image
+            height: 400, // Augmente la hauteur de l'image
             backgroundSize: 'cover', // Ajuste l'image pour qu'elle couvre l'espace
           }}
           image={imageMariage}
@@ -44,6 +44,7 @@ export default function MediaCard1() {
             component="div"
             sx={{
               fontWeight: 'bold', // Rend le titre plus visible
+              fontSize:'30px'
             }}
           >
             PROCESSUS DE DÉCLARATION DE MARIAGE

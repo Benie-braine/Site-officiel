@@ -87,7 +87,7 @@ const Header = () => {
                     <Link to='/Servicesocial'> <button className="button">SERVICE SOCIAL<ArrowForwardIcon className="arrow-icon" /></button></Link>
                     <Link to='/urbanisme'><button className="button">URBANISME<ArrowForwardIcon className="arrow-icon" /></button></Link>
                 </div>
-                <div className="buttons-right">
+                <div className="buttons-rights">
                     <Link to='/agenda'><button className="button">AGENDA <ArrowForwardIcon className="arrow-icon" /></button></Link>
                     <Link to='/cdq'><button className="button">CHEFS DE QUARTIERS ET CDQ<ArrowForwardIcon className="arrow-icon" /></button></Link>
                     <Link to='/mariage'><button className="button">MARIAGE <ArrowForwardIcon className="arrow-icon" /></button></Link>
