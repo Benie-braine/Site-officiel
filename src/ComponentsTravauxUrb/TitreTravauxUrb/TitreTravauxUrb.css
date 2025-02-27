@@ -4,6 +4,7 @@
 }
 .travauxtitre h2{
     text-align:center;
+    font-size: 30px;
 }  
  .travauxpar{
     background-color:white;
@@ -12,7 +13,7 @@
     margin-right:auto;
     margin-left:auto;
     padding:2px;
-    height: 125px;
+    height: 160px;
     border-radius:8px;
  }
 .travauxpar p{
@@ -94,7 +95,7 @@
 
     .titrestrurb h1{
         margin-bottom: 2px;
-        font-size: 18px;
+        font-size: 20px;
        }
        .titrestrurb{
         margin-right:10px;
@@ -112,7 +113,7 @@
         background-color: #1B3D71;
     }
        .lignes55trurb{
-        width: 30%;
+        width: 10%;
         margin-top: 10px;
         height: 2px;
         background-color: #1B3D71;
@@ -162,7 +163,7 @@
         margin-left:auto;
         padding:5px;
         border-radius:8px;
-        height: 150px;
+        height: 180px;
      }
      .meretrurbphoto button{
         width: 30%;

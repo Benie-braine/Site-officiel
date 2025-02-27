@@ -46,7 +46,8 @@
         align-items: center;
     }
     .travaux h4{
-        margin-left:5%;
+        margin-left:10%;
+        font-size: 10px;
     }
     .rubrique h2{
         margin-bottom: 2%;

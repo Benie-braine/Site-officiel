@@ -77,8 +77,7 @@
     margin-top: 15px;
    }
    .barresft{
-    width: 12%;
-    margin-left: 5px;
+    width: 10%;
    }
    .trait1ft{
     width: 40%;
@@ -110,7 +109,7 @@
     font-size:8px;
 }
 .texteft button{
-    width:80%;
+    width:90%;
     height:40px;
     border: none;
     border-radius: 8px;

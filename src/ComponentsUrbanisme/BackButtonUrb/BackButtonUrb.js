@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const BackButtonUrb = () => {
     return (
         <Link to='/'>
-        <button className="back-button" >
+        <button className="back-buttons">
             Retour à la page d'accueil
         </button>
         </Link>

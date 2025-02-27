@@ -66,7 +66,7 @@
 @media (max-width: 576px) {
    
    .titreta h1{
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 15px;
     margin-left: 5px;
    }
@@ -82,7 +82,7 @@
    }
   
 .ligne5ta{
-    width: 33%;
+    width: 13%;
     margin-top: 14px;
     height: 2px;
     background-color: #1B3D71;
