@@ -87,9 +87,10 @@
     .cards1-containeral {
         justify-content: space-around;
         align-items:center;
-        width: 85%;
+        width: 90%;
         display:flex;
         margin-top: 5px;
+        margin-right: 2%;
     }
     
     .container1al{
@@ -101,13 +102,13 @@
     }
 
     .card1al {
-        width: 18%;
+        width: 24%;
         height:80px;
         margin-bottom: 2px;
     }
     .card1al img{
         width:100%;
-        height: 50px;
+        height: 45px;
     }
     .card1al h2 {
         font-size: 6px;
