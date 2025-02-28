@@ -6,13 +6,13 @@
 
 }
 .barreal{
-    width: 100%;
+    width: 80%;
     margin-top:2%;
 }
 .trait3sal{
     width: 5%;
     height: 5px;
-    margin-left: 12px;
+    margin-left: 9px;
     background-color: #1B3D71;
     margin-bottom: 5px;
 }
@@ -27,6 +27,8 @@
     text-align:start;
     font-size: 30px;
     font-weight: bold;
+    white-space: nowrap; /* Empêche le texte de se couper sur plusieurs lignes */
+
 }
 
 .contact-containeral {
@@ -40,9 +42,9 @@
 
 .cards1-containeral {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width:100%;
+    width:70%;
     margin: auto;
     margin-top:40px;
 }
@@ -52,8 +54,7 @@
     border-radius: 8px;
     padding: 5px;
     text-align: center;
-    width: 12%;
-    margin-right:20px;
+    width: 18%;
     margin-bottom: 10px;
     height: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -88,50 +89,58 @@
         justify-content: space-around;
         align-items:center;
         width: 90%;
-        display:flex;
+        display:block;
         margin-top: 5px;
-        margin-right: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -20px;
     }
     
     .container1al{
-        margin-bottom: 2%;
-        justify-content: start;
-        align-items:start;
-        margin-left:-50px;
+        margin-bottom: 3%;
+        justify-content: space-around;
+        align-items:center;
 
     }
 
     .card1al {
-        width: 24%;
-        height:80px;
+        width: 100%;
+        height:60%;
         margin-bottom: 2px;
+        margin-top: 5%;
     }
     .card1al img{
         width:100%;
-        height: 45px;
+        height: 30%;
     }
     .card1al h2 {
-        font-size: 6px;
+        font-size: 18px;
         margin-top: 2px;
     }
     .container1al h1{
         color: #1B3D71;
-        font-size:14px;
+        font-size:25px;
+        margin-top: 5px;
     }
    .barreal{
     width:80%;
-    margin-left:auto;
     margin-right:auto;
    }
     .trait3sal{
-        width:10px;
+        width: 8%;
+        height: 5px;
+        margin-left: 9px;
+        background-color: #1B3D71;
+        margin-bottom: 5px;
     }
     .trait4sal{
         width: 30px;
     }
     .barreal{
         width:50%;
-
+    }
+    .barreal h1{
+        text-align: start;
     }
 
 }

@@ -7,7 +7,7 @@ const Actualites = () => {
         <div className='mere'>
         <div className='container1j'>
         <div className='barres'>
-            <div className='trait1'></div>
+            <div className='trait1l'></div>
             <div className='trait2'></div>
             </div>
             <div className='titres'>
