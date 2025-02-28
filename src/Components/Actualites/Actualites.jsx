@@ -5,7 +5,7 @@ import './Actualites.css';
 const Actualites = () => {
     return (
         <div className='mere'>
-        <div className='container'>
+        <div className='container1j'>
         <div className='barres'>
             <div className='trait1'></div>
             <div className='trait2'></div>

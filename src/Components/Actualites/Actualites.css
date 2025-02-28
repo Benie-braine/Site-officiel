@@ -1,9 +1,11 @@
-.container{
+.container1j{
     display: flex;
     justify-content: space-around;
     align-items: center;    
     margin-top:4%;
-    width:82%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .barres{
     display: block;  
@@ -28,7 +30,7 @@
 .titres h1{
     font-weight: bold;
     color: #1B3D71;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-right: 20px;
     font-size: 30px;
 }
@@ -38,7 +40,9 @@
     height: 2px;
     background-color: #1B3D71;
 }
-
+.mere{
+    margin-bottom: -5%;
+}
 
 /* Carousel container */
 .carousel-containeracc {
@@ -71,10 +75,21 @@ div .carousel.slide{
 /* Responsive styles */
 @media (max-width: 576px) {
    .titres h1{
-    margin-bottom: 15px;
-    font-size: 23px;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 8px;
    }
-
+   .trait1{
+    width: 30%;
+    height: 5px;
+    background-color: yellow;
+    margin-bottom: 5px;
+}
+.trait2{
+    width: 100%;
+    height: 5px;
+    background-color: #1B3D71;
+}
    
    .lignes55{
     width: 30%;
@@ -89,12 +104,12 @@ div .carousel.slide{
     max-height: 500px; /* Limite la hauteur totale du carousel */
     overflow: hidden; /* Cache les parties de l'image qui dépassent */
 }
-.container{
+.container1j{
     display: flex;
     justify-content: space-between;
     align-items: center;    
     margin-top:4%;
-    width:87%;
+    width:81%;
 }
 .barres{
     display: block;  
@@ -103,6 +118,10 @@ div .carousel.slide{
 .carousel-containeracc .carousel-caption h3{
     font-size:10px;
 }
+.mere{
+    margin-bottom: -20%;
+}
+
  }
  
  
