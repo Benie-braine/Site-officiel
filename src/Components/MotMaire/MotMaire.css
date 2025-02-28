@@ -34,7 +34,7 @@
 }
 
 .maire-text h2 {
-    font-size: 2rem;
+    font-size: 30px;
     margin-bottom: 10px;
     color:yellow;
 }
@@ -59,17 +59,24 @@
 @media (max-width: 768px) {
     .maire-card {
         flex-direction: column;
+        width: 100%;
     }
 
     .maire-text {
         text-align: center;
         margin-bottom: 20px;
     }
-
+    .maire-text p {
+        font-size: 20px;
+        line-height: 1.6;
+        color: gray;
+        text-align: center;
+    }
     .maire-image {
         width: 100%;
     }
     .mot-maire-container h1 {
-        font-size:28px ;
+        font-size:25px ;
+        margin-bottom: 2%;
     }
 }
