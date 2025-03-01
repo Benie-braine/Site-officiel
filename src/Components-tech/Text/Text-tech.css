@@ -14,7 +14,7 @@
     }
     
     .text2 {
-      font-size: 1.5rem;           /* Taille du texte pour le titre */
+      font-size: 30px;           /* Taille du texte pour le titre */
       line-height: 1.5;          /* Espacement entre les lignes */
       font-weight: bold;         /* Met le texte en gras */
       color:#1B3D71;            /* Couleur du texte (adaptée à votre couleur de marque) */
@@ -25,10 +25,9 @@
     
     .text-p {
       font-size: 20px;           /* Taille du texte pour le paragraphe */
-      line-height: 1;          /* Espacement entre les lignes */
-      color: black;     
+      color: gray;     
       text-align: center;
-      
+      line-height: normal;
     
   };
 
@@ -54,12 +53,11 @@
     .text2{
       color: #1B3D71;
       font-weight: bold;
-      margin-left: 50%;
       margin-top: 0.1%;
     }
     
     .text-p {
-      font-size: 12px;           /* Taille du texte pour le paragraphe */
+      font-size: 20px;           /* Taille du texte pour le paragraphe */
       color: #555; 
       width: 100%;
 

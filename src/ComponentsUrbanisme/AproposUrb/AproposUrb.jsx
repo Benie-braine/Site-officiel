@@ -3,7 +3,7 @@ import './AproposUrb.css';
 
 const AproposUrb= () => {
     return (
-        <div className='mere'>
+        <div className='merev'>
 
         <div className='containerA'>
             
