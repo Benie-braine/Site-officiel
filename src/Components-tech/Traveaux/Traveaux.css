@@ -17,13 +17,13 @@ width: 80%;
 border-radius: 7px;
 margin-right: auto;
 margin-left: auto;
+margin-bottom: 5%;
 }
 
 .travauxx{
   color: #1B3D71;
-  font-family: sans-serif;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 30px;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -65,13 +65,13 @@ margin-left: auto;
 
 .slick-prev:hover,
 .slick-next:hover {
-  background-color: #0000FF; /* Bleu au survol */
+  background-color: #1B3D71; /* Bleu au survol */
   color: white;
 }
 
 .slick-dots li button:before {
   font-size: 12px;
-  color: #0000FF; /* Couleur bleue des points de navigation */
+  color: #1B3D71; /* Couleur bleue des points de navigation */
 }
 
 .slick-dots li.slick-active button:before {
@@ -96,16 +96,14 @@ margin-left: auto;
   align-items: center;
   flex-direction: column;
   box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2); /* Ombre bleutée subtile */
-  width: 100%;
+  width: 90%;
   border-radius: 7px;
   margin: auto;
-  margin-left: 2%;
+  margin-bottom: 5%;
   }
   
   .travauxx{
-    color: #062970;
-    font-family: sans-serif;
-    font-weight: 200;
+    color: #1B3D71;
     margin: auto;
     margin-bottom: -17px;
     font-size: 1rem;
@@ -119,7 +117,7 @@ margin-left: auto;
   
   .slick-slide img {
     width: 95%;
-    height: 210px; /* Hauteur fixe pour uniformiser les images */
+    height: 110px; /* Hauteur fixe pour uniformiser les images */
     object-fit: cover; /* Recadre l'image pour remplir le conteneur */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2); /* Ombre bleutée subtile */

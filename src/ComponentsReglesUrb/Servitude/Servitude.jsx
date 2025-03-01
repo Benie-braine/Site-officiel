@@ -3,7 +3,7 @@ import './Servitude.css';
 
 const Servitude= () => {
     return (
-        <div className='mere'>
+        <div className='merex'>
 
         <div className='containA'>
             
